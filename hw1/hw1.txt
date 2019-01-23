@@ -9,7 +9,7 @@ d) 1 and 4
 2.  a) all
 	b) 1. git add hw1q2b.cpp
 	   2. git log
-	c) 
+	c) It will update all three of the files on github online.
 
 4. We begin with the call func1(mat, 3, 4). Since n>0 the if statement is entered and the program assigns mat[2][0] with the value of func1(mat, 2, 4) which we will get back to later. The previous func1 call I wrote assigns mat[1][0] with the value func1(mat, 1, 4) since n>0. Then another call is made and mat[0][0] is assigned to func1(mat, 0, 4) which triggers the base case which returns mat[0][0]. Thus, mat[0][0] is assigned the value 1 and we can begin to move back up our recursion call tree. After we set mat[1][0] to the func1 call, func2(mat[0], 4) is returned. Func2 adds all the values stored in the row mat[0] or r1[] and assigns that value (10) to mat[1][0]. We then move up the tree again. After mat[2][0] was set to the func1, we return func2(mat[1][0], 4) which adds the values stored in mat[1] or r2[] (which includes the value 10 which we replaced with the previous value 5). This assigns 31 to mat[2][0]. This finishes off our recursion. At the bottom of main, the indices of the 2D mat array are printed:
 1   2   3   4
