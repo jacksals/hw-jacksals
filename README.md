@@ -1,5 +1,5 @@
 # CS 104 Student Repository
 
-- **Name**: Tommy Trojan
-- **USC ID**: 1234567890
-- **Email**: ttrojan@usc.edu
+- **Name**: John Salisbury
+- **USC ID**: 2942950626 
+- **Email**: jesalisb@usc.edu
