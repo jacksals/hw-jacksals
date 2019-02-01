@@ -212,13 +212,13 @@ void ULListStr::pop_back()
 std::string* ULListStr::getValAtLoc(size_t loc) const
 {
   if(loc <= size_ && loc >= 0) {
-    int start = head_->first;
-    int loc_in_arr = (loc+start)%ARRSIZE;
-    int num_items = ((loc+start)/ARRSIZE);
+    size_t start = head_->first;
+    size_t loc_in_arr = (loc+start)%ARRSIZE;
+    size_t num_items = ((loc+start)/ARRSIZE);
 
     Item* curr;
     curr = head_;
-    for(int i = 0; i<num_items;i++) {
+    for(size_t i = 0; i<num_items;i++) {
       if(curr->next == NULL)
       {
         return NULL;
