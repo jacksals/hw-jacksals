@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cs104/cs104hw/hw-jesalisb/hw3/stackstring.cpp
+cstddef
+-
+stdexcept
+-
+iostream
+-
+stackstring.h
+/home/cs104/cs104hw/hw-jesalisb/hw3/stackstring.h
+
+/home/cs104/cs104hw/hw-jesalisb/hw3/stackstring.h
+ulliststr.h
+/home/cs104/cs104hw/hw-jesalisb/hw3/ulliststr.h
+
+/home/cs104/cs104hw/hw-jesalisb/hw3/ulliststr.cpp
+cstddef
+-
+stdexcept
+-
+iostream
+-
+ulliststr.h
+/home/cs104/cs104hw/hw-jesalisb/hw3/ulliststr.h
+
+/home/cs104/cs104hw/hw-jesalisb/hw3/ulliststr.h
+string
+-
+

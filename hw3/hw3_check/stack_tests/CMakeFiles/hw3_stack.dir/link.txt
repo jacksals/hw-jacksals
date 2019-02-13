@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhw3_stack.a  CMakeFiles/hw3_stack.dir/home/cs104/cs104hw/hw-jesalisb/hw3/ulliststr.cpp.o CMakeFiles/hw3_stack.dir/home/cs104/cs104hw/hw-jesalisb/hw3/stackstring.cpp.o
+/usr/bin/ranlib libhw3_stack.a

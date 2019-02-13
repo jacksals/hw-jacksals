@@ -1,0 +1,16 @@
+1. a) The top is on the left of the list and the bottom is at the far right of the list.
+	  Stack 1 | Stack 2
+	  --------|--------
+	  1		  |		   
+	  1,2	  |		 
+	  		  |2
+	  3 	  |2
+	  3,4	  |2
+	  3,4     |
+	  3,4,5   |	
+	  3,4,5,6 |
+   b) Worst case runtime of enqueue() is O(1). The worst case runtime of dequeue() is O(n) + O(1) which is just O(n).
+   c) Amortized runtime of enqueue() is O(1). Amortized runtime of dequeue() is O(1) because O(n)/n is O(1).
+   d) Worst case for enqueue() is still O(1). Worst case of dequeue is (n*n)+n = n^2 + n which is just O(n^2). Amortized runtime for enqueue() is O(1) and amortized runtime for dequeue() is now O(n)
+
+   

@@ -1,0 +1,12 @@
+1:ListCopy.OneElement
+2:ListCopy.NoElements
+3:ListCopy.15Elements
+4:ListCopy.SourceNotModified
+5:ListAssign.OneElement
+6:ListAssign.OneElementToEmpty
+7:ListAssign.NoElements
+8:ListAssign.NoElementsToEmpty
+9:ListAssign.15Elements
+10:ListPlus.EmptyPlusEmpty
+11:ListPlus.EmptyPlusOne
+12:ListPlus.TwoPlusEmpty

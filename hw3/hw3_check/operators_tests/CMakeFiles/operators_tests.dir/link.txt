@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -g3 -O0   CMakeFiles/operators_tests.dir/list_utils.cpp.o CMakeFiles/operators_tests.dir/operators_tests.cpp.o  -o operators_tests libhw3_operators.a ../testing_utils/libtesting_utils.a /usr/lib/libgtest_main.a /usr/lib/libgtest.a -lpthread ../testing_utils/kwsys/libkwsys.a ../testing_utils/libperf/libperf.a 
