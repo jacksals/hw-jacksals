@@ -187,7 +187,7 @@ void ULListStr::pop_back()
     tail_=NULL;
     return;
   }
-  else if(tail_->last == 0)
+  else if(tail_->last == 1)
   {
     if(tail_->prev == NULL)
     {
@@ -243,23 +243,20 @@ std::string const & ULListStr::front() const
 }
 std::string const & ULListStr::back() const
 {
-
   return tail_->val[(tail_->last) - 1];
 }
 
 
 ULListStr::ULListStr (const ULListStr& other)
 {
-  //self check
-  if(&other == this)
-  {
-    return;
-  }
-  clear();
+  head_ = NULL;
+  tail_ = NULL;
+  size_ = 0;
   appendContents(other);
 }
 ULListStr& ULListStr::operator= (const ULListStr& other)
 {
+  //self check
   if(this == &other)
   {
     return *this;
@@ -296,17 +293,36 @@ string & ULListStr::operator[] (size_t loc)
 }
 void ULListStr::appendContents(const ULListStr& other)
 {
-  int idx = other.head_->first;
-  Item* temp = other.head_;
-  while(temp != NULL)
+  
+  Item* curr = other.head_;
+  if(curr == NULL) 
   {
-    if(idx == ARRSIZE && temp->next !=NULL)
+    return;
+  }
+  int idx = other.head_->first;
+  while(curr != NULL)
+  {
+    //if we reach the end of the item
+    if(curr->next != NULL && (unsigned int)idx == curr->last)
     {
-      temp = temp->next;
-      idx = temp->first;
-      //update first and last? think it updates in push_back actually
+      //update Item and index
+      curr = curr->next;
+      idx = curr->first;
     }
-    push_back(other.head_->val[idx]);
-    idx++;
+    //if at tail can't iterate through the end b/c Item may
+    //not be full
+    if(curr->next == NULL)
+    {        
+      for(unsigned int i = curr->first;i<curr->last;i++)
+      {
+        push_back(curr->val[i]);
+      }
+      break;
+    }
+    else
+    {
+      push_back(curr->val[idx]);
+      idx++;
+    }
   }
 }
