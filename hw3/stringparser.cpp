@@ -44,11 +44,10 @@ int main(int argc, char* argv[])
 		int open_par = 0;
 		int closed_par = 0;
 		bool nextline = false;
-		while(ss.get(c) && valid_char == true)
+		while(ss.get(c))
 		{
 			if(c >= 65 && c<=90)
 			{
-				valid_char == false;
 				ofile << "Malformed" << endl;
 				nextline = true;
 				break;
@@ -74,14 +73,9 @@ int main(int argc, char* argv[])
 			//if I just built word, push to stack
 			if(str != "") 
 			{
-				// cout << "word: " << str << endl;
 				str = check_carrots(str, stack);
-				// cout << "push modified word to stack: " << str << endl;
 				stack.push(str);
 				words++;
-				//cout << "top in main: " << stack.top() << endl;
-				//cout << "stack top: " << stack.top() << endl;
-				//reset string
 				str = "";
 			}
 			//skip over spaces
@@ -113,7 +107,6 @@ int main(int argc, char* argv[])
 					open_par++;
 				}
 				string symbol(1, c);
-				// cout << "push symbol in stack: " << symbol << endl;
 				stack.push(symbol);
 				ss.get(c);
 				if(islower(c))
@@ -128,33 +121,22 @@ int main(int argc, char* argv[])
 				{
 					if(evaluate(stack) == 1)
 					{
-						//cout << "this malform" << endl;
 						ofile << "Malformed" << endl;
 						break;
 					}
 				}
 				else
 				{
-					//cout << "which malform? " << endl;
 					ofile << "Malformed" << endl;
 					break;
 				}
 				closed_par++;
 			}
 		}
-		//prevents double output of malform
 		if(nextline == true)
 		{
 			continue;
 		}
-		// cout << "check" << endl;
-		// cout << operators << endl;
-		// cout << words << endl;
-		// cout << stack.size() << endl;
-		// if(stack.size() > 1 && operators != (words - 1))
-		// {
-		// 	ofile << "Malformed" << endl;
-		// }
 		if(open_par == closed_par && stack.size() == 1 && open_par > 0)
 		{
 			ofile << stack.top() << endl;
@@ -171,7 +153,6 @@ int main(int argc, char* argv[])
 		}
 		else
 		{
-			// cout << "IN HERE MALFORM" << endl << endl;
 			ofile << "Malformed" << endl;
 		}
 			
@@ -240,52 +221,34 @@ int evaluate(StackString& stack)
 				}
 				string answer;
 				answer = check_carrots(holder.top(), stack);
-				// cout << "here" << endl;
-				// cout << words << endl;
-				// cout << (plus + minus) << endl; ///////////////////////////////
-				// if((words - 1) != (plus + minus))
-				// {
-				// 	return 1;
-				// }
 				stack.push(answer);
 				holder.pop();
 				return 0;
 			}
-			// cout << "test: " << test << endl;
 			if(test == '+')
 			{
-				// cout << "in plus" << endl;
 				plus++;
-				// if(stack.empty()) //////////////////////////////////////
-				// {
-				// 	return 1;
-				// }
+				if(stack.top() == "+" || stack.top() == "-" || stack.top() == "(")
+				{
+					return 1;
+				}
 				string first = holder.top();
-				// cout << "adding this(in holder): " << first << endl;
-				// cout << "to this: " << stack.top() << endl;
 				final = add(stack.top(), first);
 				stack.pop();
 				holder.pop();
-				//holder.push(final); already have after if
-				// cout << stack.size() << endl;
-				// cout << stack.top() << endl;
 			}
 			if(test == '-')
 			{
 				minus++;
 				string first = holder.top();
-				//final = stack.top();
-				// cout << "from this(in holder): " << stack.top() << endl;
-				// cout << "subtracting this: " << first << endl;
 				final = subtract(stack.top().c_str(), first);
-				//cout << "final post sub: " << final << endl;
 				stack.pop();
 				holder.pop();
-				//holder.push(final); already have below
 			}
 		}
 		holder.push(final);
 	}
+	return 0;
 }
 string add(string one, string two)
 {
@@ -300,12 +263,12 @@ string subtract(string big, string small)
 	for(unsigned int i = 0;i<big.size();i++)
 	{
 		string substr = big.substr(i, small.length());
-		//cout << substr << endl;
 		if(strcmp(substr.c_str(), small.c_str()) == 0)
 		{
 			found = true;
 			part1 = big.substr(0, i);
-			ans = part1 + big.substr(i + small.length(), big.length() - small.length() - part1.length());
+			ans = part1 + big.substr(i + small.length(), big.length() 
+				- small.length() - part1.length());
 			break;
 		}
 	}
@@ -342,17 +305,12 @@ string check_carrots(string back, StackString& stack)
 			{
 				f_remove++;
 			}
-			//does this pop stack
 			stack.pop();
 		}
-		// cout << "front remove: " << f_remove << endl;
-		// cout << "back remove: " << b_remove << endl;
-		// cout << "BEFORE: "<< back << endl;
 		return back.substr(f_remove, back.length() - b_remove - f_remove);
 	}
 	else
 	{
-		// cout << "in else" << endl;
 		return back;
 	}
 }
