@@ -1,11 +1,10 @@
-CXXFLAGS = --std=c++11 -Wall -g
+all: stringparser
 
-ULListStr: ulliststr.o
+stringparser: stringparser.cpp stackstring.o ulliststr.o
+	g++ -g -Wall stringparser.cpp stackstring.o ulliststr.o -o stringparser
 
-ULListStr.o: ulliststr.h ulliststr.cpp
-	g++ -g -Wall -c ulliststr.cpp -o ulliststr.o
+ulliststr.o: ulliststr.h ulliststr.cpp
+	g++ -g -Wall -c ulliststr.cpp
 
-clean:
-	rm rf- ulliststr ulliststr.o
-
-.PHONY: clean
+stackstring.o: stackstring.h stackstring.cpp
+	g++ -g -Wall -c stackstring.cpp
