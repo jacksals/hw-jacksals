@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhw3_unrolledlist.a  CMakeFiles/hw3_unrolledlist.dir/home/cs104/cs104hw/hw-jesalisb/hw3/ulliststr.cpp.o
+/usr/bin/ranlib libhw3_unrolledlist.a

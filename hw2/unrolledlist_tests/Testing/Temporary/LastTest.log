@@ -1,0 +1,1926 @@
+Start testing: Feb 11 16:18 PST
+----------------------------------------------------------
+1/40 Testing: ListInsertBack.OneItemAdd
+1/40 Test: ListInsertBack.OneItemAdd
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListInsertBack.OneItemAdd"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListInsertBack.OneItemAdd" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3783== Memcheck, a memory error detector
+==3783== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3783== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3783== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListInsertBack.OneItemAdd
+==3783== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListInsertBack.OneItemAdd
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListInsertBack
+[ RUN      ] ListInsertBack.OneItemAdd
+[       OK ] ListInsertBack.OneItemAdd (12 ms)
+[----------] 1 test from ListInsertBack (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (47 ms total)
+[  PASSED  ] 1 test.
+==3783== 
+==3783== HEAP SUMMARY:
+==3783==     in use at exit: 72,704 bytes in 1 blocks
+==3783==   total heap usage: 419 allocs, 418 frees, 135,480 bytes allocated
+==3783== 
+==3783== LEAK SUMMARY:
+==3783==    definitely lost: 0 bytes in 0 blocks
+==3783==    indirectly lost: 0 bytes in 0 blocks
+==3783==      possibly lost: 0 bytes in 0 blocks
+==3783==    still reachable: 0 bytes in 0 blocks
+==3783==         suppressed: 72,704 bytes in 1 blocks
+==3783== 
+==3783== For counts of detected and suppressed errors, rerun with: -v
+==3783== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.29 sec
+----------------------------------------------------------
+Test Passed.
+"ListInsertBack.OneItemAdd" end time: Feb 11 16:18 PST
+"ListInsertBack.OneItemAdd" time elapsed: 00:00:01
+----------------------------------------------------------
+
+2/40 Testing: ListInsertFront.OneItemAdd
+2/40 Test: ListInsertFront.OneItemAdd
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListInsertFront.OneItemAdd"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListInsertFront.OneItemAdd" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3784== Memcheck, a memory error detector
+==3784== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3784== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3784== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListInsertFront.OneItemAdd
+==3784== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListInsertFront.OneItemAdd
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListInsertFront
+[ RUN      ] ListInsertFront.OneItemAdd
+[       OK ] ListInsertFront.OneItemAdd (13 ms)
+[----------] 1 test from ListInsertFront (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (56 ms total)
+[  PASSED  ] 1 test.
+==3784== 
+==3784== HEAP SUMMARY:
+==3784==     in use at exit: 72,704 bytes in 1 blocks
+==3784==   total heap usage: 419 allocs, 418 frees, 135,487 bytes allocated
+==3784== 
+==3784== LEAK SUMMARY:
+==3784==    definitely lost: 0 bytes in 0 blocks
+==3784==    indirectly lost: 0 bytes in 0 blocks
+==3784==      possibly lost: 0 bytes in 0 blocks
+==3784==    still reachable: 0 bytes in 0 blocks
+==3784==         suppressed: 72,704 bytes in 1 blocks
+==3784== 
+==3784== For counts of detected and suppressed errors, rerun with: -v
+==3784== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.06 sec
+----------------------------------------------------------
+Test Passed.
+"ListInsertFront.OneItemAdd" end time: Feb 11 16:18 PST
+"ListInsertFront.OneItemAdd" time elapsed: 00:00:01
+----------------------------------------------------------
+
+3/40 Testing: ListInsert.EmptyString
+3/40 Test: ListInsert.EmptyString
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListInsert.EmptyString"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListInsert.EmptyString" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3787== Memcheck, a memory error detector
+==3787== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3787== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3787== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListInsert.EmptyString
+==3787== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListInsert.EmptyString
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListInsert
+[ RUN      ] ListInsert.EmptyString
+[       OK ] ListInsert.EmptyString (11 ms)
+[----------] 1 test from ListInsert (17 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (47 ms total)
+[  PASSED  ] 1 test.
+==3787== 
+==3787== HEAP SUMMARY:
+==3787==     in use at exit: 72,704 bytes in 1 blocks
+==3787==   total heap usage: 419 allocs, 418 frees, 135,459 bytes allocated
+==3787== 
+==3787== LEAK SUMMARY:
+==3787==    definitely lost: 0 bytes in 0 blocks
+==3787==    indirectly lost: 0 bytes in 0 blocks
+==3787==      possibly lost: 0 bytes in 0 blocks
+==3787==    still reachable: 0 bytes in 0 blocks
+==3787==         suppressed: 72,704 bytes in 1 blocks
+==3787== 
+==3787== For counts of detected and suppressed errors, rerun with: -v
+==3787== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.88 sec
+----------------------------------------------------------
+Test Passed.
+"ListInsert.EmptyString" end time: Feb 11 16:18 PST
+"ListInsert.EmptyString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/40 Testing: ListInsertBack.ThreeItemAdd
+4/40 Test: ListInsertBack.ThreeItemAdd
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListInsertBack.ThreeItemAdd"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListInsertBack.ThreeItemAdd" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3788== Memcheck, a memory error detector
+==3788== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3788== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3788== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListInsertBack.ThreeItemAdd
+==3788== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListInsertBack.ThreeItemAdd
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListInsertBack
+[ RUN      ] ListInsertBack.ThreeItemAdd
+[       OK ] ListInsertBack.ThreeItemAdd (17 ms)
+[----------] 1 test from ListInsertBack (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (53 ms total)
+[  PASSED  ] 1 test.
+==3788== 
+==3788== HEAP SUMMARY:
+==3788==     in use at exit: 72,704 bytes in 1 blocks
+==3788==   total heap usage: 422 allocs, 421 frees, 136,127 bytes allocated
+==3788== 
+==3788== LEAK SUMMARY:
+==3788==    definitely lost: 0 bytes in 0 blocks
+==3788==    indirectly lost: 0 bytes in 0 blocks
+==3788==      possibly lost: 0 bytes in 0 blocks
+==3788==    still reachable: 0 bytes in 0 blocks
+==3788==         suppressed: 72,704 bytes in 1 blocks
+==3788== 
+==3788== For counts of detected and suppressed errors, rerun with: -v
+==3788== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.87 sec
+----------------------------------------------------------
+Test Passed.
+"ListInsertBack.ThreeItemAdd" end time: Feb 11 16:18 PST
+"ListInsertBack.ThreeItemAdd" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/40 Testing: ListInsertFront.ThreeItemAdd
+5/40 Test: ListInsertFront.ThreeItemAdd
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListInsertFront.ThreeItemAdd"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListInsertFront.ThreeItemAdd" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3789== Memcheck, a memory error detector
+==3789== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3789== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3789== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListInsertFront.ThreeItemAdd
+==3789== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListInsertFront.ThreeItemAdd
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListInsertFront
+[ RUN      ] ListInsertFront.ThreeItemAdd
+[       OK ] ListInsertFront.ThreeItemAdd (22 ms)
+[----------] 1 test from ListInsertFront (29 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (62 ms total)
+[  PASSED  ] 1 test.
+==3789== 
+==3789== HEAP SUMMARY:
+==3789==     in use at exit: 72,704 bytes in 1 blocks
+==3789==   total heap usage: 422 allocs, 421 frees, 136,134 bytes allocated
+==3789== 
+==3789== LEAK SUMMARY:
+==3789==    definitely lost: 0 bytes in 0 blocks
+==3789==    indirectly lost: 0 bytes in 0 blocks
+==3789==      possibly lost: 0 bytes in 0 blocks
+==3789==    still reachable: 0 bytes in 0 blocks
+==3789==         suppressed: 72,704 bytes in 1 blocks
+==3789== 
+==3789== For counts of detected and suppressed errors, rerun with: -v
+==3789== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.84 sec
+----------------------------------------------------------
+Test Passed.
+"ListInsertFront.ThreeItemAdd" end time: Feb 11 16:18 PST
+"ListInsertFront.ThreeItemAdd" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/40 Testing: ListInsert.FrontThenBack
+6/40 Test: ListInsert.FrontThenBack
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListInsert.FrontThenBack"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListInsert.FrontThenBack" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3790== Memcheck, a memory error detector
+==3790== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3790== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3790== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListInsert.FrontThenBack
+==3790== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListInsert.FrontThenBack
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListInsert
+[ RUN      ] ListInsert.FrontThenBack
+[       OK ] ListInsert.FrontThenBack (16 ms)
+[----------] 1 test from ListInsert (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (55 ms total)
+[  PASSED  ] 1 test.
+==3790== 
+==3790== HEAP SUMMARY:
+==3790==     in use at exit: 72,704 bytes in 1 blocks
+==3790==   total heap usage: 422 allocs, 421 frees, 136,402 bytes allocated
+==3790== 
+==3790== LEAK SUMMARY:
+==3790==    definitely lost: 0 bytes in 0 blocks
+==3790==    indirectly lost: 0 bytes in 0 blocks
+==3790==      possibly lost: 0 bytes in 0 blocks
+==3790==    still reachable: 0 bytes in 0 blocks
+==3790==         suppressed: 72,704 bytes in 1 blocks
+==3790== 
+==3790== For counts of detected and suppressed errors, rerun with: -v
+==3790== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.84 sec
+----------------------------------------------------------
+Test Passed.
+"ListInsert.FrontThenBack" end time: Feb 11 16:18 PST
+"ListInsert.FrontThenBack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/40 Testing: ListInsert.BackThenFront
+7/40 Test: ListInsert.BackThenFront
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListInsert.BackThenFront"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListInsert.BackThenFront" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3791== Memcheck, a memory error detector
+==3791== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3791== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3791== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListInsert.BackThenFront
+==3791== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListInsert.BackThenFront
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListInsert
+[ RUN      ] ListInsert.BackThenFront
+[       OK ] ListInsert.BackThenFront (30 ms)
+[----------] 1 test from ListInsert (37 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (71 ms total)
+[  PASSED  ] 1 test.
+==3791== 
+==3791== HEAP SUMMARY:
+==3791==     in use at exit: 72,704 bytes in 1 blocks
+==3791==   total heap usage: 422 allocs, 421 frees, 136,402 bytes allocated
+==3791== 
+==3791== LEAK SUMMARY:
+==3791==    definitely lost: 0 bytes in 0 blocks
+==3791==    indirectly lost: 0 bytes in 0 blocks
+==3791==      possibly lost: 0 bytes in 0 blocks
+==3791==    still reachable: 0 bytes in 0 blocks
+==3791==         suppressed: 72,704 bytes in 1 blocks
+==3791== 
+==3791== For counts of detected and suppressed errors, rerun with: -v
+==3791== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.85 sec
+----------------------------------------------------------
+Test Passed.
+"ListInsert.BackThenFront" end time: Feb 11 16:18 PST
+"ListInsert.BackThenFront" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/40 Testing: ListInsertBack.ARRSIZEPlusOne
+8/40 Test: ListInsertBack.ARRSIZEPlusOne
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListInsertBack.ARRSIZEPlusOne"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListInsertBack.ARRSIZEPlusOne" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3792== Memcheck, a memory error detector
+==3792== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3792== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3792== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListInsertBack.ARRSIZEPlusOne
+==3792== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListInsertBack.ARRSIZEPlusOne
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListInsertBack
+[ RUN      ] ListInsertBack.ARRSIZEPlusOne
+[       OK ] ListInsertBack.ARRSIZEPlusOne (48 ms)
+[----------] 1 test from ListInsertBack (54 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (83 ms total)
+[  PASSED  ] 1 test.
+==3792== 
+==3792== HEAP SUMMARY:
+==3792==     in use at exit: 72,704 bytes in 1 blocks
+==3792==   total heap usage: 478 allocs, 477 frees, 138,509 bytes allocated
+==3792== 
+==3792== LEAK SUMMARY:
+==3792==    definitely lost: 0 bytes in 0 blocks
+==3792==    indirectly lost: 0 bytes in 0 blocks
+==3792==      possibly lost: 0 bytes in 0 blocks
+==3792==    still reachable: 0 bytes in 0 blocks
+==3792==         suppressed: 72,704 bytes in 1 blocks
+==3792== 
+==3792== For counts of detected and suppressed errors, rerun with: -v
+==3792== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.97 sec
+----------------------------------------------------------
+Test Passed.
+"ListInsertBack.ARRSIZEPlusOne" end time: Feb 11 16:18 PST
+"ListInsertBack.ARRSIZEPlusOne" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/40 Testing: ListInsertFront.ARRSIZEPlusOne
+9/40 Test: ListInsertFront.ARRSIZEPlusOne
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListInsertFront.ARRSIZEPlusOne"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListInsertFront.ARRSIZEPlusOne" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3793== Memcheck, a memory error detector
+==3793== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3793== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3793== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListInsertFront.ARRSIZEPlusOne
+==3793== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListInsertFront.ARRSIZEPlusOne
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListInsertFront
+[ RUN      ] ListInsertFront.ARRSIZEPlusOne
+[       OK ] ListInsertFront.ARRSIZEPlusOne (49 ms)
+[----------] 1 test from ListInsertFront (55 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (85 ms total)
+[  PASSED  ] 1 test.
+==3793== 
+==3793== HEAP SUMMARY:
+==3793==     in use at exit: 72,704 bytes in 1 blocks
+==3793==   total heap usage: 478 allocs, 477 frees, 138,516 bytes allocated
+==3793== 
+==3793== LEAK SUMMARY:
+==3793==    definitely lost: 0 bytes in 0 blocks
+==3793==    indirectly lost: 0 bytes in 0 blocks
+==3793==      possibly lost: 0 bytes in 0 blocks
+==3793==    still reachable: 0 bytes in 0 blocks
+==3793==         suppressed: 72,704 bytes in 1 blocks
+==3793== 
+==3793== For counts of detected and suppressed errors, rerun with: -v
+==3793== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.88 sec
+----------------------------------------------------------
+Test Passed.
+"ListInsertFront.ARRSIZEPlusOne" end time: Feb 11 16:18 PST
+"ListInsertFront.ARRSIZEPlusOne" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/40 Testing: ListInsertBack.50RandomElements
+10/40 Test: ListInsertBack.50RandomElements
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListInsertBack.50RandomElements"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListInsertBack.50RandomElements" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3794== Memcheck, a memory error detector
+==3794== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3794== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3794== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListInsertBack.50RandomElements
+==3794== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListInsertBack.50RandomElements
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListInsertBack
+[ RUN      ] ListInsertBack.50RandomElements
+[       OK ] ListInsertBack.50RandomElements (103 ms)
+[----------] 1 test from ListInsertBack (109 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (138 ms total)
+[  PASSED  ] 1 test.
+==3794== 
+==3794== HEAP SUMMARY:
+==3794==     in use at exit: 72,704 bytes in 1 blocks
+==3794==   total heap usage: 689 allocs, 688 frees, 253,437 bytes allocated
+==3794== 
+==3794== LEAK SUMMARY:
+==3794==    definitely lost: 0 bytes in 0 blocks
+==3794==    indirectly lost: 0 bytes in 0 blocks
+==3794==      possibly lost: 0 bytes in 0 blocks
+==3794==    still reachable: 0 bytes in 0 blocks
+==3794==         suppressed: 72,704 bytes in 1 blocks
+==3794== 
+==3794== For counts of detected and suppressed errors, rerun with: -v
+==3794== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.92 sec
+----------------------------------------------------------
+Test Passed.
+"ListInsertBack.50RandomElements" end time: Feb 11 16:18 PST
+"ListInsertBack.50RandomElements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/40 Testing: ListInsertFront.50RandomElements
+11/40 Test: ListInsertFront.50RandomElements
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListInsertFront.50RandomElements"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListInsertFront.50RandomElements" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3795== Memcheck, a memory error detector
+==3795== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3795== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3795== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListInsertFront.50RandomElements
+==3795== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListInsertFront.50RandomElements
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListInsertFront
+[ RUN      ] ListInsertFront.50RandomElements
+[       OK ] ListInsertFront.50RandomElements (108 ms)
+[----------] 1 test from ListInsertFront (114 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (145 ms total)
+[  PASSED  ] 1 test.
+==3795== 
+==3795== HEAP SUMMARY:
+==3795==     in use at exit: 72,704 bytes in 1 blocks
+==3795==   total heap usage: 689 allocs, 688 frees, 253,481 bytes allocated
+==3795== 
+==3795== LEAK SUMMARY:
+==3795==    definitely lost: 0 bytes in 0 blocks
+==3795==    indirectly lost: 0 bytes in 0 blocks
+==3795==      possibly lost: 0 bytes in 0 blocks
+==3795==    still reachable: 0 bytes in 0 blocks
+==3795==         suppressed: 72,704 bytes in 1 blocks
+==3795== 
+==3795== For counts of detected and suppressed errors, rerun with: -v
+==3795== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.96 sec
+----------------------------------------------------------
+Test Passed.
+"ListInsertFront.50RandomElements" end time: Feb 11 16:18 PST
+"ListInsertFront.50RandomElements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/40 Testing: ListInsertBack.5x1000RandomElements
+12/40 Test: ListInsertBack.5x1000RandomElements
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListInsertBack.5x1000RandomElements"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListInsertBack.5x1000RandomElements" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3796== Memcheck, a memory error detector
+==3796== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3796== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3796== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListInsertBack.5x1000RandomElements
+==3796== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListInsertBack.5x1000RandomElements
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListInsertBack
+[ RUN      ] ListInsertBack.5x1000RandomElements
+[       OK ] ListInsertBack.5x1000RandomElements (697 ms)
+[----------] 1 test from ListInsertBack (703 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (736 ms total)
+[  PASSED  ] 1 test.
+==3796== 
+==3796== HEAP SUMMARY:
+==3796==     in use at exit: 72,704 bytes in 1 blocks
+==3796==   total heap usage: 3,539 allocs, 3,538 frees, 2,168,813 bytes allocated
+==3796== 
+==3796== LEAK SUMMARY:
+==3796==    definitely lost: 0 bytes in 0 blocks
+==3796==    indirectly lost: 0 bytes in 0 blocks
+==3796==      possibly lost: 0 bytes in 0 blocks
+==3796==    still reachable: 0 bytes in 0 blocks
+==3796==         suppressed: 72,704 bytes in 1 blocks
+==3796== 
+==3796== For counts of detected and suppressed errors, rerun with: -v
+==3796== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.54 sec
+----------------------------------------------------------
+Test Passed.
+"ListInsertBack.5x1000RandomElements" end time: Feb 11 16:18 PST
+"ListInsertBack.5x1000RandomElements" time elapsed: 00:00:01
+----------------------------------------------------------
+
+13/40 Testing: ListInsertFront.5x1000RandomElements
+13/40 Test: ListInsertFront.5x1000RandomElements
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListInsertFront.5x1000RandomElements"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListInsertFront.5x1000RandomElements" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3797== Memcheck, a memory error detector
+==3797== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3797== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3797== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListInsertFront.5x1000RandomElements
+==3797== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListInsertFront.5x1000RandomElements
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListInsertFront
+[ RUN      ] ListInsertFront.5x1000RandomElements
+[       OK ] ListInsertFront.5x1000RandomElements (1034 ms)
+[----------] 1 test from ListInsertFront (1045 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1086 ms total)
+[  PASSED  ] 1 test.
+==3797== 
+==3797== HEAP SUMMARY:
+==3797==     in use at exit: 72,704 bytes in 1 blocks
+==3797==   total heap usage: 3,539 allocs, 3,538 frees, 2,168,857 bytes allocated
+==3797== 
+==3797== LEAK SUMMARY:
+==3797==    definitely lost: 0 bytes in 0 blocks
+==3797==    indirectly lost: 0 bytes in 0 blocks
+==3797==      possibly lost: 0 bytes in 0 blocks
+==3797==    still reachable: 0 bytes in 0 blocks
+==3797==         suppressed: 72,704 bytes in 1 blocks
+==3797== 
+==3797== For counts of detected and suppressed errors, rerun with: -v
+==3797== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   2.23 sec
+----------------------------------------------------------
+Test Passed.
+"ListInsertFront.5x1000RandomElements" end time: Feb 11 16:18 PST
+"ListInsertFront.5x1000RandomElements" time elapsed: 00:00:02
+----------------------------------------------------------
+
+14/40 Testing: UnrolledList.ConstructionDestruction
+14/40 Test: UnrolledList.ConstructionDestruction
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=UnrolledList.ConstructionDestruction"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"UnrolledList.ConstructionDestruction" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3798== Memcheck, a memory error detector
+==3798== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3798== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3798== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=UnrolledList.ConstructionDestruction
+==3798== 
+Running main() from gtest_main.cc
+Note: Google Test filter = UnrolledList.ConstructionDestruction
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from UnrolledList
+[ RUN      ] UnrolledList.ConstructionDestruction
+[       OK ] UnrolledList.ConstructionDestruction (9 ms)
+[----------] 1 test from UnrolledList (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (76 ms total)
+[  PASSED  ] 1 test.
+==3798== 
+==3798== HEAP SUMMARY:
+==3798==     in use at exit: 72,704 bytes in 1 blocks
+==3798==   total heap usage: 418 allocs, 417 frees, 135,427 bytes allocated
+==3798== 
+==3798== LEAK SUMMARY:
+==3798==    definitely lost: 0 bytes in 0 blocks
+==3798==    indirectly lost: 0 bytes in 0 blocks
+==3798==      possibly lost: 0 bytes in 0 blocks
+==3798==    still reachable: 0 bytes in 0 blocks
+==3798==         suppressed: 72,704 bytes in 1 blocks
+==3798== 
+==3798== For counts of detected and suppressed errors, rerun with: -v
+==3798== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.47 sec
+----------------------------------------------------------
+Test Passed.
+"UnrolledList.ConstructionDestruction" end time: Feb 11 16:18 PST
+"UnrolledList.ConstructionDestruction" time elapsed: 00:00:01
+----------------------------------------------------------
+
+15/40 Testing: UnrolledList.NoElements
+15/40 Test: UnrolledList.NoElements
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=UnrolledList.NoElements"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"UnrolledList.NoElements" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3799== Memcheck, a memory error detector
+==3799== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3799== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3799== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=UnrolledList.NoElements
+==3799== 
+Running main() from gtest_main.cc
+Note: Google Test filter = UnrolledList.NoElements
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from UnrolledList
+[ RUN      ] UnrolledList.NoElements
+[       OK ] UnrolledList.NoElements (9 ms)
+[----------] 1 test from UnrolledList (22 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (56 ms total)
+[  PASSED  ] 1 test.
+==3799== 
+==3799== HEAP SUMMARY:
+==3799==     in use at exit: 72,704 bytes in 1 blocks
+==3799==   total heap usage: 418 allocs, 417 frees, 135,114 bytes allocated
+==3799== 
+==3799== LEAK SUMMARY:
+==3799==    definitely lost: 0 bytes in 0 blocks
+==3799==    indirectly lost: 0 bytes in 0 blocks
+==3799==      possibly lost: 0 bytes in 0 blocks
+==3799==    still reachable: 0 bytes in 0 blocks
+==3799==         suppressed: 72,704 bytes in 1 blocks
+==3799== 
+==3799== For counts of detected and suppressed errors, rerun with: -v
+==3799== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.08 sec
+----------------------------------------------------------
+Test Passed.
+"UnrolledList.NoElements" end time: Feb 11 16:18 PST
+"UnrolledList.NoElements" time elapsed: 00:00:01
+----------------------------------------------------------
+
+16/40 Testing: UnrolledList.Front_PushBack
+16/40 Test: UnrolledList.Front_PushBack
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=UnrolledList.Front_PushBack"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"UnrolledList.Front_PushBack" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3800== Memcheck, a memory error detector
+==3800== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3800== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3800== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=UnrolledList.Front_PushBack
+==3800== 
+Running main() from gtest_main.cc
+Note: Google Test filter = UnrolledList.Front_PushBack
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from UnrolledList
+[ RUN      ] UnrolledList.Front_PushBack
+[       OK ] UnrolledList.Front_PushBack (19 ms)
+[----------] 1 test from UnrolledList (25 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (55 ms total)
+[  PASSED  ] 1 test.
+==3800== 
+==3800== HEAP SUMMARY:
+==3800==     in use at exit: 72,704 bytes in 1 blocks
+==3800==   total heap usage: 422 allocs, 421 frees, 136,286 bytes allocated
+==3800== 
+==3800== LEAK SUMMARY:
+==3800==    definitely lost: 0 bytes in 0 blocks
+==3800==    indirectly lost: 0 bytes in 0 blocks
+==3800==      possibly lost: 0 bytes in 0 blocks
+==3800==    still reachable: 0 bytes in 0 blocks
+==3800==         suppressed: 72,704 bytes in 1 blocks
+==3800== 
+==3800== For counts of detected and suppressed errors, rerun with: -v
+==3800== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.25 sec
+----------------------------------------------------------
+Test Passed.
+"UnrolledList.Front_PushBack" end time: Feb 11 16:18 PST
+"UnrolledList.Front_PushBack" time elapsed: 00:00:01
+----------------------------------------------------------
+
+17/40 Testing: UnrolledList.Front_PushFront
+17/40 Test: UnrolledList.Front_PushFront
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=UnrolledList.Front_PushFront"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"UnrolledList.Front_PushFront" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3801== Memcheck, a memory error detector
+==3801== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3801== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3801== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=UnrolledList.Front_PushFront
+==3801== 
+Running main() from gtest_main.cc
+Note: Google Test filter = UnrolledList.Front_PushFront
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from UnrolledList
+[ RUN      ] UnrolledList.Front_PushFront
+[       OK ] UnrolledList.Front_PushFront (18 ms)
+[----------] 1 test from UnrolledList (24 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (55 ms total)
+[  PASSED  ] 1 test.
+==3801== 
+==3801== HEAP SUMMARY:
+==3801==     in use at exit: 72,704 bytes in 1 blocks
+==3801==   total heap usage: 422 allocs, 421 frees, 136,293 bytes allocated
+==3801== 
+==3801== LEAK SUMMARY:
+==3801==    definitely lost: 0 bytes in 0 blocks
+==3801==    indirectly lost: 0 bytes in 0 blocks
+==3801==      possibly lost: 0 bytes in 0 blocks
+==3801==    still reachable: 0 bytes in 0 blocks
+==3801==         suppressed: 72,704 bytes in 1 blocks
+==3801== 
+==3801== For counts of detected and suppressed errors, rerun with: -v
+==3801== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.95 sec
+----------------------------------------------------------
+Test Passed.
+"UnrolledList.Front_PushFront" end time: Feb 11 16:18 PST
+"UnrolledList.Front_PushFront" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/40 Testing: UnrolledList.Back_PushBack
+18/40 Test: UnrolledList.Back_PushBack
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=UnrolledList.Back_PushBack"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"UnrolledList.Back_PushBack" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3802== Memcheck, a memory error detector
+==3802== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3802== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3802== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=UnrolledList.Back_PushBack
+==3802== 
+Running main() from gtest_main.cc
+Note: Google Test filter = UnrolledList.Back_PushBack
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from UnrolledList
+[ RUN      ] UnrolledList.Back_PushBack
+[       OK ] UnrolledList.Back_PushBack (19 ms)
+[----------] 1 test from UnrolledList (25 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (55 ms total)
+[  PASSED  ] 1 test.
+==3802== 
+==3802== HEAP SUMMARY:
+==3802==     in use at exit: 72,704 bytes in 1 blocks
+==3802==   total heap usage: 422 allocs, 421 frees, 136,279 bytes allocated
+==3802== 
+==3802== LEAK SUMMARY:
+==3802==    definitely lost: 0 bytes in 0 blocks
+==3802==    indirectly lost: 0 bytes in 0 blocks
+==3802==      possibly lost: 0 bytes in 0 blocks
+==3802==    still reachable: 0 bytes in 0 blocks
+==3802==         suppressed: 72,704 bytes in 1 blocks
+==3802== 
+==3802== For counts of detected and suppressed errors, rerun with: -v
+==3802== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.85 sec
+----------------------------------------------------------
+Test Passed.
+"UnrolledList.Back_PushBack" end time: Feb 11 16:18 PST
+"UnrolledList.Back_PushBack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/40 Testing: UnrolledList.Back_PushFront
+19/40 Test: UnrolledList.Back_PushFront
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=UnrolledList.Back_PushFront"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"UnrolledList.Back_PushFront" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3803== Memcheck, a memory error detector
+==3803== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3803== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3803== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=UnrolledList.Back_PushFront
+==3803== 
+Running main() from gtest_main.cc
+Note: Google Test filter = UnrolledList.Back_PushFront
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from UnrolledList
+[ RUN      ] UnrolledList.Back_PushFront
+[       OK ] UnrolledList.Back_PushFront (19 ms)
+[----------] 1 test from UnrolledList (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (56 ms total)
+[  PASSED  ] 1 test.
+==3803== 
+==3803== HEAP SUMMARY:
+==3803==     in use at exit: 72,704 bytes in 1 blocks
+==3803==   total heap usage: 422 allocs, 421 frees, 136,286 bytes allocated
+==3803== 
+==3803== LEAK SUMMARY:
+==3803==    definitely lost: 0 bytes in 0 blocks
+==3803==    indirectly lost: 0 bytes in 0 blocks
+==3803==      possibly lost: 0 bytes in 0 blocks
+==3803==    still reachable: 0 bytes in 0 blocks
+==3803==         suppressed: 72,704 bytes in 1 blocks
+==3803== 
+==3803== For counts of detected and suppressed errors, rerun with: -v
+==3803== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.87 sec
+----------------------------------------------------------
+Test Passed.
+"UnrolledList.Back_PushFront" end time: Feb 11 16:18 PST
+"UnrolledList.Back_PushFront" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/40 Testing: ListSet.OneItem
+20/40 Test: ListSet.OneItem
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListSet.OneItem"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListSet.OneItem" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3804== Memcheck, a memory error detector
+==3804== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3804== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3804== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListSet.OneItem
+==3804== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListSet.OneItem
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListSet
+[ RUN      ] ListSet.OneItem
+[       OK ] ListSet.OneItem (12 ms)
+[----------] 1 test from ListSet (17 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (47 ms total)
+[  PASSED  ] 1 test.
+==3804== 
+==3804== HEAP SUMMARY:
+==3804==     in use at exit: 72,704 bytes in 1 blocks
+==3804==   total heap usage: 382 allocs, 381 frees, 134,263 bytes allocated
+==3804== 
+==3804== LEAK SUMMARY:
+==3804==    definitely lost: 0 bytes in 0 blocks
+==3804==    indirectly lost: 0 bytes in 0 blocks
+==3804==      possibly lost: 0 bytes in 0 blocks
+==3804==    still reachable: 0 bytes in 0 blocks
+==3804==         suppressed: 72,704 bytes in 1 blocks
+==3804== 
+==3804== For counts of detected and suppressed errors, rerun with: -v
+==3804== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.84 sec
+----------------------------------------------------------
+Test Passed.
+"ListSet.OneItem" end time: Feb 11 16:18 PST
+"ListSet.OneItem" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/40 Testing: ListSet.First
+21/40 Test: ListSet.First
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListSet.First"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListSet.First" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3805== Memcheck, a memory error detector
+==3805== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3805== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3805== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListSet.First
+==3805== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListSet.First
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListSet
+[ RUN      ] ListSet.First
+[       OK ] ListSet.First (13 ms)
+[----------] 1 test from ListSet (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (48 ms total)
+[  PASSED  ] 1 test.
+==3805== 
+==3805== HEAP SUMMARY:
+==3805==     in use at exit: 72,704 bytes in 1 blocks
+==3805==   total heap usage: 383 allocs, 382 frees, 134,273 bytes allocated
+==3805== 
+==3805== LEAK SUMMARY:
+==3805==    definitely lost: 0 bytes in 0 blocks
+==3805==    indirectly lost: 0 bytes in 0 blocks
+==3805==      possibly lost: 0 bytes in 0 blocks
+==3805==    still reachable: 0 bytes in 0 blocks
+==3805==         suppressed: 72,704 bytes in 1 blocks
+==3805== 
+==3805== For counts of detected and suppressed errors, rerun with: -v
+==3805== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.84 sec
+----------------------------------------------------------
+Test Passed.
+"ListSet.First" end time: Feb 11 16:18 PST
+"ListSet.First" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/40 Testing: ListSet.Last
+22/40 Test: ListSet.Last
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListSet.Last"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListSet.Last" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3806== Memcheck, a memory error detector
+==3806== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3806== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3806== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListSet.Last
+==3806== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListSet.Last
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListSet
+[ RUN      ] ListSet.Last
+[       OK ] ListSet.Last (13 ms)
+[----------] 1 test from ListSet (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (48 ms total)
+[  PASSED  ] 1 test.
+==3806== 
+==3806== HEAP SUMMARY:
+==3806==     in use at exit: 72,704 bytes in 1 blocks
+==3806==   total heap usage: 383 allocs, 382 frees, 134,266 bytes allocated
+==3806== 
+==3806== LEAK SUMMARY:
+==3806==    definitely lost: 0 bytes in 0 blocks
+==3806==    indirectly lost: 0 bytes in 0 blocks
+==3806==      possibly lost: 0 bytes in 0 blocks
+==3806==    still reachable: 0 bytes in 0 blocks
+==3806==         suppressed: 72,704 bytes in 1 blocks
+==3806== 
+==3806== For counts of detected and suppressed errors, rerun with: -v
+==3806== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.86 sec
+----------------------------------------------------------
+Test Passed.
+"ListSet.Last" end time: Feb 11 16:18 PST
+"ListSet.Last" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/40 Testing: ListSet.Middle
+23/40 Test: ListSet.Middle
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListSet.Middle"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListSet.Middle" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3807== Memcheck, a memory error detector
+==3807== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3807== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3807== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListSet.Middle
+==3807== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListSet.Middle
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListSet
+[ RUN      ] ListSet.Middle
+[       OK ] ListSet.Middle (13 ms)
+[----------] 1 test from ListSet (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (48 ms total)
+[  PASSED  ] 1 test.
+==3807== 
+==3807== HEAP SUMMARY:
+==3807==     in use at exit: 72,704 bytes in 1 blocks
+==3807==   total heap usage: 383 allocs, 382 frees, 134,280 bytes allocated
+==3807== 
+==3807== LEAK SUMMARY:
+==3807==    definitely lost: 0 bytes in 0 blocks
+==3807==    indirectly lost: 0 bytes in 0 blocks
+==3807==      possibly lost: 0 bytes in 0 blocks
+==3807==    still reachable: 0 bytes in 0 blocks
+==3807==         suppressed: 72,704 bytes in 1 blocks
+==3807== 
+==3807== For counts of detected and suppressed errors, rerun with: -v
+==3807== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.83 sec
+----------------------------------------------------------
+Test Passed.
+"ListSet.Middle" end time: Feb 11 16:18 PST
+"ListSet.Middle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/40 Testing: ListSet.50x50RandomElements
+24/40 Test: ListSet.50x50RandomElements
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListSet.50x50RandomElements"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListSet.50x50RandomElements" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3808== Memcheck, a memory error detector
+==3808== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3808== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3808== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListSet.50x50RandomElements
+==3808== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListSet.50x50RandomElements
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListSet
+[ RUN      ] ListSet.50x50RandomElements
+[       OK ] ListSet.50x50RandomElements (150 ms)
+[----------] 1 test from ListSet (156 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (185 ms total)
+[  PASSED  ] 1 test.
+==3808== 
+==3808== HEAP SUMMARY:
+==3808==     in use at exit: 72,704 bytes in 1 blocks
+==3808==   total heap usage: 659 allocs, 658 frees, 237,982 bytes allocated
+==3808== 
+==3808== LEAK SUMMARY:
+==3808==    definitely lost: 0 bytes in 0 blocks
+==3808==    indirectly lost: 0 bytes in 0 blocks
+==3808==      possibly lost: 0 bytes in 0 blocks
+==3808==    still reachable: 0 bytes in 0 blocks
+==3808==         suppressed: 72,704 bytes in 1 blocks
+==3808== 
+==3808== For counts of detected and suppressed errors, rerun with: -v
+==3808== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.96 sec
+----------------------------------------------------------
+Test Passed.
+"ListSet.50x50RandomElements" end time: Feb 11 16:18 PST
+"ListSet.50x50RandomElements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/40 Testing: ListRemove.OneItemFront
+25/40 Test: ListRemove.OneItemFront
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListRemove.OneItemFront"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListRemove.OneItemFront" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3809== Memcheck, a memory error detector
+==3809== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3809== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3809== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListRemove.OneItemFront
+==3809== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListRemove.OneItemFront
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListRemove
+[ RUN      ] ListRemove.OneItemFront
+[       OK ] ListRemove.OneItemFront (19 ms)
+[----------] 1 test from ListRemove (27 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (80 ms total)
+[  PASSED  ] 1 test.
+==3809== 
+==3809== HEAP SUMMARY:
+==3809==     in use at exit: 72,704 bytes in 1 blocks
+==3809==   total heap usage: 419 allocs, 418 frees, 135,466 bytes allocated
+==3809== 
+==3809== LEAK SUMMARY:
+==3809==    definitely lost: 0 bytes in 0 blocks
+==3809==    indirectly lost: 0 bytes in 0 blocks
+==3809==      possibly lost: 0 bytes in 0 blocks
+==3809==    still reachable: 0 bytes in 0 blocks
+==3809==         suppressed: 72,704 bytes in 1 blocks
+==3809== 
+==3809== For counts of detected and suppressed errors, rerun with: -v
+==3809== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.91 sec
+----------------------------------------------------------
+Test Passed.
+"ListRemove.OneItemFront" end time: Feb 11 16:18 PST
+"ListRemove.OneItemFront" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/40 Testing: ListRemove.OneItemBack
+26/40 Test: ListRemove.OneItemBack
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListRemove.OneItemBack"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListRemove.OneItemBack" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3810== Memcheck, a memory error detector
+==3810== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3810== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3810== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListRemove.OneItemBack
+==3810== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListRemove.OneItemBack
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListRemove
+[ RUN      ] ListRemove.OneItemBack
+[       OK ] ListRemove.OneItemBack (12 ms)
+[----------] 1 test from ListRemove (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (48 ms total)
+[  PASSED  ] 1 test.
+==3810== 
+==3810== HEAP SUMMARY:
+==3810==     in use at exit: 72,704 bytes in 1 blocks
+==3810==   total heap usage: 419 allocs, 418 frees, 135,459 bytes allocated
+==3810== 
+==3810== LEAK SUMMARY:
+==3810==    definitely lost: 0 bytes in 0 blocks
+==3810==    indirectly lost: 0 bytes in 0 blocks
+==3810==      possibly lost: 0 bytes in 0 blocks
+==3810==    still reachable: 0 bytes in 0 blocks
+==3810==         suppressed: 72,704 bytes in 1 blocks
+==3810== 
+==3810== For counts of detected and suppressed errors, rerun with: -v
+==3810== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.87 sec
+----------------------------------------------------------
+Test Passed.
+"ListRemove.OneItemBack" end time: Feb 11 16:18 PST
+"ListRemove.OneItemBack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/40 Testing: ListRemove.RepeatedOneEleRemoveBack
+27/40 Test: ListRemove.RepeatedOneEleRemoveBack
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListRemove.RepeatedOneEleRemoveBack"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListRemove.RepeatedOneEleRemoveBack" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3811== Memcheck, a memory error detector
+==3811== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3811== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3811== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListRemove.RepeatedOneEleRemoveBack
+==3811== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListRemove.RepeatedOneEleRemoveBack
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListRemove
+[ RUN      ] ListRemove.RepeatedOneEleRemoveBack
+[       OK ] ListRemove.RepeatedOneEleRemoveBack (12 ms)
+[----------] 1 test from ListRemove (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (49 ms total)
+[  PASSED  ] 1 test.
+==3811== 
+==3811== HEAP SUMMARY:
+==3811==     in use at exit: 72,704 bytes in 1 blocks
+==3811==   total heap usage: 422 allocs, 421 frees, 136,791 bytes allocated
+==3811== 
+==3811== LEAK SUMMARY:
+==3811==    definitely lost: 0 bytes in 0 blocks
+==3811==    indirectly lost: 0 bytes in 0 blocks
+==3811==      possibly lost: 0 bytes in 0 blocks
+==3811==    still reachable: 0 bytes in 0 blocks
+==3811==         suppressed: 72,704 bytes in 1 blocks
+==3811== 
+==3811== For counts of detected and suppressed errors, rerun with: -v
+==3811== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.83 sec
+----------------------------------------------------------
+Test Passed.
+"ListRemove.RepeatedOneEleRemoveBack" end time: Feb 11 16:18 PST
+"ListRemove.RepeatedOneEleRemoveBack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/40 Testing: ListRemove.RepeatedOneEleRemoveFront
+28/40 Test: ListRemove.RepeatedOneEleRemoveFront
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListRemove.RepeatedOneEleRemoveFront"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListRemove.RepeatedOneEleRemoveFront" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3812== Memcheck, a memory error detector
+==3812== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3812== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3812== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListRemove.RepeatedOneEleRemoveFront
+==3812== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListRemove.RepeatedOneEleRemoveFront
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListRemove
+[ RUN      ] ListRemove.RepeatedOneEleRemoveFront
+[       OK ] ListRemove.RepeatedOneEleRemoveFront (12 ms)
+[----------] 1 test from ListRemove (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (48 ms total)
+[  PASSED  ] 1 test.
+==3812== 
+==3812== HEAP SUMMARY:
+==3812==     in use at exit: 72,704 bytes in 1 blocks
+==3812==   total heap usage: 422 allocs, 421 frees, 136,835 bytes allocated
+==3812== 
+==3812== LEAK SUMMARY:
+==3812==    definitely lost: 0 bytes in 0 blocks
+==3812==    indirectly lost: 0 bytes in 0 blocks
+==3812==      possibly lost: 0 bytes in 0 blocks
+==3812==    still reachable: 0 bytes in 0 blocks
+==3812==         suppressed: 72,704 bytes in 1 blocks
+==3812== 
+==3812== For counts of detected and suppressed errors, rerun with: -v
+==3812== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.83 sec
+----------------------------------------------------------
+Test Passed.
+"ListRemove.RepeatedOneEleRemoveFront" end time: Feb 11 16:18 PST
+"ListRemove.RepeatedOneEleRemoveFront" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/40 Testing: ListRemove.Head3Elements
+29/40 Test: ListRemove.Head3Elements
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListRemove.Head3Elements"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListRemove.Head3Elements" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3813== Memcheck, a memory error detector
+==3813== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3813== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3813== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListRemove.Head3Elements
+==3813== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListRemove.Head3Elements
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListRemove
+[ RUN      ] ListRemove.Head3Elements
+[       OK ] ListRemove.Head3Elements (24 ms)
+[----------] 1 test from ListRemove (30 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (59 ms total)
+[  PASSED  ] 1 test.
+==3813== 
+==3813== HEAP SUMMARY:
+==3813==     in use at exit: 72,704 bytes in 1 blocks
+==3813==   total heap usage: 422 allocs, 421 frees, 136,106 bytes allocated
+==3813== 
+==3813== LEAK SUMMARY:
+==3813==    definitely lost: 0 bytes in 0 blocks
+==3813==    indirectly lost: 0 bytes in 0 blocks
+==3813==      possibly lost: 0 bytes in 0 blocks
+==3813==    still reachable: 0 bytes in 0 blocks
+==3813==         suppressed: 72,704 bytes in 1 blocks
+==3813== 
+==3813== For counts of detected and suppressed errors, rerun with: -v
+==3813== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.85 sec
+----------------------------------------------------------
+Test Passed.
+"ListRemove.Head3Elements" end time: Feb 11 16:18 PST
+"ListRemove.Head3Elements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/40 Testing: ListRemove.Tail3Elements
+30/40 Test: ListRemove.Tail3Elements
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListRemove.Tail3Elements"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListRemove.Tail3Elements" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3814== Memcheck, a memory error detector
+==3814== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3814== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3814== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListRemove.Tail3Elements
+==3814== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListRemove.Tail3Elements
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListRemove
+[ RUN      ] ListRemove.Tail3Elements
+[       OK ] ListRemove.Tail3Elements (20 ms)
+[----------] 1 test from ListRemove (27 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (55 ms total)
+[  PASSED  ] 1 test.
+==3814== 
+==3814== HEAP SUMMARY:
+==3814==     in use at exit: 72,704 bytes in 1 blocks
+==3814==   total heap usage: 422 allocs, 421 frees, 136,106 bytes allocated
+==3814== 
+==3814== LEAK SUMMARY:
+==3814==    definitely lost: 0 bytes in 0 blocks
+==3814==    indirectly lost: 0 bytes in 0 blocks
+==3814==      possibly lost: 0 bytes in 0 blocks
+==3814==    still reachable: 0 bytes in 0 blocks
+==3814==         suppressed: 72,704 bytes in 1 blocks
+==3814== 
+==3814== For counts of detected and suppressed errors, rerun with: -v
+==3814== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.86 sec
+----------------------------------------------------------
+Test Passed.
+"ListRemove.Tail3Elements" end time: Feb 11 16:18 PST
+"ListRemove.Tail3Elements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/40 Testing: ListRemove.AtARRSIZE
+31/40 Test: ListRemove.AtARRSIZE
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListRemove.AtARRSIZE"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListRemove.AtARRSIZE" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3815== Memcheck, a memory error detector
+==3815== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3815== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3815== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListRemove.AtARRSIZE
+==3815== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListRemove.AtARRSIZE
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListRemove
+[ RUN      ] ListRemove.AtARRSIZE
+[       OK ] ListRemove.AtARRSIZE (15 ms)
+[----------] 1 test from ListRemove (22 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (51 ms total)
+[  PASSED  ] 1 test.
+==3815== 
+==3815== HEAP SUMMARY:
+==3815==     in use at exit: 72,704 bytes in 1 blocks
+==3815==   total heap usage: 421 allocs, 420 frees, 135,789 bytes allocated
+==3815== 
+==3815== LEAK SUMMARY:
+==3815==    definitely lost: 0 bytes in 0 blocks
+==3815==    indirectly lost: 0 bytes in 0 blocks
+==3815==      possibly lost: 0 bytes in 0 blocks
+==3815==    still reachable: 0 bytes in 0 blocks
+==3815==         suppressed: 72,704 bytes in 1 blocks
+==3815== 
+==3815== For counts of detected and suppressed errors, rerun with: -v
+==3815== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.84 sec
+----------------------------------------------------------
+Test Passed.
+"ListRemove.AtARRSIZE" end time: Feb 11 16:18 PST
+"ListRemove.AtARRSIZE" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/40 Testing: ListRemove.AtARRSIZEPlusOne
+32/40 Test: ListRemove.AtARRSIZEPlusOne
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListRemove.AtARRSIZEPlusOne"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListRemove.AtARRSIZEPlusOne" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3816== Memcheck, a memory error detector
+==3816== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3816== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3816== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListRemove.AtARRSIZEPlusOne
+==3816== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListRemove.AtARRSIZEPlusOne
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListRemove
+[ RUN      ] ListRemove.AtARRSIZEPlusOne
+[       OK ] ListRemove.AtARRSIZEPlusOne (17 ms)
+[----------] 1 test from ListRemove (22 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (53 ms total)
+[  PASSED  ] 1 test.
+==3816== 
+==3816== HEAP SUMMARY:
+==3816==     in use at exit: 72,704 bytes in 1 blocks
+==3816==   total heap usage: 422 allocs, 421 frees, 136,222 bytes allocated
+==3816== 
+==3816== LEAK SUMMARY:
+==3816==    definitely lost: 0 bytes in 0 blocks
+==3816==    indirectly lost: 0 bytes in 0 blocks
+==3816==      possibly lost: 0 bytes in 0 blocks
+==3816==    still reachable: 0 bytes in 0 blocks
+==3816==         suppressed: 72,704 bytes in 1 blocks
+==3816== 
+==3816== For counts of detected and suppressed errors, rerun with: -v
+==3816== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.84 sec
+----------------------------------------------------------
+Test Passed.
+"ListRemove.AtARRSIZEPlusOne" end time: Feb 11 16:18 PST
+"ListRemove.AtARRSIZEPlusOne" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/40 Testing: ListRemove.SongOfBackAndFront
+33/40 Test: ListRemove.SongOfBackAndFront
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListRemove.SongOfBackAndFront"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListRemove.SongOfBackAndFront" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3817== Memcheck, a memory error detector
+==3817== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3817== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3817== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListRemove.SongOfBackAndFront
+==3817== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListRemove.SongOfBackAndFront
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListRemove
+[ RUN      ] ListRemove.SongOfBackAndFront
+[       OK ] ListRemove.SongOfBackAndFront (27 ms)
+[----------] 1 test from ListRemove (32 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (62 ms total)
+[  PASSED  ] 1 test.
+==3817== 
+==3817== HEAP SUMMARY:
+==3817==     in use at exit: 73,056 bytes in 2 blocks
+==3817==   total heap usage: 432 allocs, 430 frees, 139,546 bytes allocated
+==3817== 
+==3817== 352 bytes in 1 blocks are definitely lost in loss record 1 of 2
+==3817==    at 0x4C2E17F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3817==    by 0x416BF6: ULListStr::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (ulliststr.cpp:73)
+==3817==    by 0x41367D: ListRemove_SongOfBackAndFront_Test::TestBody() (remove_tests.cpp:127)
+==3817==    by 0x440542: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (in /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests)
+==3817==    by 0x4383D3: testing::Test::Run() [clone .part.368] (in /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests)
+==3817==    by 0x43868C: testing::TestInfo::Run() [clone .part.369] (in /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests)
+==3817==    by 0x438874: testing::TestCase::Run() [clone .part.370] (in /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests)
+==3817==    by 0x43AD20: testing::internal::UnitTestImpl::RunAllTests() [clone .part.371] [clone .constprop.426] (in /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests)
+==3817==    by 0x43B130: testing::UnitTest::Run() (in /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests)
+==3817==    by 0x404ECF: main (in /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests)
+==3817== 
+==3817== LEAK SUMMARY:
+==3817==    definitely lost: 352 bytes in 1 blocks
+==3817==    indirectly lost: 0 bytes in 0 blocks
+==3817==      possibly lost: 0 bytes in 0 blocks
+==3817==    still reachable: 0 bytes in 0 blocks
+==3817==         suppressed: 72,704 bytes in 1 blocks
+==3817== 
+==3817== For counts of detected and suppressed errors, rerun with: -v
+==3817== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.84 sec
+----------------------------------------------------------
+Test Passed.
+"ListRemove.SongOfBackAndFront" end time: Feb 11 16:18 PST
+"ListRemove.SongOfBackAndFront" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/40 Testing: ListRemove.50ElementsFromBack
+34/40 Test: ListRemove.50ElementsFromBack
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListRemove.50ElementsFromBack"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListRemove.50ElementsFromBack" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3818== Memcheck, a memory error detector
+==3818== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3818== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3818== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListRemove.50ElementsFromBack
+==3818== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListRemove.50ElementsFromBack
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListRemove
+[ RUN      ] ListRemove.50ElementsFromBack
+[       OK ] ListRemove.50ElementsFromBack (47 ms)
+[----------] 1 test from ListRemove (54 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (85 ms total)
+[  PASSED  ] 1 test.
+==3818== 
+==3818== HEAP SUMMARY:
+==3818==     in use at exit: 72,704 bytes in 1 blocks
+==3818==   total heap usage: 475 allocs, 474 frees, 164,190 bytes allocated
+==3818== 
+==3818== LEAK SUMMARY:
+==3818==    definitely lost: 0 bytes in 0 blocks
+==3818==    indirectly lost: 0 bytes in 0 blocks
+==3818==      possibly lost: 0 bytes in 0 blocks
+==3818==    still reachable: 0 bytes in 0 blocks
+==3818==         suppressed: 72,704 bytes in 1 blocks
+==3818== 
+==3818== For counts of detected and suppressed errors, rerun with: -v
+==3818== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.92 sec
+----------------------------------------------------------
+Test Passed.
+"ListRemove.50ElementsFromBack" end time: Feb 11 16:18 PST
+"ListRemove.50ElementsFromBack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/40 Testing: ListRemove.50ElementsFromFront
+35/40 Test: ListRemove.50ElementsFromFront
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests" "--gtest_filter=ListRemove.50ElementsFromFront"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListRemove.50ElementsFromFront" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+==3819== Memcheck, a memory error detector
+==3819== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3819== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3819== Command: /home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_tests --gtest_filter=ListRemove.50ElementsFromFront
+==3819== 
+Running main() from gtest_main.cc
+Note: Google Test filter = ListRemove.50ElementsFromFront
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListRemove
+[ RUN      ] ListRemove.50ElementsFromFront
+[       OK ] ListRemove.50ElementsFromFront (43 ms)
+[----------] 1 test from ListRemove (49 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (78 ms total)
+[  PASSED  ] 1 test.
+==3819== 
+==3819== HEAP SUMMARY:
+==3819==     in use at exit: 72,704 bytes in 1 blocks
+==3819==   total heap usage: 450 allocs, 449 frees, 151,372 bytes allocated
+==3819== 
+==3819== LEAK SUMMARY:
+==3819==    definitely lost: 0 bytes in 0 blocks
+==3819==    indirectly lost: 0 bytes in 0 blocks
+==3819==      possibly lost: 0 bytes in 0 blocks
+==3819==    still reachable: 0 bytes in 0 blocks
+==3819==         suppressed: 72,704 bytes in 1 blocks
+==3819== 
+==3819== For counts of detected and suppressed errors, rerun with: -v
+==3819== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.89 sec
+----------------------------------------------------------
+Test Passed.
+"ListRemove.50ElementsFromFront" end time: Feb 11 16:18 PST
+"ListRemove.50ElementsFromFront" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/40 Testing: ListRuntime.Get
+36/40 Test: ListRuntime.Get
+Command: "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_runtime_tests" "--gtest_filter=ListRuntime.Get"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListRuntime.Get" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ListRuntime.Get
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListRuntime
+[ RUN      ] ListRuntime.Get
+>> Evaluating runtime of ULListStr::get()
+Testing with 2^0 (1) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^1 (2) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^2 (4) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^3 (8) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^4 (16) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^5 (32) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^6 (64) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^7 (128) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^8 (256) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^9 (512) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^10 (1024) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^11 (2048) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^12 (4096) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^13 (8192) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^14 (16384) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^15 (32768) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^16 (65536) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^17 (131072) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^18 (262144) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^19 (524288) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing if time complexity could be linear...
+Correlation factor (2.2351) is >= threshold (1.4000)
+>> Time complexity of ULListStr::get() is likely linear
+Testing if time complexity could be constant...
+Correlation factor (-2.7920) is < threshold (1.4000)
+Testing if time complexity could be logarithmic...
+Correlation factor (0.5079) is < threshold (1.4000)
+Testing if time complexity could be linearithmic...
+Correlation factor (-0.3139) is < threshold (1.4000)
+Testing if time complexity could be quadratic...
+Correlation factor (1.2437) is < threshold (1.4000)
+Testing if time complexity could be cubic...
+Correlation factor (0.7289) is < threshold (1.4000)
+[       OK ] ListRuntime.Get (1979 ms)
+[----------] 1 test from ListRuntime (1979 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1979 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   1.98 sec
+----------------------------------------------------------
+Test Passed.
+"ListRuntime.Get" end time: Feb 11 16:18 PST
+"ListRuntime.Get" time elapsed: 00:00:01
+----------------------------------------------------------
+
+37/40 Testing: ListRuntime.PushBack
+37/40 Test: ListRuntime.PushBack
+Command: "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_runtime_tests" "--gtest_filter=ListRuntime.PushBack"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListRuntime.PushBack" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ListRuntime.PushBack
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListRuntime
+[ RUN      ] ListRuntime.PushBack
+>> Evaluating runtime of ULListStr::push_back()
+Testing with 2^0 (1) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^1 (2) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^2 (4) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^3 (8) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^4 (16) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^5 (32) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^6 (64) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^7 (128) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^8 (256) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^9 (512) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^10 (1024) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^11 (2048) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^12 (4096) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^13 (8192) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^14 (16384) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^15 (32768) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^16 (65536) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^17 (131072) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^18 (262144) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing if time complexity could be linear...
+Correlation factor (0.1751) is < threshold (1.4000)
+Testing if time complexity could be constant...
+Correlation factor (2.2511) is >= threshold (1.4000)
+>> Time complexity of ULListStr::push_back() is likely constant
+Testing if time complexity could be logarithmic...
+Correlation factor (0.4402) is < threshold (1.4000)
+Testing if time complexity could be linearithmic...
+Correlation factor (-0.2602) is < threshold (1.4000)
+Testing if time complexity could be quadratic...
+Correlation factor (0.0699) is < threshold (1.4000)
+Testing if time complexity could be cubic...
+Correlation factor (0.0481) is < threshold (1.4000)
+[       OK ] ListRuntime.PushBack (962 ms)
+[----------] 1 test from ListRuntime (962 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (962 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.97 sec
+----------------------------------------------------------
+Test Passed.
+"ListRuntime.PushBack" end time: Feb 11 16:18 PST
+"ListRuntime.PushBack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/40 Testing: ListRuntime.PushFront
+38/40 Test: ListRuntime.PushFront
+Command: "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_runtime_tests" "--gtest_filter=ListRuntime.PushFront"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListRuntime.PushFront" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ListRuntime.PushFront
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListRuntime
+[ RUN      ] ListRuntime.PushFront
+>> Evaluating runtime of ULListStr::push_front()
+Testing with 2^0 (1) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^1 (2) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^2 (4) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^3 (8) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^4 (16) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^5 (32) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^6 (64) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^7 (128) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^8 (256) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^9 (512) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^10 (1024) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^11 (2048) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^12 (4096) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^13 (8192) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^14 (16384) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^15 (32768) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^16 (65536) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^17 (131072) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^18 (262144) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing if time complexity could be linear...
+Correlation factor (0.2091) is < threshold (1.4000)
+Testing if time complexity could be constant...
+Correlation factor (2.0808) is >= threshold (1.4000)
+>> Time complexity of ULListStr::push_front() is likely constant
+Testing if time complexity could be logarithmic...
+Correlation factor (0.4847) is < threshold (1.4000)
+Testing if time complexity could be linearithmic...
+Correlation factor (-0.2708) is < threshold (1.4000)
+Testing if time complexity could be quadratic...
+Correlation factor (0.0794) is < threshold (1.4000)
+Testing if time complexity could be cubic...
+Correlation factor (0.0518) is < threshold (1.4000)
+[       OK ] ListRuntime.PushFront (955 ms)
+[----------] 1 test from ListRuntime (955 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (955 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.96 sec
+----------------------------------------------------------
+Test Passed.
+"ListRuntime.PushFront" end time: Feb 11 16:18 PST
+"ListRuntime.PushFront" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/40 Testing: ListRuntime.PopFront
+39/40 Test: ListRuntime.PopFront
+Command: "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_runtime_tests" "--gtest_filter=ListRuntime.PopFront"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListRuntime.PopFront" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ListRuntime.PopFront
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListRuntime
+[ RUN      ] ListRuntime.PopFront
+>> Evaluating runtime of ULListStr::pop_front()
+Testing with 2^0 (1) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^1 (2) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^2 (4) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^3 (8) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^4 (16) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^5 (32) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^6 (64) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^7 (128) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^8 (256) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^9 (512) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^10 (1024) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^11 (2048) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^12 (4096) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^13 (8192) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^14 (16384) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^15 (32768) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^16 (65536) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^17 (131072) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^18 (262144) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing if time complexity could be linear...
+Correlation factor (0.2367) is < threshold (1.4000)
+Testing if time complexity could be constant...
+Correlation factor (1.9190) is >= threshold (1.4000)
+>> Time complexity of ULListStr::pop_front() is likely constant
+Testing if time complexity could be logarithmic...
+Correlation factor (0.5329) is < threshold (1.4000)
+Testing if time complexity could be linearithmic...
+Correlation factor (-0.2882) is < threshold (1.4000)
+Testing if time complexity could be quadratic...
+Correlation factor (0.0896) is < threshold (1.4000)
+Testing if time complexity could be cubic...
+Correlation factor (0.0569) is < threshold (1.4000)
+[       OK ] ListRuntime.PopFront (957 ms)
+[----------] 1 test from ListRuntime (957 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (957 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.96 sec
+----------------------------------------------------------
+Test Passed.
+"ListRuntime.PopFront" end time: Feb 11 16:18 PST
+"ListRuntime.PopFront" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/40 Testing: ListRuntime.PopBack
+40/40 Test: ListRuntime.PopBack
+Command: "/home/cs104/cs104hw/hw-jesalisb/hw3/hw3_check/unrolledlist_tests/unrolledlist_runtime_tests" "--gtest_filter=ListRuntime.PopBack"
+Directory: /home/cs104/cs104hw/hw-jesalisb/hw2/unrolledlist_tests
+"ListRuntime.PopBack" start time: Feb 11 16:18 PST
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = ListRuntime.PopBack
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from ListRuntime
+[ RUN      ] ListRuntime.PopBack
+>> Evaluating runtime of ULListStr::pop_back()
+Testing with 2^0 (1) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^1 (2) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^2 (4) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^3 (8) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^4 (16) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^5 (32) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^6 (64) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^7 (128) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^8 (256) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^9 (512) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^10 (1024) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^11 (2048) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^12 (4096) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^13 (8192) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^14 (16384) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^15 (32768) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^16 (65536) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^17 (131072) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing with 2^18 (262144) elements (trial 1/30)2/30)3/30)4/30)5/30)6/30)7/30)8/30)9/30)10/30)11/30)12/30)13/30)14/30)15/30)16/30)17/30)18/30)19/30)20/30)21/30)22/30)23/30)24/30)25/30)26/30)27/30)28/30)29/30)30/30)
+Testing if time complexity could be linear...
+Correlation factor (0.2035) is < threshold (1.4000)
+Testing if time complexity could be constant...
+Correlation factor (2.0076) is >= threshold (1.4000)
+>> Time complexity of ULListStr::pop_back() is likely constant
+Testing if time complexity could be logarithmic...
+Correlation factor (0.4524) is < threshold (1.4000)
+Testing if time complexity could be linearithmic...
+Correlation factor (-0.2919) is < threshold (1.4000)
+Testing if time complexity could be quadratic...
+Correlation factor (0.0762) is < threshold (1.4000)
+Testing if time complexity could be cubic...
+Correlation factor (0.0519) is < threshold (1.4000)
+[       OK ] ListRuntime.PopBack (954 ms)
+[----------] 1 test from ListRuntime (954 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (954 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.96 sec
+----------------------------------------------------------
+Test Passed.
+"ListRuntime.PopBack" end time: Feb 11 16:18 PST
+"ListRuntime.PopBack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 11 16:18 PST
