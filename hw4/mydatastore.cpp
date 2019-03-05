@@ -4,6 +4,20 @@
 
 using namespace std;
 
+MyDataStore::~MyDataStore()
+{
+	set<Product*>::iterator it;
+	for(it = products.begin(); it != products.end(); ++it)
+	{
+		delete *it;
+	}
+	set<User*>::iterator it2;
+	for(it2 = users.begin();it2 != users.end(); ++it2)
+	{
+		delete *it2;
+	}
+}
+
 void MyDataStore::addProduct(Product* p)
 {
 	set<string> keys = p->keywords();
