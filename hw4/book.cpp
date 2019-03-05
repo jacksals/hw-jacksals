@@ -27,7 +27,7 @@ set<string> Book::keywords() const
 }
 bool Book::isMatch(vector<string>& searchTerms) const
 {
-	
+	return false;
 }
 //create string that contains product info
 std::string Book::displayString() const

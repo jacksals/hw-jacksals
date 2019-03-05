@@ -25,7 +25,7 @@ set<string> Clothing::keywords() const
 }
 bool Clothing::isMatch(vector<string>& searchTerms) const
 {
-	
+	return false;
 }
 //create string that contains product info
 std::string Clothing::displayString() const
