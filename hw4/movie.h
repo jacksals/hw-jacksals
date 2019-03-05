@@ -6,7 +6,8 @@
 class Movie : public Product {
 
 public: 
-	Movie(std::string name, double price, int qty, std::string rating,std::string genre);
+	Movie(std::string name, double price, int qty, 
+		std::string rating,std::string genre);
 	std::set<std::string> keywords() const;
 	bool isMatch(std::vector<std::string>& searchTerms) const;
 	std::string displayString() const;

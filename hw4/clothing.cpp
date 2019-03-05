@@ -6,7 +6,8 @@
 
 using namespace std;
 
-Clothing::Clothing(string name, double price, int qty, string size ,string brand, set<string> keywords):Product("clothing", name, price, qty)
+Clothing::Clothing(string name, double price, int qty, string size ,
+	string brand, set<string> keywords):Product("clothing", name, price, qty)
 {
 	cBrand = brand;
 	cSize = size;

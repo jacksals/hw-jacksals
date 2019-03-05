@@ -8,7 +8,8 @@
 class Book : public Product {
 
 public: 
-	Book(std::string name, double price, int qty, std::string isbn, std::string author, std::set<std::string> );
+	Book(std::string name, double price, int qty, std::string isbn, 
+		std::string author, std::set<std::string> );
 	std::set<std::string> keywords() const;
 	bool isMatch(std::vector<std::string>& searchTerms) const;
 	std::string displayString() const;

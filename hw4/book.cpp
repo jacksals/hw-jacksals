@@ -6,7 +6,8 @@
 
 using namespace std;
 
-Book::Book(string name, double price, int qty, string isbn ,string author, set<string> keywords):Product("book", name, price, qty)
+Book::Book(string name, double price, int qty, string isbn ,
+	string author, set<string> keywords):Product("book", name, price, qty)
 {
 	bAuthor = author;
 	bIsbn = isbn;

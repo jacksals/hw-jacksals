@@ -6,7 +6,8 @@
 
 using namespace std;
 
-Movie::Movie(string name, double price, int qty, string rating ,string genre):Product("movie", name, price, qty)
+Movie::Movie(string name, double price, int qty, string rating ,
+	string genre):Product("movie", name, price, qty)
 {
 	mRating = rating;
 	mGenre = genre;

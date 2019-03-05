@@ -20,7 +20,8 @@ public:
 	void buycart(std::string buy_username);
 	void viewcart(std::string view_user);
 
-	void addcart(std::string username, int search_hit_number, std::vector<Product*> hits);
+	void addcart(std::string username, int search_hit_number, 
+		std::vector<Product*> hits);
 
 private:
 	//use either set with pointers to users or map with user name and value
