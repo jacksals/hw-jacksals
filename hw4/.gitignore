@@ -9,4 +9,4 @@ product_parser.o
 user.o
 util.o
 mydatastore.o
-mydatabase.txt
+database.txt
