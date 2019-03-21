@@ -279,7 +279,7 @@ void MyDataStore::addReview(const string& prodName, int rating,
 	set<Product*>::iterator it;
 	for(it = products.begin();it != products.end(); ++it)
 	{
-		if((*it)->getName() == prodName) /////////////////will prodName be lowercase? possibly use search
+		if((*it)->getName() == prodName)
 		{
 			Review* r = new Review(rating, username, date, review_text);
 			(*it)->addRev(r);

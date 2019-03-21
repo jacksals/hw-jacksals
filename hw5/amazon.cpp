@@ -196,8 +196,6 @@ int main(int argc, char* argv[])
                 username = "";
             }
             else if(cmd == "ADD") {
-                // string username;
-                // ss >> username;
                 if(username == "")
                 {
                     cout << "No current user" << endl;
@@ -208,8 +206,6 @@ int main(int argc, char* argv[])
                 ds.addcart(username, search_hit_number, hits);
             }
             else if (cmd == "VIEWCART") {
-                // string view_user;
-                // ss >> view_user;
                 if(username == "")
                 {
                     cout << "No current user" << endl;
@@ -217,8 +213,6 @@ int main(int argc, char* argv[])
                 ds.viewcart(username);
             }
             else if (cmd == "BUYCART") {
-                // string buy_username;
-                // ss >> buy_username;
                 if(username == "")
                 {
                     cout << "No current user" << endl;
