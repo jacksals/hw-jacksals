@@ -58,6 +58,7 @@ std::string Book::displayString() const
 //outputs the database format of the product info
 void Book::dump(ostream& os) const
 {
+	os << "book" << endl;
 	os << Product::getName() << endl;
 	os << Product::getPrice() << endl;
 	os << Product::getQty() << endl;

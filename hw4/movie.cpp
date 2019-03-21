@@ -52,6 +52,7 @@ std::string Movie::displayString() const
 //outputs the database format of the product info
 void Movie::dump(ostream& os) const
 {
+	os << "movie" << endl;
 	os << this->getName() << endl;
 	os << this->getPrice() << endl;
 	os << this->getQty() << endl;

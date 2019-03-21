@@ -56,6 +56,7 @@ std::string Clothing::displayString() const
 //outputs the database format of the product info
 void Clothing::dump(ostream& os) const
 {
+	os << "clothing" << endl;
 	os << this->getName() << endl;
 	os << this->getPrice() << endl;
 	os << this->getQty() << endl;

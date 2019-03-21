@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+ef463816c1c54c38392ff03e2d062795 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon
+ce15e0b6b825d79aab4e5f5698393551 CMakeFiles/check
+46d35de00770a9b86c603257d796a570 amazon_tests/CMakeFiles/run_make_amazon
