@@ -1,2 +1,13 @@
 test.cpp
 output.txt
+book.o
+movie.o
+clothing.o
+db_parser.o
+amazon.o
+product.o
+product_parser.o
+user.o
+util.o
+mydatastore.o
+database.txt
