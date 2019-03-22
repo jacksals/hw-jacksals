@@ -21,7 +21,8 @@ MyDataStore::~MyDataStore()
 void MyDataStore::addProduct(Product* p)
 {
 	set<string> keys = p->keywords();
-	//iterate thru map to see if keyword already in map. If so, add to set corresponding to word
+	//iterate thru map to see if keyword already in map. 
+	//If so, add to set corresponding to words
 	set<string>::iterator it;
 	for(it = keys.begin();it != keys.end(); ++it)
 	{

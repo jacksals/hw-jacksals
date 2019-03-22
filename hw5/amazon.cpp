@@ -226,7 +226,8 @@ int main(int argc, char* argv[])
                 }
                 int search_hit_number;
                 ss >> search_hit_number;
-                if((unsigned)search_hit_number < 1 || (unsigned)search_hit_number > hits.size())
+                if((unsigned)search_hit_number < 1 || 
+                    (unsigned)search_hit_number > hits.size())
                 {
                     cout << "Invalid search hit number" << endl;
                     continue;
