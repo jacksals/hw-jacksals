@@ -1,10 +1,10 @@
-Start testing: Mar 21 14:15 PDT
+Start testing: Mar 31 18:08 PDT
 ----------------------------------------------------------
 1/35 Testing: DatabaseReadback.EmptyDatabase
 1/35 Test: DatabaseReadback.EmptyDatabase
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=DatabaseReadback.EmptyDatabase"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"DatabaseReadback.EmptyDatabase" start time: Mar 21 14:15 PDT
+"DatabaseReadback.EmptyDatabase" start time: Mar 31 18:08 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -17,17 +17,17 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/EmptyDatabase/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/EmptyDatabase/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/EmptyDatabase/output.txt
-[       OK ] DatabaseReadback.EmptyDatabase (789 ms)
-[----------] 1 test from DatabaseReadback (789 ms total)
+[       OK ] DatabaseReadback.EmptyDatabase (924 ms)
+[----------] 1 test from DatabaseReadback (924 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (789 ms total)
+[==========] 1 test from 1 test case ran. (924 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.79 sec
+Test time =   0.95 sec
 ----------------------------------------------------------
 Test Passed.
-"DatabaseReadback.EmptyDatabase" end time: Mar 21 14:15 PDT
+"DatabaseReadback.EmptyDatabase" end time: Mar 31 18:08 PDT
 "DatabaseReadback.EmptyDatabase" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -35,7 +35,7 @@ Test Passed.
 2/35 Test: DatabaseReadback.Book
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=DatabaseReadback.Book"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"DatabaseReadback.Book" start time: Mar 21 14:15 PDT
+"DatabaseReadback.Book" start time: Mar 31 18:08 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -48,17 +48,17 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/Book/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/Book/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/Book/output.txt
-[       OK ] DatabaseReadback.Book (896 ms)
-[----------] 1 test from DatabaseReadback (896 ms total)
+[       OK ] DatabaseReadback.Book (920 ms)
+[----------] 1 test from DatabaseReadback (920 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (896 ms total)
+[==========] 1 test from 1 test case ran. (920 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.90 sec
+Test time =   0.92 sec
 ----------------------------------------------------------
 Test Passed.
-"DatabaseReadback.Book" end time: Mar 21 14:15 PDT
+"DatabaseReadback.Book" end time: Mar 31 18:08 PDT
 "DatabaseReadback.Book" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -66,7 +66,7 @@ Test Passed.
 3/35 Test: DatabaseReadback.Clothing
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=DatabaseReadback.Clothing"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"DatabaseReadback.Clothing" start time: Mar 21 14:15 PDT
+"DatabaseReadback.Clothing" start time: Mar 31 18:08 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -79,17 +79,17 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/Clothing/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/Clothing/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/Clothing/output.txt
-[       OK ] DatabaseReadback.Clothing (884 ms)
-[----------] 1 test from DatabaseReadback (884 ms total)
+[       OK ] DatabaseReadback.Clothing (889 ms)
+[----------] 1 test from DatabaseReadback (889 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (884 ms total)
+[==========] 1 test from 1 test case ran. (889 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.89 sec
 ----------------------------------------------------------
 Test Passed.
-"DatabaseReadback.Clothing" end time: Mar 21 14:15 PDT
+"DatabaseReadback.Clothing" end time: Mar 31 18:08 PDT
 "DatabaseReadback.Clothing" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -97,7 +97,7 @@ Test Passed.
 4/35 Test: DatabaseReadback.Movie
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=DatabaseReadback.Movie"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"DatabaseReadback.Movie" start time: Mar 21 14:15 PDT
+"DatabaseReadback.Movie" start time: Mar 31 18:08 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -110,17 +110,17 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/Movie/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/Movie/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/Movie/output.txt
-[       OK ] DatabaseReadback.Movie (879 ms)
-[----------] 1 test from DatabaseReadback (879 ms total)
+[       OK ] DatabaseReadback.Movie (969 ms)
+[----------] 1 test from DatabaseReadback (969 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (879 ms total)
+[==========] 1 test from 1 test case ran. (969 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.88 sec
+Test time =   0.97 sec
 ----------------------------------------------------------
 Test Passed.
-"DatabaseReadback.Movie" end time: Mar 21 14:15 PDT
+"DatabaseReadback.Movie" end time: Mar 31 18:08 PDT
 "DatabaseReadback.Movie" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -128,7 +128,7 @@ Test Passed.
 5/35 Test: DatabaseReadback.User
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=DatabaseReadback.User"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"DatabaseReadback.User" start time: Mar 21 14:15 PDT
+"DatabaseReadback.User" start time: Mar 31 18:08 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -141,17 +141,17 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/User/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/User/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/User/output.txt
-[       OK ] DatabaseReadback.User (856 ms)
-[----------] 1 test from DatabaseReadback (856 ms total)
+[       OK ] DatabaseReadback.User (969 ms)
+[----------] 1 test from DatabaseReadback (969 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (856 ms total)
+[==========] 1 test from 1 test case ran. (969 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.86 sec
+Test time =   0.97 sec
 ----------------------------------------------------------
 Test Passed.
-"DatabaseReadback.User" end time: Mar 21 14:15 PDT
+"DatabaseReadback.User" end time: Mar 31 18:08 PDT
 "DatabaseReadback.User" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -159,7 +159,7 @@ Test Passed.
 6/35 Test: DatabaseReadback.Mixed
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=DatabaseReadback.Mixed"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"DatabaseReadback.Mixed" start time: Mar 21 14:15 PDT
+"DatabaseReadback.Mixed" start time: Mar 31 18:08 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -172,17 +172,17 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/Mixed/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/Mixed/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/Mixed/output.txt
-[       OK ] DatabaseReadback.Mixed (958 ms)
-[----------] 1 test from DatabaseReadback (958 ms total)
+[       OK ] DatabaseReadback.Mixed (982 ms)
+[----------] 1 test from DatabaseReadback (982 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (958 ms total)
+[==========] 1 test from 1 test case ran. (982 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.96 sec
+Test time =   0.98 sec
 ----------------------------------------------------------
 Test Passed.
-"DatabaseReadback.Mixed" end time: Mar 21 14:15 PDT
+"DatabaseReadback.Mixed" end time: Mar 31 18:08 PDT
 "DatabaseReadback.Mixed" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -190,7 +190,7 @@ Test Passed.
 7/35 Test: ConsoleInterface.Quit
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=ConsoleInterface.Quit"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"ConsoleInterface.Quit" start time: Mar 21 14:15 PDT
+"ConsoleInterface.Quit" start time: Mar 31 18:08 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -203,25 +203,25 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/Quit/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/Quit/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/Quit/output.txt
-[       OK ] ConsoleInterface.Quit (990 ms)
-[----------] 1 test from ConsoleInterface (990 ms total)
+[       OK ] ConsoleInterface.Quit (1419 ms)
+[----------] 1 test from ConsoleInterface (1419 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (990 ms total)
+[==========] 1 test from 1 test case ran. (1419 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.99 sec
+Test time =   1.42 sec
 ----------------------------------------------------------
 Test Passed.
-"ConsoleInterface.Quit" end time: Mar 21 14:15 PDT
-"ConsoleInterface.Quit" time elapsed: 00:00:00
+"ConsoleInterface.Quit" end time: Mar 31 18:08 PDT
+"ConsoleInterface.Quit" time elapsed: 00:00:01
 ----------------------------------------------------------
 
 8/35 Testing: ConsoleInterface.HitBook
 8/35 Test: ConsoleInterface.HitBook
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=ConsoleInterface.HitBook"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"ConsoleInterface.HitBook" start time: Mar 21 14:15 PDT
+"ConsoleInterface.HitBook" start time: Mar 31 18:08 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -234,25 +234,25 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/HitBook/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/HitBook/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/HitBook/output.txt
-[       OK ] ConsoleInterface.HitBook (935 ms)
-[----------] 1 test from ConsoleInterface (935 ms total)
+[       OK ] ConsoleInterface.HitBook (1701 ms)
+[----------] 1 test from ConsoleInterface (1701 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (935 ms total)
+[==========] 1 test from 1 test case ran. (1702 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.94 sec
+Test time =   1.71 sec
 ----------------------------------------------------------
 Test Passed.
-"ConsoleInterface.HitBook" end time: Mar 21 14:15 PDT
-"ConsoleInterface.HitBook" time elapsed: 00:00:00
+"ConsoleInterface.HitBook" end time: Mar 31 18:08 PDT
+"ConsoleInterface.HitBook" time elapsed: 00:00:01
 ----------------------------------------------------------
 
 9/35 Testing: ConsoleInterface.HitClothing
 9/35 Test: ConsoleInterface.HitClothing
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=ConsoleInterface.HitClothing"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"ConsoleInterface.HitClothing" start time: Mar 21 14:15 PDT
+"ConsoleInterface.HitClothing" start time: Mar 31 18:08 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -265,25 +265,25 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/HitClothing/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/HitClothing/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/HitClothing/output.txt
-[       OK ] ConsoleInterface.HitClothing (969 ms)
-[----------] 1 test from ConsoleInterface (969 ms total)
+[       OK ] ConsoleInterface.HitClothing (1166 ms)
+[----------] 1 test from ConsoleInterface (1166 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (969 ms total)
+[==========] 1 test from 1 test case ran. (1166 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.97 sec
+Test time =   1.17 sec
 ----------------------------------------------------------
 Test Passed.
-"ConsoleInterface.HitClothing" end time: Mar 21 14:15 PDT
-"ConsoleInterface.HitClothing" time elapsed: 00:00:00
+"ConsoleInterface.HitClothing" end time: Mar 31 18:08 PDT
+"ConsoleInterface.HitClothing" time elapsed: 00:00:01
 ----------------------------------------------------------
 
 10/35 Testing: ConsoleInterface.HitMovie
 10/35 Test: ConsoleInterface.HitMovie
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=ConsoleInterface.HitMovie"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"ConsoleInterface.HitMovie" start time: Mar 21 14:15 PDT
+"ConsoleInterface.HitMovie" start time: Mar 31 18:08 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -296,25 +296,25 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/HitMovie/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/HitMovie/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/HitMovie/output.txt
-[       OK ] ConsoleInterface.HitMovie (974 ms)
-[----------] 1 test from ConsoleInterface (974 ms total)
+[       OK ] ConsoleInterface.HitMovie (1051 ms)
+[----------] 1 test from ConsoleInterface (1051 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (974 ms total)
+[==========] 1 test from 1 test case ran. (1051 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.98 sec
+Test time =   1.05 sec
 ----------------------------------------------------------
 Test Passed.
-"ConsoleInterface.HitMovie" end time: Mar 21 14:15 PDT
-"ConsoleInterface.HitMovie" time elapsed: 00:00:00
+"ConsoleInterface.HitMovie" end time: Mar 31 18:08 PDT
+"ConsoleInterface.HitMovie" time elapsed: 00:00:01
 ----------------------------------------------------------
 
 11/35 Testing: ConsoleInterface.CaseInsensitive
 11/35 Test: ConsoleInterface.CaseInsensitive
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=ConsoleInterface.CaseInsensitive"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"ConsoleInterface.CaseInsensitive" start time: Mar 21 14:15 PDT
+"ConsoleInterface.CaseInsensitive" start time: Mar 31 18:08 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -327,25 +327,25 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/CaseInsensitive/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/CaseInsensitive/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/CaseInsensitive/output.txt
-[       OK ] ConsoleInterface.CaseInsensitive (972 ms)
-[----------] 1 test from ConsoleInterface (972 ms total)
+[       OK ] ConsoleInterface.CaseInsensitive (1044 ms)
+[----------] 1 test from ConsoleInterface (1044 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (972 ms total)
+[==========] 1 test from 1 test case ran. (1044 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.97 sec
+Test time =   1.05 sec
 ----------------------------------------------------------
 Test Passed.
-"ConsoleInterface.CaseInsensitive" end time: Mar 21 14:15 PDT
-"ConsoleInterface.CaseInsensitive" time elapsed: 00:00:00
+"ConsoleInterface.CaseInsensitive" end time: Mar 31 18:08 PDT
+"ConsoleInterface.CaseInsensitive" time elapsed: 00:00:01
 ----------------------------------------------------------
 
 12/35 Testing: ConsoleInterface.HugeQuantity
 12/35 Test: ConsoleInterface.HugeQuantity
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=ConsoleInterface.HugeQuantity"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"ConsoleInterface.HugeQuantity" start time: Mar 21 14:15 PDT
+"ConsoleInterface.HugeQuantity" start time: Mar 31 18:08 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -358,17 +358,17 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/HugeQuantity/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/HugeQuantity/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/HugeQuantity/output.txt
-[       OK ] ConsoleInterface.HugeQuantity (992 ms)
-[----------] 1 test from ConsoleInterface (992 ms total)
+[       OK ] ConsoleInterface.HugeQuantity (985 ms)
+[----------] 1 test from ConsoleInterface (985 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (992 ms total)
+[==========] 1 test from 1 test case ran. (985 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.99 sec
 ----------------------------------------------------------
 Test Passed.
-"ConsoleInterface.HugeQuantity" end time: Mar 21 14:15 PDT
+"ConsoleInterface.HugeQuantity" end time: Mar 31 18:08 PDT
 "ConsoleInterface.HugeQuantity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -376,7 +376,7 @@ Test Passed.
 13/35 Test: ConsoleInterface.AddOneToCart
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=ConsoleInterface.AddOneToCart"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"ConsoleInterface.AddOneToCart" start time: Mar 21 14:15 PDT
+"ConsoleInterface.AddOneToCart" start time: Mar 31 18:08 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -398,29 +398,29 @@ Value of: solutionConsole.CompareCart(studentConsole)
 }],
  actual: [])
 Expected: true
-[  FAILED  ] ConsoleInterface.AddOneToCart (986 ms)
-[----------] 1 test from ConsoleInterface (986 ms total)
+[  FAILED  ] ConsoleInterface.AddOneToCart (1054 ms)
+[----------] 1 test from ConsoleInterface (1054 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (986 ms total)
+[==========] 1 test from 1 test case ran. (1054 ms total)
 [  PASSED  ] 0 tests.
 [  FAILED  ] 1 test, listed below:
 [  FAILED  ] ConsoleInterface.AddOneToCart
 
  1 FAILED TEST
 <end of output>
-Test time =   0.99 sec
+Test time =   1.06 sec
 ----------------------------------------------------------
 Test Failed.
-"ConsoleInterface.AddOneToCart" end time: Mar 21 14:15 PDT
-"ConsoleInterface.AddOneToCart" time elapsed: 00:00:00
+"ConsoleInterface.AddOneToCart" end time: Mar 31 18:09 PDT
+"ConsoleInterface.AddOneToCart" time elapsed: 00:00:01
 ----------------------------------------------------------
 
 14/35 Testing: Database.BuyCart
 14/35 Test: Database.BuyCart
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=Database.BuyCart"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"Database.BuyCart" start time: Mar 21 14:15 PDT
+"Database.BuyCart" start time: Mar 31 18:09 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -433,17 +433,17 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/BuyCart/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/BuyCart/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/BuyCart/output.txt
-[       OK ] Database.BuyCart (1008 ms)
-[----------] 1 test from Database (1008 ms total)
+[       OK ] Database.BuyCart (1037 ms)
+[----------] 1 test from Database (1037 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (1009 ms total)
+[==========] 1 test from 1 test case ran. (1037 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   1.01 sec
+Test time =   1.04 sec
 ----------------------------------------------------------
 Test Passed.
-"Database.BuyCart" end time: Mar 21 14:15 PDT
+"Database.BuyCart" end time: Mar 31 18:09 PDT
 "Database.BuyCart" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -451,7 +451,7 @@ Test Passed.
 15/35 Test: DatabaseReadback.ThreeBooks
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=DatabaseReadback.ThreeBooks"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"DatabaseReadback.ThreeBooks" start time: Mar 21 14:15 PDT
+"DatabaseReadback.ThreeBooks" start time: Mar 31 18:09 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -464,25 +464,25 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/ThreeBooks/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/ThreeBooks/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/ThreeBooks/output.txt
-[       OK ] DatabaseReadback.ThreeBooks (932 ms)
-[----------] 1 test from DatabaseReadback (932 ms total)
+[       OK ] DatabaseReadback.ThreeBooks (1001 ms)
+[----------] 1 test from DatabaseReadback (1001 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (932 ms total)
+[==========] 1 test from 1 test case ran. (1001 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.93 sec
+Test time =   1.00 sec
 ----------------------------------------------------------
 Test Passed.
-"DatabaseReadback.ThreeBooks" end time: Mar 21 14:15 PDT
-"DatabaseReadback.ThreeBooks" time elapsed: 00:00:00
+"DatabaseReadback.ThreeBooks" end time: Mar 31 18:09 PDT
+"DatabaseReadback.ThreeBooks" time elapsed: 00:00:01
 ----------------------------------------------------------
 
 16/35 Testing: DatabaseReadback.ThreeClothes
 16/35 Test: DatabaseReadback.ThreeClothes
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=DatabaseReadback.ThreeClothes"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"DatabaseReadback.ThreeClothes" start time: Mar 21 14:15 PDT
+"DatabaseReadback.ThreeClothes" start time: Mar 31 18:09 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -495,25 +495,25 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/ThreeClothes/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/ThreeClothes/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/ThreeClothes/output.txt
-[       OK ] DatabaseReadback.ThreeClothes (932 ms)
-[----------] 1 test from DatabaseReadback (932 ms total)
+[       OK ] DatabaseReadback.ThreeClothes (1020 ms)
+[----------] 1 test from DatabaseReadback (1020 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (932 ms total)
+[==========] 1 test from 1 test case ran. (1020 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.93 sec
+Test time =   1.02 sec
 ----------------------------------------------------------
 Test Passed.
-"DatabaseReadback.ThreeClothes" end time: Mar 21 14:15 PDT
-"DatabaseReadback.ThreeClothes" time elapsed: 00:00:00
+"DatabaseReadback.ThreeClothes" end time: Mar 31 18:09 PDT
+"DatabaseReadback.ThreeClothes" time elapsed: 00:00:01
 ----------------------------------------------------------
 
 17/35 Testing: DatabaseReadback.ThreeMovies
 17/35 Test: DatabaseReadback.ThreeMovies
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=DatabaseReadback.ThreeMovies"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"DatabaseReadback.ThreeMovies" start time: Mar 21 14:15 PDT
+"DatabaseReadback.ThreeMovies" start time: Mar 31 18:09 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -526,17 +526,17 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/ThreeMovies/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/ThreeMovies/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/ThreeMovies/output.txt
-[       OK ] DatabaseReadback.ThreeMovies (934 ms)
-[----------] 1 test from DatabaseReadback (934 ms total)
+[       OK ] DatabaseReadback.ThreeMovies (978 ms)
+[----------] 1 test from DatabaseReadback (978 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (934 ms total)
+[==========] 1 test from 1 test case ran. (979 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.94 sec
+Test time =   0.98 sec
 ----------------------------------------------------------
 Test Passed.
-"DatabaseReadback.ThreeMovies" end time: Mar 21 14:15 PDT
+"DatabaseReadback.ThreeMovies" end time: Mar 31 18:09 PDT
 "DatabaseReadback.ThreeMovies" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -544,7 +544,7 @@ Test Passed.
 18/35 Test: ConsoleInterface.AddTwoItems
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=ConsoleInterface.AddTwoItems"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"ConsoleInterface.AddTwoItems" start time: Mar 21 14:15 PDT
+"ConsoleInterface.AddTwoItems" start time: Mar 31 18:09 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -570,21 +570,21 @@ Value of: solutionConsole.CompareCart(studentConsole)
 }],
  actual: [])
 Expected: true
-[  FAILED  ] ConsoleInterface.AddTwoItems (1078 ms)
-[----------] 1 test from ConsoleInterface (1078 ms total)
+[  FAILED  ] ConsoleInterface.AddTwoItems (1102 ms)
+[----------] 1 test from ConsoleInterface (1102 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (1078 ms total)
+[==========] 1 test from 1 test case ran. (1102 ms total)
 [  PASSED  ] 0 tests.
 [  FAILED  ] 1 test, listed below:
 [  FAILED  ] ConsoleInterface.AddTwoItems
 
  1 FAILED TEST
 <end of output>
-Test time =   1.08 sec
+Test time =   1.10 sec
 ----------------------------------------------------------
 Test Failed.
-"ConsoleInterface.AddTwoItems" end time: Mar 21 14:15 PDT
+"ConsoleInterface.AddTwoItems" end time: Mar 31 18:09 PDT
 "ConsoleInterface.AddTwoItems" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -592,7 +592,7 @@ Test Failed.
 19/35 Test: ConsoleInterface.AddTwoIdenticalItems
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=ConsoleInterface.AddTwoIdenticalItems"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"ConsoleInterface.AddTwoIdenticalItems" start time: Mar 21 14:15 PDT
+"ConsoleInterface.AddTwoIdenticalItems" start time: Mar 31 18:09 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -618,21 +618,21 @@ Value of: solutionConsole.CompareCart(studentConsole)
 }],
  actual: [])
 Expected: true
-[  FAILED  ] ConsoleInterface.AddTwoIdenticalItems (1045 ms)
-[----------] 1 test from ConsoleInterface (1045 ms total)
+[  FAILED  ] ConsoleInterface.AddTwoIdenticalItems (1099 ms)
+[----------] 1 test from ConsoleInterface (1099 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (1045 ms total)
+[==========] 1 test from 1 test case ran. (1099 ms total)
 [  PASSED  ] 0 tests.
 [  FAILED  ] 1 test, listed below:
 [  FAILED  ] ConsoleInterface.AddTwoIdenticalItems
 
  1 FAILED TEST
 <end of output>
-Test time =   1.05 sec
+Test time =   1.10 sec
 ----------------------------------------------------------
 Test Failed.
-"ConsoleInterface.AddTwoIdenticalItems" end time: Mar 21 14:15 PDT
+"ConsoleInterface.AddTwoIdenticalItems" end time: Mar 31 18:09 PDT
 "ConsoleInterface.AddTwoIdenticalItems" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -640,7 +640,7 @@ Test Failed.
 20/35 Test: Database.BuyCartTwoItems
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=Database.BuyCartTwoItems"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"Database.BuyCartTwoItems" start time: Mar 21 14:15 PDT
+"Database.BuyCartTwoItems" start time: Mar 31 18:09 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -653,102 +653,102 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/BuyCartTwoItems/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/BuyCartTwoItems/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/BuyCartTwoItems/output.txt
-==30685== Invalid read of size 8
-==30685==    at 0x4C32160: memcpy@GLIBC_2.2.5 (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
-==30685==    by 0x418AE7: Product** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<Product*>(Product* const*, Product* const*, Product**) (stl_algobase.h:384)
-==30685==    by 0x418616: Product** std::__copy_move_a<true, Product**, Product**>(Product**, Product**, Product**) (stl_algobase.h:402)
-==30685==    by 0x4181E3: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::__copy_move_a2<true, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:438)
-==30685==    by 0x417846: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::move<__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:504)
-==30685==    by 0x415DAA: std::vector<Product*, std::allocator<Product*> >::_M_erase(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (vector.tcc:145)
-==30685==    by 0x4144EA: std::vector<Product*, std::allocator<Product*> >::erase(__gnu_cxx::__normal_iterator<Product* const*, std::vector<Product*, std::allocator<Product*> > >) (stl_vector.h:1147)
-==30685==    by 0x412DBE: MyDataStore::buycart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (mydatastore.cpp:182)
-==30685==    by 0x403452: main (amazon.cpp:121)
-==30685==  Address 0x5ac31e0 is 0 bytes after a block of size 16 alloc'd
-==30685==    at 0x4C2E17F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
-==30685==    by 0x406D0F: __gnu_cxx::new_allocator<Product*>::allocate(unsigned long, void const*) (new_allocator.h:104)
-==30685==    by 0x4064C0: std::allocator_traits<std::allocator<Product*> >::allocate(std::allocator<Product*>&, unsigned long) (alloc_traits.h:491)
-==30685==    by 0x405D71: std::_Vector_base<Product*, std::allocator<Product*> >::_M_allocate(unsigned long) (stl_vector.h:170)
-==30685==    by 0x4158AF: void std::vector<Product*, std::allocator<Product*> >::_M_emplace_back_aux<Product* const&>(Product* const&) (vector.tcc:412)
-==30685==    by 0x413FFE: std::vector<Product*, std::allocator<Product*> >::push_back(Product* const&) (stl_vector.h:923)
-==30685==    by 0x4131E4: MyDataStore::addcart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::vector<Product*, std::allocator<Product*> >) (mydatastore.cpp:233)
-==30685==    by 0x403319: main (amazon.cpp:111)
-==30685== 
-==30685== Invalid write of size 8
-==30685==    at 0x4C32163: memcpy@GLIBC_2.2.5 (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
-==30685==    by 0x418AE7: Product** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<Product*>(Product* const*, Product* const*, Product**) (stl_algobase.h:384)
-==30685==    by 0x418616: Product** std::__copy_move_a<true, Product**, Product**>(Product**, Product**, Product**) (stl_algobase.h:402)
-==30685==    by 0x4181E3: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::__copy_move_a2<true, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:438)
-==30685==    by 0x417846: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::move<__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:504)
-==30685==    by 0x415DAA: std::vector<Product*, std::allocator<Product*> >::_M_erase(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (vector.tcc:145)
-==30685==    by 0x4144EA: std::vector<Product*, std::allocator<Product*> >::erase(__gnu_cxx::__normal_iterator<Product* const*, std::vector<Product*, std::allocator<Product*> > >) (stl_vector.h:1147)
-==30685==    by 0x412DBE: MyDataStore::buycart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (mydatastore.cpp:182)
-==30685==    by 0x403452: main (amazon.cpp:121)
-==30685==  Address 0x5ac31e0 is 0 bytes after a block of size 16 alloc'd
-==30685==    at 0x4C2E17F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
-==30685==    by 0x406D0F: __gnu_cxx::new_allocator<Product*>::allocate(unsigned long, void const*) (new_allocator.h:104)
-==30685==    by 0x4064C0: std::allocator_traits<std::allocator<Product*> >::allocate(std::allocator<Product*>&, unsigned long) (alloc_traits.h:491)
-==30685==    by 0x405D71: std::_Vector_base<Product*, std::allocator<Product*> >::_M_allocate(unsigned long) (stl_vector.h:170)
-==30685==    by 0x4158AF: void std::vector<Product*, std::allocator<Product*> >::_M_emplace_back_aux<Product* const&>(Product* const&) (vector.tcc:412)
-==30685==    by 0x413FFE: std::vector<Product*, std::allocator<Product*> >::push_back(Product* const&) (stl_vector.h:923)
-==30685==    by 0x4131E4: MyDataStore::addcart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::vector<Product*, std::allocator<Product*> >) (mydatastore.cpp:233)
-==30685==    by 0x403319: main (amazon.cpp:111)
-==30685== 
-==30685== Invalid read of size 8
-==30685==    at 0x4C3216E: memcpy@GLIBC_2.2.5 (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
-==30685==    by 0x418AE7: Product** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<Product*>(Product* const*, Product* const*, Product**) (stl_algobase.h:384)
-==30685==    by 0x418616: Product** std::__copy_move_a<true, Product**, Product**>(Product**, Product**, Product**) (stl_algobase.h:402)
-==30685==    by 0x4181E3: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::__copy_move_a2<true, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:438)
-==30685==    by 0x417846: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::move<__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:504)
-==30685==    by 0x415DAA: std::vector<Product*, std::allocator<Product*> >::_M_erase(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (vector.tcc:145)
-==30685==    by 0x4144EA: std::vector<Product*, std::allocator<Product*> >::erase(__gnu_cxx::__normal_iterator<Product* const*, std::vector<Product*, std::allocator<Product*> > >) (stl_vector.h:1147)
-==30685==    by 0x412DBE: MyDataStore::buycart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (mydatastore.cpp:182)
-==30685==    by 0x403452: main (amazon.cpp:121)
-==30685==  Address 0x5ac31f0 is 16 bytes after a block of size 16 alloc'd
-==30685==    at 0x4C2E17F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
-==30685==    by 0x406D0F: __gnu_cxx::new_allocator<Product*>::allocate(unsigned long, void const*) (new_allocator.h:104)
-==30685==    by 0x4064C0: std::allocator_traits<std::allocator<Product*> >::allocate(std::allocator<Product*>&, unsigned long) (alloc_traits.h:491)
-==30685==    by 0x405D71: std::_Vector_base<Product*, std::allocator<Product*> >::_M_allocate(unsigned long) (stl_vector.h:170)
-==30685==    by 0x4158AF: void std::vector<Product*, std::allocator<Product*> >::_M_emplace_back_aux<Product* const&>(Product* const&) (vector.tcc:412)
-==30685==    by 0x413FFE: std::vector<Product*, std::allocator<Product*> >::push_back(Product* const&) (stl_vector.h:923)
-==30685==    by 0x4131E4: MyDataStore::addcart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::vector<Product*, std::allocator<Product*> >) (mydatastore.cpp:233)
-==30685==    by 0x403319: main (amazon.cpp:111)
-==30685== 
-==30685== 
-==30685== Process terminating with default action of signal 11 (SIGSEGV)
-==30685==  Access not within mapped region at address 0x5EA5000
-==30685==    at 0x4C3216E: memcpy@GLIBC_2.2.5 (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
-==30685==    by 0x418AE7: Product** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<Product*>(Product* const*, Product* const*, Product**) (stl_algobase.h:384)
-==30685==    by 0x418616: Product** std::__copy_move_a<true, Product**, Product**>(Product**, Product**, Product**) (stl_algobase.h:402)
-==30685==    by 0x4181E3: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::__copy_move_a2<true, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:438)
-==30685==    by 0x417846: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::move<__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:504)
-==30685==    by 0x415DAA: std::vector<Product*, std::allocator<Product*> >::_M_erase(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (vector.tcc:145)
-==30685==    by 0x4144EA: std::vector<Product*, std::allocator<Product*> >::erase(__gnu_cxx::__normal_iterator<Product* const*, std::vector<Product*, std::allocator<Product*> > >) (stl_vector.h:1147)
-==30685==    by 0x412DBE: MyDataStore::buycart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (mydatastore.cpp:182)
-==30685==    by 0x403452: main (amazon.cpp:121)
-==30685==  If you believe this happened as a result of a stack
-==30685==  overflow in your program's main thread (unlikely but
-==30685==  possible), you can try to increase the size of the
-==30685==  main thread stack using the --main-stacksize= flag.
-==30685==  The main thread stack size used in this run was 8388608.
+==5753== Invalid read of size 8
+==5753==    at 0x4C32160: memcpy@GLIBC_2.2.5 (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==5753==    by 0x418AE7: Product** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<Product*>(Product* const*, Product* const*, Product**) (stl_algobase.h:384)
+==5753==    by 0x418616: Product** std::__copy_move_a<true, Product**, Product**>(Product**, Product**, Product**) (stl_algobase.h:402)
+==5753==    by 0x4181E3: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::__copy_move_a2<true, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:438)
+==5753==    by 0x417846: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::move<__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:504)
+==5753==    by 0x415DAA: std::vector<Product*, std::allocator<Product*> >::_M_erase(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (vector.tcc:145)
+==5753==    by 0x4144EA: std::vector<Product*, std::allocator<Product*> >::erase(__gnu_cxx::__normal_iterator<Product* const*, std::vector<Product*, std::allocator<Product*> > >) (stl_vector.h:1147)
+==5753==    by 0x412DBE: MyDataStore::buycart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (mydatastore.cpp:182)
+==5753==    by 0x403452: main (amazon.cpp:121)
+==5753==  Address 0x5ac31e0 is 0 bytes after a block of size 16 alloc'd
+==5753==    at 0x4C2E17F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==5753==    by 0x406D0F: __gnu_cxx::new_allocator<Product*>::allocate(unsigned long, void const*) (new_allocator.h:104)
+==5753==    by 0x4064C0: std::allocator_traits<std::allocator<Product*> >::allocate(std::allocator<Product*>&, unsigned long) (alloc_traits.h:491)
+==5753==    by 0x405D71: std::_Vector_base<Product*, std::allocator<Product*> >::_M_allocate(unsigned long) (stl_vector.h:170)
+==5753==    by 0x4158AF: void std::vector<Product*, std::allocator<Product*> >::_M_emplace_back_aux<Product* const&>(Product* const&) (vector.tcc:412)
+==5753==    by 0x413FFE: std::vector<Product*, std::allocator<Product*> >::push_back(Product* const&) (stl_vector.h:923)
+==5753==    by 0x4131E4: MyDataStore::addcart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::vector<Product*, std::allocator<Product*> >) (mydatastore.cpp:233)
+==5753==    by 0x403319: main (amazon.cpp:111)
+==5753== 
+==5753== Invalid write of size 8
+==5753==    at 0x4C32163: memcpy@GLIBC_2.2.5 (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==5753==    by 0x418AE7: Product** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<Product*>(Product* const*, Product* const*, Product**) (stl_algobase.h:384)
+==5753==    by 0x418616: Product** std::__copy_move_a<true, Product**, Product**>(Product**, Product**, Product**) (stl_algobase.h:402)
+==5753==    by 0x4181E3: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::__copy_move_a2<true, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:438)
+==5753==    by 0x417846: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::move<__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:504)
+==5753==    by 0x415DAA: std::vector<Product*, std::allocator<Product*> >::_M_erase(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (vector.tcc:145)
+==5753==    by 0x4144EA: std::vector<Product*, std::allocator<Product*> >::erase(__gnu_cxx::__normal_iterator<Product* const*, std::vector<Product*, std::allocator<Product*> > >) (stl_vector.h:1147)
+==5753==    by 0x412DBE: MyDataStore::buycart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (mydatastore.cpp:182)
+==5753==    by 0x403452: main (amazon.cpp:121)
+==5753==  Address 0x5ac31e0 is 0 bytes after a block of size 16 alloc'd
+==5753==    at 0x4C2E17F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==5753==    by 0x406D0F: __gnu_cxx::new_allocator<Product*>::allocate(unsigned long, void const*) (new_allocator.h:104)
+==5753==    by 0x4064C0: std::allocator_traits<std::allocator<Product*> >::allocate(std::allocator<Product*>&, unsigned long) (alloc_traits.h:491)
+==5753==    by 0x405D71: std::_Vector_base<Product*, std::allocator<Product*> >::_M_allocate(unsigned long) (stl_vector.h:170)
+==5753==    by 0x4158AF: void std::vector<Product*, std::allocator<Product*> >::_M_emplace_back_aux<Product* const&>(Product* const&) (vector.tcc:412)
+==5753==    by 0x413FFE: std::vector<Product*, std::allocator<Product*> >::push_back(Product* const&) (stl_vector.h:923)
+==5753==    by 0x4131E4: MyDataStore::addcart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::vector<Product*, std::allocator<Product*> >) (mydatastore.cpp:233)
+==5753==    by 0x403319: main (amazon.cpp:111)
+==5753== 
+==5753== Invalid read of size 8
+==5753==    at 0x4C3216E: memcpy@GLIBC_2.2.5 (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==5753==    by 0x418AE7: Product** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<Product*>(Product* const*, Product* const*, Product**) (stl_algobase.h:384)
+==5753==    by 0x418616: Product** std::__copy_move_a<true, Product**, Product**>(Product**, Product**, Product**) (stl_algobase.h:402)
+==5753==    by 0x4181E3: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::__copy_move_a2<true, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:438)
+==5753==    by 0x417846: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::move<__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:504)
+==5753==    by 0x415DAA: std::vector<Product*, std::allocator<Product*> >::_M_erase(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (vector.tcc:145)
+==5753==    by 0x4144EA: std::vector<Product*, std::allocator<Product*> >::erase(__gnu_cxx::__normal_iterator<Product* const*, std::vector<Product*, std::allocator<Product*> > >) (stl_vector.h:1147)
+==5753==    by 0x412DBE: MyDataStore::buycart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (mydatastore.cpp:182)
+==5753==    by 0x403452: main (amazon.cpp:121)
+==5753==  Address 0x5ac31f0 is 16 bytes after a block of size 16 alloc'd
+==5753==    at 0x4C2E17F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==5753==    by 0x406D0F: __gnu_cxx::new_allocator<Product*>::allocate(unsigned long, void const*) (new_allocator.h:104)
+==5753==    by 0x4064C0: std::allocator_traits<std::allocator<Product*> >::allocate(std::allocator<Product*>&, unsigned long) (alloc_traits.h:491)
+==5753==    by 0x405D71: std::_Vector_base<Product*, std::allocator<Product*> >::_M_allocate(unsigned long) (stl_vector.h:170)
+==5753==    by 0x4158AF: void std::vector<Product*, std::allocator<Product*> >::_M_emplace_back_aux<Product* const&>(Product* const&) (vector.tcc:412)
+==5753==    by 0x413FFE: std::vector<Product*, std::allocator<Product*> >::push_back(Product* const&) (stl_vector.h:923)
+==5753==    by 0x4131E4: MyDataStore::addcart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::vector<Product*, std::allocator<Product*> >) (mydatastore.cpp:233)
+==5753==    by 0x403319: main (amazon.cpp:111)
+==5753== 
+==5753== 
+==5753== Process terminating with default action of signal 11 (SIGSEGV)
+==5753==  Access not within mapped region at address 0x5EA5000
+==5753==    at 0x4C3216E: memcpy@GLIBC_2.2.5 (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==5753==    by 0x418AE7: Product** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<Product*>(Product* const*, Product* const*, Product**) (stl_algobase.h:384)
+==5753==    by 0x418616: Product** std::__copy_move_a<true, Product**, Product**>(Product**, Product**, Product**) (stl_algobase.h:402)
+==5753==    by 0x4181E3: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::__copy_move_a2<true, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:438)
+==5753==    by 0x417846: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::move<__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:504)
+==5753==    by 0x415DAA: std::vector<Product*, std::allocator<Product*> >::_M_erase(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (vector.tcc:145)
+==5753==    by 0x4144EA: std::vector<Product*, std::allocator<Product*> >::erase(__gnu_cxx::__normal_iterator<Product* const*, std::vector<Product*, std::allocator<Product*> > >) (stl_vector.h:1147)
+==5753==    by 0x412DBE: MyDataStore::buycart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (mydatastore.cpp:182)
+==5753==    by 0x403452: main (amazon.cpp:121)
+==5753==  If you believe this happened as a result of a stack
+==5753==  overflow in your program's main thread (unlikely but
+==5753==  possible), you can try to increase the size of the
+==5753==  main thread stack using the --main-stacksize= flag.
+==5753==  The main thread stack size used in this run was 8388608.
 /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests.cpp:1088: Failure
 Value of: checkDatabase(commands, inputDatabase, expectedDatabase)
   Actual: false (User program crashed: Segmentation fault)
 Expected: true
-[  FAILED  ] Database.BuyCartTwoItems (1573 ms)
-[----------] 1 test from Database (1573 ms total)
+[  FAILED  ] Database.BuyCartTwoItems (1604 ms)
+[----------] 1 test from Database (1604 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (1573 ms total)
+[==========] 1 test from 1 test case ran. (1604 ms total)
 [  PASSED  ] 0 tests.
 [  FAILED  ] 1 test, listed below:
 [  FAILED  ] Database.BuyCartTwoItems
 
  1 FAILED TEST
 <end of output>
-Test time =   1.58 sec
+Test time =   1.61 sec
 ----------------------------------------------------------
 Test Failed.
-"Database.BuyCartTwoItems" end time: Mar 21 14:15 PDT
+"Database.BuyCartTwoItems" end time: Mar 31 18:09 PDT
 "Database.BuyCartTwoItems" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -756,7 +756,7 @@ Test Failed.
 21/35 Test: ConsoleInterface.OrMultipleHit
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=ConsoleInterface.OrMultipleHit"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"ConsoleInterface.OrMultipleHit" start time: Mar 21 14:15 PDT
+"ConsoleInterface.OrMultipleHit" start time: Mar 31 18:09 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -769,17 +769,17 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/OrMultipleHit/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/OrMultipleHit/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/OrMultipleHit/output.txt
-[       OK ] ConsoleInterface.OrMultipleHit (1017 ms)
-[----------] 1 test from ConsoleInterface (1017 ms total)
+[       OK ] ConsoleInterface.OrMultipleHit (1042 ms)
+[----------] 1 test from ConsoleInterface (1042 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (1017 ms total)
+[==========] 1 test from 1 test case ran. (1042 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   1.02 sec
+Test time =   1.04 sec
 ----------------------------------------------------------
 Test Passed.
-"ConsoleInterface.OrMultipleHit" end time: Mar 21 14:15 PDT
+"ConsoleInterface.OrMultipleHit" end time: Mar 31 18:09 PDT
 "ConsoleInterface.OrMultipleHit" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -787,7 +787,7 @@ Test Passed.
 22/35 Test: ConsoleInterface.AndMultipleHit
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=ConsoleInterface.AndMultipleHit"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"ConsoleInterface.AndMultipleHit" start time: Mar 21 14:15 PDT
+"ConsoleInterface.AndMultipleHit" start time: Mar 31 18:09 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -800,17 +800,17 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/AndMultipleHit/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/AndMultipleHit/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/AndMultipleHit/output.txt
-[       OK ] ConsoleInterface.AndMultipleHit (1056 ms)
-[----------] 1 test from ConsoleInterface (1056 ms total)
+[       OK ] ConsoleInterface.AndMultipleHit (1070 ms)
+[----------] 1 test from ConsoleInterface (1070 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (1056 ms total)
+[==========] 1 test from 1 test case ran. (1070 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   1.06 sec
+Test time =   1.07 sec
 ----------------------------------------------------------
 Test Passed.
-"ConsoleInterface.AndMultipleHit" end time: Mar 21 14:15 PDT
+"ConsoleInterface.AndMultipleHit" end time: Mar 31 18:09 PDT
 "ConsoleInterface.AndMultipleHit" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -818,7 +818,7 @@ Test Passed.
 23/35 Test: ConsoleInterface.AddToTwoUsersCarts
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=ConsoleInterface.AddToTwoUsersCarts"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"ConsoleInterface.AddToTwoUsersCarts" start time: Mar 21 14:15 PDT
+"ConsoleInterface.AddToTwoUsersCarts" start time: Mar 31 18:09 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -840,11 +840,11 @@ Value of: solutionConsole.CompareCart(studentConsole)
 }],
  actual: [])
 Expected: true
-[  FAILED  ] ConsoleInterface.AddToTwoUsersCarts (1059 ms)
-[----------] 1 test from ConsoleInterface (1059 ms total)
+[  FAILED  ] ConsoleInterface.AddToTwoUsersCarts (1052 ms)
+[----------] 1 test from ConsoleInterface (1052 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (1059 ms total)
+[==========] 1 test from 1 test case ran. (1052 ms total)
 [  PASSED  ] 0 tests.
 [  FAILED  ] 1 test, listed below:
 [  FAILED  ] ConsoleInterface.AddToTwoUsersCarts
@@ -854,7 +854,7 @@ Expected: true
 Test time =   1.06 sec
 ----------------------------------------------------------
 Test Failed.
-"ConsoleInterface.AddToTwoUsersCarts" end time: Mar 21 14:15 PDT
+"ConsoleInterface.AddToTwoUsersCarts" end time: Mar 31 18:09 PDT
 "ConsoleInterface.AddToTwoUsersCarts" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -862,7 +862,7 @@ Test Failed.
 24/35 Test: ConsoleInterface.AddSameProductTwoUsersCarts
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=ConsoleInterface.AddSameProductTwoUsersCarts"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"ConsoleInterface.AddSameProductTwoUsersCarts" start time: Mar 21 14:15 PDT
+"ConsoleInterface.AddSameProductTwoUsersCarts" start time: Mar 31 18:09 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -884,21 +884,21 @@ Value of: solutionConsole.CompareCart(studentConsole)
 }],
  actual: [])
 Expected: true
-[  FAILED  ] ConsoleInterface.AddSameProductTwoUsersCarts (1033 ms)
-[----------] 1 test from ConsoleInterface (1033 ms total)
+[  FAILED  ] ConsoleInterface.AddSameProductTwoUsersCarts (1050 ms)
+[----------] 1 test from ConsoleInterface (1050 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (1033 ms total)
+[==========] 1 test from 1 test case ran. (1050 ms total)
 [  PASSED  ] 0 tests.
 [  FAILED  ] 1 test, listed below:
 [  FAILED  ] ConsoleInterface.AddSameProductTwoUsersCarts
 
  1 FAILED TEST
 <end of output>
-Test time =   1.03 sec
+Test time =   1.05 sec
 ----------------------------------------------------------
 Test Failed.
-"ConsoleInterface.AddSameProductTwoUsersCarts" end time: Mar 21 14:15 PDT
+"ConsoleInterface.AddSameProductTwoUsersCarts" end time: Mar 31 18:09 PDT
 "ConsoleInterface.AddSameProductTwoUsersCarts" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -906,7 +906,7 @@ Test Failed.
 25/35 Test: ConsoleInterface.AddTwoProductsTwoUsers
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=ConsoleInterface.AddTwoProductsTwoUsers"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"ConsoleInterface.AddTwoProductsTwoUsers" start time: Mar 21 14:15 PDT
+"ConsoleInterface.AddTwoProductsTwoUsers" start time: Mar 31 18:09 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -932,21 +932,21 @@ Value of: solutionConsole.CompareCart(studentConsole)
 }],
  actual: [])
 Expected: true
-[  FAILED  ] ConsoleInterface.AddTwoProductsTwoUsers (1057 ms)
-[----------] 1 test from ConsoleInterface (1057 ms total)
+[  FAILED  ] ConsoleInterface.AddTwoProductsTwoUsers (1128 ms)
+[----------] 1 test from ConsoleInterface (1128 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (1057 ms total)
+[==========] 1 test from 1 test case ran. (1128 ms total)
 [  PASSED  ] 0 tests.
 [  FAILED  ] 1 test, listed below:
 [  FAILED  ] ConsoleInterface.AddTwoProductsTwoUsers
 
  1 FAILED TEST
 <end of output>
-Test time =   1.06 sec
+Test time =   1.13 sec
 ----------------------------------------------------------
 Test Failed.
-"ConsoleInterface.AddTwoProductsTwoUsers" end time: Mar 21 14:15 PDT
+"ConsoleInterface.AddTwoProductsTwoUsers" end time: Mar 31 18:09 PDT
 "ConsoleInterface.AddTwoProductsTwoUsers" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -954,7 +954,7 @@ Test Failed.
 26/35 Test: Database.BuyTwoProductsTwoUsers
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=Database.BuyTwoProductsTwoUsers"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"Database.BuyTwoProductsTwoUsers" start time: Mar 21 14:15 PDT
+"Database.BuyTwoProductsTwoUsers" start time: Mar 31 18:09 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -967,102 +967,102 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/BuyTwoProductsTwoUsers/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/BuyTwoProductsTwoUsers/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/BuyTwoProductsTwoUsers/output.txt
-==30701== Invalid read of size 8
-==30701==    at 0x4C32160: memcpy@GLIBC_2.2.5 (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
-==30701==    by 0x418AE7: Product** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<Product*>(Product* const*, Product* const*, Product**) (stl_algobase.h:384)
-==30701==    by 0x418616: Product** std::__copy_move_a<true, Product**, Product**>(Product**, Product**, Product**) (stl_algobase.h:402)
-==30701==    by 0x4181E3: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::__copy_move_a2<true, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:438)
-==30701==    by 0x417846: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::move<__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:504)
-==30701==    by 0x415DAA: std::vector<Product*, std::allocator<Product*> >::_M_erase(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (vector.tcc:145)
-==30701==    by 0x4144EA: std::vector<Product*, std::allocator<Product*> >::erase(__gnu_cxx::__normal_iterator<Product* const*, std::vector<Product*, std::allocator<Product*> > >) (stl_vector.h:1147)
-==30701==    by 0x412DBE: MyDataStore::buycart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (mydatastore.cpp:182)
-==30701==    by 0x403452: main (amazon.cpp:121)
-==30701==  Address 0x5ac37d0 is 0 bytes after a block of size 16 alloc'd
-==30701==    at 0x4C2E17F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
-==30701==    by 0x406D0F: __gnu_cxx::new_allocator<Product*>::allocate(unsigned long, void const*) (new_allocator.h:104)
-==30701==    by 0x4064C0: std::allocator_traits<std::allocator<Product*> >::allocate(std::allocator<Product*>&, unsigned long) (alloc_traits.h:491)
-==30701==    by 0x405D71: std::_Vector_base<Product*, std::allocator<Product*> >::_M_allocate(unsigned long) (stl_vector.h:170)
-==30701==    by 0x4158AF: void std::vector<Product*, std::allocator<Product*> >::_M_emplace_back_aux<Product* const&>(Product* const&) (vector.tcc:412)
-==30701==    by 0x413FFE: std::vector<Product*, std::allocator<Product*> >::push_back(Product* const&) (stl_vector.h:923)
-==30701==    by 0x4131E4: MyDataStore::addcart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::vector<Product*, std::allocator<Product*> >) (mydatastore.cpp:233)
-==30701==    by 0x403319: main (amazon.cpp:111)
-==30701== 
-==30701== Invalid write of size 8
-==30701==    at 0x4C32163: memcpy@GLIBC_2.2.5 (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
-==30701==    by 0x418AE7: Product** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<Product*>(Product* const*, Product* const*, Product**) (stl_algobase.h:384)
-==30701==    by 0x418616: Product** std::__copy_move_a<true, Product**, Product**>(Product**, Product**, Product**) (stl_algobase.h:402)
-==30701==    by 0x4181E3: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::__copy_move_a2<true, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:438)
-==30701==    by 0x417846: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::move<__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:504)
-==30701==    by 0x415DAA: std::vector<Product*, std::allocator<Product*> >::_M_erase(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (vector.tcc:145)
-==30701==    by 0x4144EA: std::vector<Product*, std::allocator<Product*> >::erase(__gnu_cxx::__normal_iterator<Product* const*, std::vector<Product*, std::allocator<Product*> > >) (stl_vector.h:1147)
-==30701==    by 0x412DBE: MyDataStore::buycart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (mydatastore.cpp:182)
-==30701==    by 0x403452: main (amazon.cpp:121)
-==30701==  Address 0x5ac37d0 is 0 bytes after a block of size 16 alloc'd
-==30701==    at 0x4C2E17F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
-==30701==    by 0x406D0F: __gnu_cxx::new_allocator<Product*>::allocate(unsigned long, void const*) (new_allocator.h:104)
-==30701==    by 0x4064C0: std::allocator_traits<std::allocator<Product*> >::allocate(std::allocator<Product*>&, unsigned long) (alloc_traits.h:491)
-==30701==    by 0x405D71: std::_Vector_base<Product*, std::allocator<Product*> >::_M_allocate(unsigned long) (stl_vector.h:170)
-==30701==    by 0x4158AF: void std::vector<Product*, std::allocator<Product*> >::_M_emplace_back_aux<Product* const&>(Product* const&) (vector.tcc:412)
-==30701==    by 0x413FFE: std::vector<Product*, std::allocator<Product*> >::push_back(Product* const&) (stl_vector.h:923)
-==30701==    by 0x4131E4: MyDataStore::addcart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::vector<Product*, std::allocator<Product*> >) (mydatastore.cpp:233)
-==30701==    by 0x403319: main (amazon.cpp:111)
-==30701== 
-==30701== Invalid read of size 8
-==30701==    at 0x4C3216E: memcpy@GLIBC_2.2.5 (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
-==30701==    by 0x418AE7: Product** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<Product*>(Product* const*, Product* const*, Product**) (stl_algobase.h:384)
-==30701==    by 0x418616: Product** std::__copy_move_a<true, Product**, Product**>(Product**, Product**, Product**) (stl_algobase.h:402)
-==30701==    by 0x4181E3: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::__copy_move_a2<true, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:438)
-==30701==    by 0x417846: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::move<__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:504)
-==30701==    by 0x415DAA: std::vector<Product*, std::allocator<Product*> >::_M_erase(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (vector.tcc:145)
-==30701==    by 0x4144EA: std::vector<Product*, std::allocator<Product*> >::erase(__gnu_cxx::__normal_iterator<Product* const*, std::vector<Product*, std::allocator<Product*> > >) (stl_vector.h:1147)
-==30701==    by 0x412DBE: MyDataStore::buycart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (mydatastore.cpp:182)
-==30701==    by 0x403452: main (amazon.cpp:121)
-==30701==  Address 0x5ac37e0 is 16 bytes after a block of size 16 alloc'd
-==30701==    at 0x4C2E17F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
-==30701==    by 0x406D0F: __gnu_cxx::new_allocator<Product*>::allocate(unsigned long, void const*) (new_allocator.h:104)
-==30701==    by 0x4064C0: std::allocator_traits<std::allocator<Product*> >::allocate(std::allocator<Product*>&, unsigned long) (alloc_traits.h:491)
-==30701==    by 0x405D71: std::_Vector_base<Product*, std::allocator<Product*> >::_M_allocate(unsigned long) (stl_vector.h:170)
-==30701==    by 0x4158AF: void std::vector<Product*, std::allocator<Product*> >::_M_emplace_back_aux<Product* const&>(Product* const&) (vector.tcc:412)
-==30701==    by 0x413FFE: std::vector<Product*, std::allocator<Product*> >::push_back(Product* const&) (stl_vector.h:923)
-==30701==    by 0x4131E4: MyDataStore::addcart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::vector<Product*, std::allocator<Product*> >) (mydatastore.cpp:233)
-==30701==    by 0x403319: main (amazon.cpp:111)
-==30701== 
-==30701== 
-==30701== Process terminating with default action of signal 11 (SIGSEGV)
-==30701==  Access not within mapped region at address 0x5EA5000
-==30701==    at 0x4C3216E: memcpy@GLIBC_2.2.5 (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
-==30701==    by 0x418AE7: Product** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<Product*>(Product* const*, Product* const*, Product**) (stl_algobase.h:384)
-==30701==    by 0x418616: Product** std::__copy_move_a<true, Product**, Product**>(Product**, Product**, Product**) (stl_algobase.h:402)
-==30701==    by 0x4181E3: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::__copy_move_a2<true, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:438)
-==30701==    by 0x417846: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::move<__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:504)
-==30701==    by 0x415DAA: std::vector<Product*, std::allocator<Product*> >::_M_erase(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (vector.tcc:145)
-==30701==    by 0x4144EA: std::vector<Product*, std::allocator<Product*> >::erase(__gnu_cxx::__normal_iterator<Product* const*, std::vector<Product*, std::allocator<Product*> > >) (stl_vector.h:1147)
-==30701==    by 0x412DBE: MyDataStore::buycart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (mydatastore.cpp:182)
-==30701==    by 0x403452: main (amazon.cpp:121)
-==30701==  If you believe this happened as a result of a stack
-==30701==  overflow in your program's main thread (unlikely but
-==30701==  possible), you can try to increase the size of the
-==30701==  main thread stack using the --main-stacksize= flag.
-==30701==  The main thread stack size used in this run was 8388608.
+==5771== Invalid read of size 8
+==5771==    at 0x4C32160: memcpy@GLIBC_2.2.5 (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==5771==    by 0x418AE7: Product** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<Product*>(Product* const*, Product* const*, Product**) (stl_algobase.h:384)
+==5771==    by 0x418616: Product** std::__copy_move_a<true, Product**, Product**>(Product**, Product**, Product**) (stl_algobase.h:402)
+==5771==    by 0x4181E3: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::__copy_move_a2<true, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:438)
+==5771==    by 0x417846: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::move<__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:504)
+==5771==    by 0x415DAA: std::vector<Product*, std::allocator<Product*> >::_M_erase(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (vector.tcc:145)
+==5771==    by 0x4144EA: std::vector<Product*, std::allocator<Product*> >::erase(__gnu_cxx::__normal_iterator<Product* const*, std::vector<Product*, std::allocator<Product*> > >) (stl_vector.h:1147)
+==5771==    by 0x412DBE: MyDataStore::buycart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (mydatastore.cpp:182)
+==5771==    by 0x403452: main (amazon.cpp:121)
+==5771==  Address 0x5ac37d0 is 0 bytes after a block of size 16 alloc'd
+==5771==    at 0x4C2E17F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==5771==    by 0x406D0F: __gnu_cxx::new_allocator<Product*>::allocate(unsigned long, void const*) (new_allocator.h:104)
+==5771==    by 0x4064C0: std::allocator_traits<std::allocator<Product*> >::allocate(std::allocator<Product*>&, unsigned long) (alloc_traits.h:491)
+==5771==    by 0x405D71: std::_Vector_base<Product*, std::allocator<Product*> >::_M_allocate(unsigned long) (stl_vector.h:170)
+==5771==    by 0x4158AF: void std::vector<Product*, std::allocator<Product*> >::_M_emplace_back_aux<Product* const&>(Product* const&) (vector.tcc:412)
+==5771==    by 0x413FFE: std::vector<Product*, std::allocator<Product*> >::push_back(Product* const&) (stl_vector.h:923)
+==5771==    by 0x4131E4: MyDataStore::addcart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::vector<Product*, std::allocator<Product*> >) (mydatastore.cpp:233)
+==5771==    by 0x403319: main (amazon.cpp:111)
+==5771== 
+==5771== Invalid write of size 8
+==5771==    at 0x4C32163: memcpy@GLIBC_2.2.5 (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==5771==    by 0x418AE7: Product** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<Product*>(Product* const*, Product* const*, Product**) (stl_algobase.h:384)
+==5771==    by 0x418616: Product** std::__copy_move_a<true, Product**, Product**>(Product**, Product**, Product**) (stl_algobase.h:402)
+==5771==    by 0x4181E3: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::__copy_move_a2<true, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:438)
+==5771==    by 0x417846: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::move<__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:504)
+==5771==    by 0x415DAA: std::vector<Product*, std::allocator<Product*> >::_M_erase(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (vector.tcc:145)
+==5771==    by 0x4144EA: std::vector<Product*, std::allocator<Product*> >::erase(__gnu_cxx::__normal_iterator<Product* const*, std::vector<Product*, std::allocator<Product*> > >) (stl_vector.h:1147)
+==5771==    by 0x412DBE: MyDataStore::buycart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (mydatastore.cpp:182)
+==5771==    by 0x403452: main (amazon.cpp:121)
+==5771==  Address 0x5ac37d0 is 0 bytes after a block of size 16 alloc'd
+==5771==    at 0x4C2E17F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==5771==    by 0x406D0F: __gnu_cxx::new_allocator<Product*>::allocate(unsigned long, void const*) (new_allocator.h:104)
+==5771==    by 0x4064C0: std::allocator_traits<std::allocator<Product*> >::allocate(std::allocator<Product*>&, unsigned long) (alloc_traits.h:491)
+==5771==    by 0x405D71: std::_Vector_base<Product*, std::allocator<Product*> >::_M_allocate(unsigned long) (stl_vector.h:170)
+==5771==    by 0x4158AF: void std::vector<Product*, std::allocator<Product*> >::_M_emplace_back_aux<Product* const&>(Product* const&) (vector.tcc:412)
+==5771==    by 0x413FFE: std::vector<Product*, std::allocator<Product*> >::push_back(Product* const&) (stl_vector.h:923)
+==5771==    by 0x4131E4: MyDataStore::addcart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::vector<Product*, std::allocator<Product*> >) (mydatastore.cpp:233)
+==5771==    by 0x403319: main (amazon.cpp:111)
+==5771== 
+==5771== Invalid read of size 8
+==5771==    at 0x4C3216E: memcpy@GLIBC_2.2.5 (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==5771==    by 0x418AE7: Product** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<Product*>(Product* const*, Product* const*, Product**) (stl_algobase.h:384)
+==5771==    by 0x418616: Product** std::__copy_move_a<true, Product**, Product**>(Product**, Product**, Product**) (stl_algobase.h:402)
+==5771==    by 0x4181E3: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::__copy_move_a2<true, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:438)
+==5771==    by 0x417846: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::move<__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:504)
+==5771==    by 0x415DAA: std::vector<Product*, std::allocator<Product*> >::_M_erase(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (vector.tcc:145)
+==5771==    by 0x4144EA: std::vector<Product*, std::allocator<Product*> >::erase(__gnu_cxx::__normal_iterator<Product* const*, std::vector<Product*, std::allocator<Product*> > >) (stl_vector.h:1147)
+==5771==    by 0x412DBE: MyDataStore::buycart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (mydatastore.cpp:182)
+==5771==    by 0x403452: main (amazon.cpp:121)
+==5771==  Address 0x5ac37e0 is 16 bytes after a block of size 16 alloc'd
+==5771==    at 0x4C2E17F: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==5771==    by 0x406D0F: __gnu_cxx::new_allocator<Product*>::allocate(unsigned long, void const*) (new_allocator.h:104)
+==5771==    by 0x4064C0: std::allocator_traits<std::allocator<Product*> >::allocate(std::allocator<Product*>&, unsigned long) (alloc_traits.h:491)
+==5771==    by 0x405D71: std::_Vector_base<Product*, std::allocator<Product*> >::_M_allocate(unsigned long) (stl_vector.h:170)
+==5771==    by 0x4158AF: void std::vector<Product*, std::allocator<Product*> >::_M_emplace_back_aux<Product* const&>(Product* const&) (vector.tcc:412)
+==5771==    by 0x413FFE: std::vector<Product*, std::allocator<Product*> >::push_back(Product* const&) (stl_vector.h:923)
+==5771==    by 0x4131E4: MyDataStore::addcart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::vector<Product*, std::allocator<Product*> >) (mydatastore.cpp:233)
+==5771==    by 0x403319: main (amazon.cpp:111)
+==5771== 
+==5771== 
+==5771== Process terminating with default action of signal 11 (SIGSEGV)
+==5771==  Access not within mapped region at address 0x5EA5000
+==5771==    at 0x4C3216E: memcpy@GLIBC_2.2.5 (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==5771==    by 0x418AE7: Product** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<Product*>(Product* const*, Product* const*, Product**) (stl_algobase.h:384)
+==5771==    by 0x418616: Product** std::__copy_move_a<true, Product**, Product**>(Product**, Product**, Product**) (stl_algobase.h:402)
+==5771==    by 0x4181E3: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::__copy_move_a2<true, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:438)
+==5771==    by 0x417846: __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > std::move<__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > > >(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >, __gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (stl_algobase.h:504)
+==5771==    by 0x415DAA: std::vector<Product*, std::allocator<Product*> >::_M_erase(__gnu_cxx::__normal_iterator<Product**, std::vector<Product*, std::allocator<Product*> > >) (vector.tcc:145)
+==5771==    by 0x4144EA: std::vector<Product*, std::allocator<Product*> >::erase(__gnu_cxx::__normal_iterator<Product* const*, std::vector<Product*, std::allocator<Product*> > >) (stl_vector.h:1147)
+==5771==    by 0x412DBE: MyDataStore::buycart(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (mydatastore.cpp:182)
+==5771==    by 0x403452: main (amazon.cpp:121)
+==5771==  If you believe this happened as a result of a stack
+==5771==  overflow in your program's main thread (unlikely but
+==5771==  possible), you can try to increase the size of the
+==5771==  main thread stack using the --main-stacksize= flag.
+==5771==  The main thread stack size used in this run was 8388608.
 /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests.cpp:1701: Failure
 Value of: checkDatabase(commands, inputDatabase, expectedDatabase)
   Actual: false (User program crashed: Segmentation fault)
 Expected: true
-[  FAILED  ] Database.BuyTwoProductsTwoUsers (1598 ms)
-[----------] 1 test from Database (1598 ms total)
+[  FAILED  ] Database.BuyTwoProductsTwoUsers (1707 ms)
+[----------] 1 test from Database (1707 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (1598 ms total)
+[==========] 1 test from 1 test case ran. (1707 ms total)
 [  PASSED  ] 0 tests.
 [  FAILED  ] 1 test, listed below:
 [  FAILED  ] Database.BuyTwoProductsTwoUsers
 
  1 FAILED TEST
 <end of output>
-Test time =   1.60 sec
+Test time =   1.71 sec
 ----------------------------------------------------------
 Test Failed.
-"Database.BuyTwoProductsTwoUsers" end time: Mar 21 14:15 PDT
+"Database.BuyTwoProductsTwoUsers" end time: Mar 31 18:09 PDT
 "Database.BuyTwoProductsTwoUsers" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -1070,7 +1070,7 @@ Test Failed.
 27/35 Test: ConsoleInterface.BuyCartInsufficientFunds
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=ConsoleInterface.BuyCartInsufficientFunds"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"ConsoleInterface.BuyCartInsufficientFunds" start time: Mar 21 14:15 PDT
+"ConsoleInterface.BuyCartInsufficientFunds" start time: Mar 31 18:09 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -1096,21 +1096,21 @@ Value of: solutionConsole.CompareCart(studentConsole)
 }],
  actual: [])
 Expected: true
-[  FAILED  ] ConsoleInterface.BuyCartInsufficientFunds (1056 ms)
-[----------] 1 test from ConsoleInterface (1056 ms total)
+[  FAILED  ] ConsoleInterface.BuyCartInsufficientFunds (1065 ms)
+[----------] 1 test from ConsoleInterface (1065 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (1056 ms total)
+[==========] 1 test from 1 test case ran. (1065 ms total)
 [  PASSED  ] 0 tests.
 [  FAILED  ] 1 test, listed below:
 [  FAILED  ] ConsoleInterface.BuyCartInsufficientFunds
 
  1 FAILED TEST
 <end of output>
-Test time =   1.06 sec
+Test time =   1.07 sec
 ----------------------------------------------------------
 Test Failed.
-"ConsoleInterface.BuyCartInsufficientFunds" end time: Mar 21 14:15 PDT
+"ConsoleInterface.BuyCartInsufficientFunds" end time: Mar 31 18:09 PDT
 "ConsoleInterface.BuyCartInsufficientFunds" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -1118,7 +1118,7 @@ Test Failed.
 28/35 Test: Database.BuyCartInsufficientFunds
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=Database.BuyCartInsufficientFunds"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"Database.BuyCartInsufficientFunds" start time: Mar 21 14:15 PDT
+"Database.BuyCartInsufficientFunds" start time: Mar 31 18:09 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -1131,17 +1131,17 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/BuyCartInsufficientFunds/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/BuyCartInsufficientFunds/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/BuyCartInsufficientFunds/output.txt
-[       OK ] Database.BuyCartInsufficientFunds (1060 ms)
-[----------] 1 test from Database (1060 ms total)
+[       OK ] Database.BuyCartInsufficientFunds (1070 ms)
+[----------] 1 test from Database (1070 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (1060 ms total)
+[==========] 1 test from 1 test case ran. (1070 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   1.06 sec
+Test time =   1.07 sec
 ----------------------------------------------------------
 Test Passed.
-"Database.BuyCartInsufficientFunds" end time: Mar 21 14:15 PDT
+"Database.BuyCartInsufficientFunds" end time: Mar 31 18:09 PDT
 "Database.BuyCartInsufficientFunds" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -1149,7 +1149,7 @@ Test Passed.
 29/35 Test: ConsoleInterface.AddItemToMultipleUsers
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=ConsoleInterface.AddItemToMultipleUsers"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"ConsoleInterface.AddItemToMultipleUsers" start time: Mar 21 14:15 PDT
+"ConsoleInterface.AddItemToMultipleUsers" start time: Mar 31 18:09 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -1171,21 +1171,21 @@ Value of: solutionConsole.CompareCart(studentConsole)
 }],
  actual: [])
 Expected: true
-[  FAILED  ] ConsoleInterface.AddItemToMultipleUsers (1048 ms)
-[----------] 1 test from ConsoleInterface (1048 ms total)
+[  FAILED  ] ConsoleInterface.AddItemToMultipleUsers (1057 ms)
+[----------] 1 test from ConsoleInterface (1057 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (1048 ms total)
+[==========] 1 test from 1 test case ran. (1057 ms total)
 [  PASSED  ] 0 tests.
 [  FAILED  ] 1 test, listed below:
 [  FAILED  ] ConsoleInterface.AddItemToMultipleUsers
 
  1 FAILED TEST
 <end of output>
-Test time =   1.05 sec
+Test time =   1.06 sec
 ----------------------------------------------------------
 Test Failed.
-"ConsoleInterface.AddItemToMultipleUsers" end time: Mar 21 14:15 PDT
+"ConsoleInterface.AddItemToMultipleUsers" end time: Mar 31 18:09 PDT
 "ConsoleInterface.AddItemToMultipleUsers" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -1193,7 +1193,7 @@ Test Failed.
 30/35 Test: Database.BuySingleStockItemMultipleUsers
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=Database.BuySingleStockItemMultipleUsers"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"Database.BuySingleStockItemMultipleUsers" start time: Mar 21 14:15 PDT
+"Database.BuySingleStockItemMultipleUsers" start time: Mar 31 18:09 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -1210,13 +1210,13 @@ Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pr
 [----------] 1 test from Database (1050 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (1050 ms total)
+[==========] 1 test from 1 test case ran. (1051 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   1.05 sec
 ----------------------------------------------------------
 Test Passed.
-"Database.BuySingleStockItemMultipleUsers" end time: Mar 21 14:15 PDT
+"Database.BuySingleStockItemMultipleUsers" end time: Mar 31 18:09 PDT
 "Database.BuySingleStockItemMultipleUsers" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -1224,7 +1224,7 @@ Test Passed.
 31/35 Test: ConsoleErrors.ViewCartUnknownUser
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=ConsoleErrors.ViewCartUnknownUser"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"ConsoleErrors.ViewCartUnknownUser" start time: Mar 21 14:15 PDT
+"ConsoleErrors.ViewCartUnknownUser" start time: Mar 31 18:09 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -1237,25 +1237,25 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/ViewCartUnknownUser/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/ViewCartUnknownUser/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/ViewCartUnknownUser/output.txt
-[       OK ] ConsoleErrors.ViewCartUnknownUser (1018 ms)
-[----------] 1 test from ConsoleErrors (1018 ms total)
+[       OK ] ConsoleErrors.ViewCartUnknownUser (993 ms)
+[----------] 1 test from ConsoleErrors (993 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (1018 ms total)
+[==========] 1 test from 1 test case ran. (994 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   1.02 sec
+Test time =   1.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ConsoleErrors.ViewCartUnknownUser" end time: Mar 21 14:15 PDT
-"ConsoleErrors.ViewCartUnknownUser" time elapsed: 00:00:01
+"ConsoleErrors.ViewCartUnknownUser" end time: Mar 31 18:09 PDT
+"ConsoleErrors.ViewCartUnknownUser" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 32/35 Testing: ConsoleErrors.BuyCartUnknownUser
 32/35 Test: ConsoleErrors.BuyCartUnknownUser
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=ConsoleErrors.BuyCartUnknownUser"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"ConsoleErrors.BuyCartUnknownUser" start time: Mar 21 14:15 PDT
+"ConsoleErrors.BuyCartUnknownUser" start time: Mar 31 18:09 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -1268,25 +1268,25 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/BuyCartUnknownUser/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/BuyCartUnknownUser/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/BuyCartUnknownUser/output.txt
-[       OK ] ConsoleErrors.BuyCartUnknownUser (990 ms)
-[----------] 1 test from ConsoleErrors (990 ms total)
+[       OK ] ConsoleErrors.BuyCartUnknownUser (1082 ms)
+[----------] 1 test from ConsoleErrors (1082 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (990 ms total)
+[==========] 1 test from 1 test case ran. (1083 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.99 sec
+Test time =   1.09 sec
 ----------------------------------------------------------
 Test Passed.
-"ConsoleErrors.BuyCartUnknownUser" end time: Mar 21 14:15 PDT
-"ConsoleErrors.BuyCartUnknownUser" time elapsed: 00:00:00
+"ConsoleErrors.BuyCartUnknownUser" end time: Mar 31 18:09 PDT
+"ConsoleErrors.BuyCartUnknownUser" time elapsed: 00:00:01
 ----------------------------------------------------------
 
 33/35 Testing: ConsoleErrors.AddInvalidHitToCart
 33/35 Test: ConsoleErrors.AddInvalidHitToCart
 Command: "/home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/amazon_tests" "--gtest_filter=ConsoleErrors.AddInvalidHitToCart"
 Directory: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests
-"ConsoleErrors.AddInvalidHitToCart" start time: Mar 21 14:15 PDT
+"ConsoleErrors.AddInvalidHitToCart" start time: Mar 31 18:09 PDT
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -1299,17 +1299,17 @@ This test is executing your program with the following command line:
 /usr/bin/valgrind --tool=memcheck -q --leak-check=yes --error-exitcode=113 /home/cs104/cs104hw/hw-jesalisb/hw4/amazon /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/AddInvalidHitToCart/database.txt
 Your program's STDIN was piped from: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/AddInvalidHitToCart/input.txt
 Your program's STDOUT was written to: /home/cs104/cs104hw/hw-jesalisb/hw4/hw4_pre_tests/amazon_tests/testFiles/AddInvalidHitToCart/output.txt
-[       OK ] ConsoleErrors.AddInvalidHitToCart (1041 ms)
-[----------] 1 test from ConsoleErrors (1041 ms total)
+[       OK ] ConsoleErrors.AddInvalidHitToCart (1075 ms)
+[----------] 1 test from ConsoleErrors (1075 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (1042 ms total)
+[==========] 1 test from 1 test case ran. (1075 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   1.04 sec
+Test time =   1.08 sec
 ----------------------------------------------------------
 Test Passed.
-"ConsoleErrors.AddInvalidHitToCart" end time: Mar 21 14:15 PDT
+"ConsoleErrors.AddInvalidHitToCart" end time: Mar 31 18:09 PDT
 "ConsoleErrors.AddInvalidHitToCart" time elapsed: 00:00:01
 ----------------------------------------------------------
 
