@@ -6,8 +6,8 @@
 #include <cstdlib>
 #include <stdexcept>
 #include "board.h"
-using namespace std;
 
+using namespace std;
 
 Board::Board(int dim, int numInitMoves, int seed )
 {
@@ -92,14 +92,200 @@ void Board::move(int tile)
 // configuration reflecting the move of that tile into the blank spot
 map<int, Board*> Board::potentialMoves() const
 {
-  
+  int j=-1;
+  while(tiles_[++j] != 0);
+
+  int side_dim = dim();
+  int br = j / side_dim;
+  int bc = j % side_dim;
+  map<int, Board*> moves;
+  //if we are in one of the 4 corners
+  if(br == 0 && bc == 0)
+  {
+    Board* b = new Board(*this);
+    b->move(1);
+    Board* b2 = new Board(*this);
+    b2->move(side_dim);
+    moves.insert(make_pair(1, b));
+    moves.insert(make_pair(side_dim, b2));
+  }
+  else if(br == side_dim - 1 && bc == side_dim - 1)
+  {
+    // Board* b = *this;
+    // b.move( (side_dim*( side_dim - 1 ) - 1) );
+    // Board* b2 = *this;
+    // b2.move( (side_dim*side_dim) - 2);
+    Board* b = new Board(*this);
+    b->move(j - 1);
+    Board* b2 = new Board(*this);
+    b2->move(j - side_dim);
+    moves.insert(make_pair(j - 1, b));
+    moves.insert(make_pair(j - side_dim, b2));
+  }
+  else if(br == 0 && bc == side_dim - 1)
+  {
+    // Board* b = *this;
+    // b.move(side_dim - 2);
+    // Board* b2 = *this;
+    // b2.move( (2*side_dim) - 1);
+    Board* b = new Board(*this);
+    b->move(j - 1);
+    Board* b2 = new Board(*this);
+    b2->move(j + side_dim);
+    moves.insert(make_pair(j - 1, b));
+    moves.insert(make_pair(j + side_dim, b2));
+  }
+  else if(br == side_dim - 1 && bc == 0)
+  {
+    // Board* b = *this;
+    // b.move( (side_dim*(side_dim - 1)) + 1);
+    // Board* b2 = *this;
+    // b2.move( (side_dim - 1)*(side_dim - 1) -1);
+    Board* b = new Board(*this);
+    b->move(j + 1);
+    Board* b2 = new Board(*this);
+    b2->move(j - side_dim);
+    moves.insert(make_pair(j + 1, b));
+    moves.insert(make_pair(j - side_dim, b2));
+  }
+  //if we are on one of the sides, but not in the corner
+  else if(br == 0)
+  {
+    Board* b = new Board(*this);
+    b->move(j + side_dim);
+    Board* b2 = new Board(*this);
+    b2->move(j - 1);
+    Board* b3 = new Board(*this);
+    b3->move(j + 1);
+    moves.insert(make_pair(j + side_dim, b));
+    moves.insert(make_pair(j - 1, b2));
+    moves.insert(make_pair(j + 1, b3));
+  }
+  else if(br == side_dim - 1)
+  {
+    Board* b = new Board(*this);
+    b->move(j - side_dim);
+    Board* b2 = new Board(*this);
+    b2->move(j - 1);
+    Board* b3 = new Board(*this);
+    b3->move(j + 1);
+    moves.insert(make_pair(j - side_dim, b));
+    moves.insert(make_pair(j - 1, b2));
+    moves.insert(make_pair(j + 1, b3));
+  }
+  else if(bc == 0)
+  {
+    Board* b = new Board(*this);
+    b->move(j + side_dim);
+    Board* b2 = new Board(*this);
+    b2->move(j - side_dim);
+    Board* b3 = new Board(*this);
+    b3->move(j + 1);
+    moves.insert(make_pair(j + side_dim, b));
+    moves.insert(make_pair(j - side_dim, b2));
+    moves.insert(make_pair(j + 1, b3));
+  }
+  else if(bc == side_dim - 1)
+  {
+    Board* b = new Board(*this);
+    b->move(j + side_dim);
+    Board* b2 = new Board(*this);
+    b2->move(j - side_dim);
+    Board* b3 = new Board(*this);
+    b3->move(j - 1);
+    moves.insert(make_pair(j + side_dim, b));
+    moves.insert(make_pair(j - side_dim, b2));
+    moves.insert(make_pair(j - 1, b3));
+  }
+  //in the middle
+  else
+  {
+    Board* b = new Board(*this);
+    b->move(j + side_dim);
+    Board* b2 = new Board(*this);
+    b2->move(j - side_dim);
+    Board* b3 = new Board(*this);
+    b3->move(j + 1);
+    Board* b4 = new Board(*this);
+    b4->move(j - 1);
+    moves.insert(make_pair(j + side_dim, b));
+    moves.insert(make_pair(j - side_dim, b2));
+    moves.insert(make_pair(j + 1, b3));
+    moves.insert(make_pair(j - 1, b4));
+  }
+
+  return moves;
+
 }
 
+Board::Board(const Board& b)
+{
+  this->size_ = b.size_;
+  for(int i = 0;i<size_;i++)
+  {
+    this->tiles_[i] = b.tiles_[i];
+  }
+}
+Board::~Board()
+{
+  delete [] tiles_; 
+}
+bool Board::operator<(const Board& rhs) const
+{
+  for(int i = 0;i<rhs.size_;i++)
+  {
+    if(rhs.tiles_[i] > this->tiles_[i])
+    {
+      return false;
+    }
+  }
+  return true;
+}
+ostream& Board::operator<<(ostream &os, const Board &b)
+{
+  int dimen = b.dim();
+  int count = 0;
+  while(count < b.size_)
+  {
+    for(int j = 0;j<dimen;j++)
+    {
+      os << "+--";
+    }
+    os << "+";
+    os << endl;
+    for(int k = 0;k<dimen;k++)
+    {
+      if(count == 0)
+      {
+        cout << "|  ";
+        count++;
+      }
+      else if(count < 10)
+      {
+        os << "| " << b.tiles_[count];
+        count++;
+      }
+      else
+      {
+        os << "|" << b.tiles_[count];
+        count++;
+      }
+    }
+    os << "|" << endl;
+  }
+  return os;
+}
 // Complete this function
 bool Board::solved() const
 {
-
-
+  for(int i = 0;i< (size_ - 1);i++)
+  {
+    if(tiles_[i] > tiles_[i + 1])
+    {
+      return false;
+    }
+  }
+  return true;
 }
 
 

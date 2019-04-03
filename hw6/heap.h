@@ -4,6 +4,8 @@
 #include <stdexcept>
 #include <vector>
 
+using namespace std;
+
 template <typename T, typename PComparator = std::less<T> >
 class Heap
 {
@@ -37,6 +39,7 @@ class Heap
   /// Add whatever helper functions and data members you need below
   std::vector<T> myarray;
   void heapify(int idx);
+  void heapup(int idx);
   int m_;
   PComparator comp;
 
@@ -51,7 +54,7 @@ void Heap<T,PComparator>::heapify(int idx)
   }
   int count = 1;
   bool swap = false;
-  while(count < m_)
+  while(count <= m_)
   {
     if((unsigned) m_*idx + count < myarray.size())
     {
@@ -74,7 +77,7 @@ void Heap<T,PComparator>::heapify(int idx)
     T swap = myarray[(m_*idx) + 1];
     int child = 2;
     int here = 1;
-    while(child < m_)
+    while(child <= m_ && (unsigned)((m_*idx) + child) < myarray.size())
     {
       if(!comp(swap, myarray[(m_*idx) + child]))
       {
@@ -87,28 +90,24 @@ void Heap<T,PComparator>::heapify(int idx)
     myarray[idx] = swap;
     heapify((m_*idx) + here);
   }
-  // if(!PComparator(myarray[idx], myarray[(2*idx) + 1]) || 
-  //   !PComparator(myarray[idx], myarray[(2*idx) + 2]))
-  // {
-  //   if(!PComparator(myarray[(2*idx) + 2], myarray[(2*idx) + 1]))
-  //   {
-  //     //swap right child and root
-  //     T temp = myarray[idx];
-  //     myarray[idx] = myarray[(2*idx) + 2];
-  //     myarray[(2*idx) + 2] = temp;
-  //     //call heapify on right child
-  //     heapify((2*idx) + 2);
-  //   }
-  //   else
-  //   {
-  //     //swap left child and root
-  //     T temp = myarray[idx];
-  //     myarray[idx] = myarray[(2*idx) + 1];
-  //     myarray[(2*idx) + 1] = temp;
-  //     //call heapify on left child
-  //     heapify((2*idx) + 1);
-  //   }
-  // }
+}
+template <typename T, typename PComparator>
+void Heap<T,PComparator>::heapup(int idx)
+{
+  if((idx - 1)/m_ == idx)
+  {
+    return;
+  }
+  else
+  {
+    if(comp(myarray[idx], myarray[(idx - 1)/m_]))
+    {
+      T temp = myarray[idx];
+      myarray[idx] = myarray[(idx - 1)/m_];
+      myarray[(idx - 1)/m_] = temp;
+      heapup((idx - 1)/m_);
+    }
+  }
 }
 
 // We will start top() for you to handle the case of 
@@ -150,16 +149,7 @@ template <typename T, typename PComparator>
 void Heap<T, PComparator>::push(const T& item)
 {
   myarray.push_back(item);
-  int element = myarray.size() - 1;
-  if(element % m_ == 0)
-  {
-    element = (element/m_) - 1;
-  }
-  else
-  {
-    element = (element/m_);
-  }
-  heapify(element);
+  heapup(myarray.size() - 1);
 }
 
 

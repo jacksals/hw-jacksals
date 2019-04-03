@@ -5,6 +5,7 @@
 #include "board.h"
 #include "puzzle_move.h"
 #include "puzzle_heur.h"
+#include "heap.h"
 
 
 class PuzzleSolver
