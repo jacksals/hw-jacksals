@@ -5,3 +5,7 @@ initMoves	BFS		TilesOutOfPlace		Manhattan
 80										0.5
 100										10
 150										
+
+1. BFS took 20029 expansions with 20 initial moves.
+2. TilesOutOfPlace took 37 expansions for 20 initial moves and 756 expansions for 40 initial moves.
+3. Manhattan took 37 expansions for 20 initial moves, 115 expansions for 40 initial moves, 88213 expansions for 60 initial moves, 24875 expansions for 80 initial moves, and 1866645 expansions for 100 initial moves.
