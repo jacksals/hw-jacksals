@@ -20,6 +20,10 @@ class Heap
   /// Destructor as needed
   ~Heap()
   {
+    for(unsigned int i = 0;i<myarray.size();i++)
+    {
+      delete myarray[i];
+    }
   };
 
   /// Adds an item

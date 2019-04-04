@@ -111,17 +111,17 @@ map<int, Board*> Board::potentialMoves() const
     b->move(tiles_[up]);
     moves.insert(make_pair(tiles_[up], b));
   }
-  if(down < size() && (down % side_dim == bc) )
-  {
-    Board* b = new Board(*this);
-    b->move(tiles_[down]);
-    moves.insert(make_pair(tiles_[down], b));
-  }
   if(right < size() && (right/side_dim == br) )
   {
     Board* b = new Board(*this);
     b->move(tiles_[right]);
     moves.insert(make_pair(tiles_[right], b));
+  }
+  if(down < size() && (down % side_dim == bc) )
+  {
+    Board* b = new Board(*this);
+    b->move(tiles_[down]);
+    moves.insert(make_pair(tiles_[down], b));
   }
   if(left >= 0 && (left/side_dim == br) )
   {
@@ -164,12 +164,6 @@ ostream& operator<<(std::ostream &os, const Board &b)
   int count = 0;
   while(count < b.size_)
   {
-    // for(int j = 0;j<dimen;j++)
-    // {
-    //   os << "+--";
-    // }
-    // os << "+";
-    // os << endl;
     b.printRowBanner(os);
     for(int k = 0;k<dimen;k++)
     {
@@ -191,6 +185,7 @@ ostream& operator<<(std::ostream &os, const Board &b)
     }
     os << "|" << endl;
   }
+  b.printRowBanner(os);
   return os;
 }
 // Complete this function

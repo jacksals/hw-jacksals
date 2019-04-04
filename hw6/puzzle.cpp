@@ -5,7 +5,6 @@
 #include "puzzle_heur.h"
 #include "puzzle_solver.h"
 #include <string>
-/////////////////////////////////correct include?
 #include <stdexcept>
 
 int main(int argc, char *argv[])
@@ -86,15 +85,10 @@ int main(int argc, char *argv[])
 		}
 		
 	}
-
   }
-  /*
-  // might not need this if
-  if(mytile == 0)
-  {
-  	//cleanup and quit program
-  }
-*/
+  
+  delete h;
+  delete b;
 
   return 0;
 }

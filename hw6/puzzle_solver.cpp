@@ -14,7 +14,7 @@ PuzzleSolver::PuzzleSolver(const Board &b, PuzzleHeuristic* ph) : b_(b)
 // Destructor
 PuzzleSolver::~PuzzleSolver()
 {
-
+	
 }
 
 // Run the A* search and builds the solution and tracks
@@ -40,26 +40,18 @@ void PuzzleSolver::run()
 		open_list.pop();
 		if(top_list->b->solved())
 		{
-			cout << "solved" << endl;
 			solved = true;
 			break;
 		}
-		//cout << "here" << endl;
 		map<int, Board*> temp = (top_list->b)->potentialMoves();
-		//cout << "after potential moves call" << endl;
 		map<int, Board*>::iterator it;
 		for(it = temp.begin(); it != temp.end(); ++it)
 		{
 			PuzzleMove* move = new PuzzleMove(it->first, it->second, top_list);
 			delete_these.insert(move);
-			//cout << (closed_list.find(move) == closed_list.end()) << endl;
 			if(closed_list.find(move) == closed_list.end()) 
 			{
-				//cout << move->tileMove << endl;
-				// if(move->h > ph_->compute(*(move->b)))
-				// {
 				move->h = ph_->compute(*(move->b));
-				//}
 				move->g = (top_list->g) + 1;
 				open_list.push(move);
 				expansions_++;
@@ -74,11 +66,21 @@ void PuzzleSolver::run()
 			top_list = top_list->prev;
 		}
 	}
-	set<PuzzleMove*>::iterator it2;
-	for(it2 = delete_these.begin(); it2 != delete_these.end(); ++it2)
+	// set<PuzzleMove*>::iterator it2;
+	// for(it2 = delete_these.begin(); it2 != delete_these.end(); ++it2)
+	// {
+	// 	delete (*it2);
+	// }
+	// for(int i = 0;i<open_list.size();i++)
+	// {
+	// 	delete open_list[i];
+	// }
+	PuzzleMoveSet::iterator it2;
+	for(it2 = closed_list.begin(); it2 != closed_list.end();++it2)
 	{
 		delete (*it2);
 	}
+
 }
 
 // Return the solution deque
