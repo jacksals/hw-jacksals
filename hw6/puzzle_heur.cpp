@@ -13,7 +13,12 @@ int PuzzleManhattanHeuristic::compute(const Board& b)
 		{
 			continue;
 		}
-		distance += abs(b[i] - i);
+		if(b[i] !=  0 && b[i] != i)
+		{
+
+			distance += abs((b[i] % b.dim()) - (i % b.dim()));
+			distance += abs((b[i] / b.dim()) - (i / b.dim()));
+		}
 	}
 	return distance;
 }

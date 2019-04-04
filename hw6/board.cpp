@@ -99,119 +99,35 @@ map<int, Board*> Board::potentialMoves() const
   int br = j / side_dim;
   int bc = j % side_dim;
   map<int, Board*> moves;
-  //if we are in one of the 4 corners
-  if(br == 0 && bc == 0)
+
+  int up = j - side_dim;
+  int down = j + side_dim;
+  int right = j + 1;
+  int left = j - 1;
+
+  if(up >= 0 && (up % side_dim == bc) )
   {
     Board* b = new Board(*this);
-    b->move(1);
-    Board* b2 = new Board(*this);
-    b2->move(side_dim);
-    moves.insert(make_pair(1, b));
-    moves.insert(make_pair(side_dim, b2));
+    b->move(tiles_[up]);
+    moves.insert(make_pair(tiles_[up], b));
   }
-  else if(br == side_dim - 1 && bc == side_dim - 1)
+  if(down < size() && (down % side_dim == bc) )
   {
-    // Board* b = *this;
-    // b.move( (side_dim*( side_dim - 1 ) - 1) );
-    // Board* b2 = *this;
-    // b2.move( (side_dim*side_dim) - 2);
     Board* b = new Board(*this);
-    b->move(j - 1);
-    Board* b2 = new Board(*this);
-    b2->move(j - side_dim);
-    moves.insert(make_pair(j - 1, b));
-    moves.insert(make_pair(j - side_dim, b2));
+    b->move(tiles_[down]);
+    moves.insert(make_pair(tiles_[down], b));
   }
-  else if(br == 0 && bc == side_dim - 1)
+  if(right < size() && (right/side_dim == br) )
   {
-    // Board* b = *this;
-    // b.move(side_dim - 2);
-    // Board* b2 = *this;
-    // b2.move( (2*side_dim) - 1);
     Board* b = new Board(*this);
-    b->move(j - 1);
-    Board* b2 = new Board(*this);
-    b2->move(j + side_dim);
-    moves.insert(make_pair(j - 1, b));
-    moves.insert(make_pair(j + side_dim, b2));
+    b->move(tiles_[right]);
+    moves.insert(make_pair(tiles_[right], b));
   }
-  else if(br == side_dim - 1 && bc == 0)
-  {
-    // Board* b = *this;
-    // b.move( (side_dim*(side_dim - 1)) + 1);
-    // Board* b2 = *this;
-    // b2.move( (side_dim - 1)*(side_dim - 1) -1);
-    Board* b = new Board(*this);
-    b->move(j + 1);
-    Board* b2 = new Board(*this);
-    b2->move(j - side_dim);
-    moves.insert(make_pair(j + 1, b));
-    moves.insert(make_pair(j - side_dim, b2));
-  }
-  //if we are on one of the sides, but not in the corner
-  else if(br == 0)
+  if(left >= 0 && (left/side_dim == br) )
   {
     Board* b = new Board(*this);
-    b->move(j + side_dim);
-    Board* b2 = new Board(*this);
-    b2->move(j - 1);
-    Board* b3 = new Board(*this);
-    b3->move(j + 1);
-    moves.insert(make_pair(j + side_dim, b));
-    moves.insert(make_pair(j - 1, b2));
-    moves.insert(make_pair(j + 1, b3));
-  }
-  else if(br == side_dim - 1)
-  {
-    Board* b = new Board(*this);
-    b->move(j - side_dim);
-    Board* b2 = new Board(*this);
-    b2->move(j - 1);
-    Board* b3 = new Board(*this);
-    b3->move(j + 1);
-    moves.insert(make_pair(j - side_dim, b));
-    moves.insert(make_pair(j - 1, b2));
-    moves.insert(make_pair(j + 1, b3));
-  }
-  else if(bc == 0)
-  {
-    Board* b = new Board(*this);
-    b->move(j + side_dim);
-    Board* b2 = new Board(*this);
-    b2->move(j - side_dim);
-    Board* b3 = new Board(*this);
-    b3->move(j + 1);
-    moves.insert(make_pair(j + side_dim, b));
-    moves.insert(make_pair(j - side_dim, b2));
-    moves.insert(make_pair(j + 1, b3));
-  }
-  else if(bc == side_dim - 1)
-  {
-    Board* b = new Board(*this);
-    b->move(j + side_dim);
-    Board* b2 = new Board(*this);
-    b2->move(j - side_dim);
-    Board* b3 = new Board(*this);
-    b3->move(j - 1);
-    moves.insert(make_pair(j + side_dim, b));
-    moves.insert(make_pair(j - side_dim, b2));
-    moves.insert(make_pair(j - 1, b3));
-  }
-  //in the middle
-  else
-  {
-    Board* b = new Board(*this);
-    b->move(j + side_dim);
-    Board* b2 = new Board(*this);
-    b2->move(j - side_dim);
-    Board* b3 = new Board(*this);
-    b3->move(j + 1);
-    Board* b4 = new Board(*this);
-    b4->move(j - 1);
-    moves.insert(make_pair(j + side_dim, b));
-    moves.insert(make_pair(j - side_dim, b2));
-    moves.insert(make_pair(j + 1, b3));
-    moves.insert(make_pair(j - 1, b4));
+    b->move(tiles_[left]);
+    moves.insert(make_pair(tiles_[left], b));
   }
 
   return moves;
@@ -221,6 +137,7 @@ map<int, Board*> Board::potentialMoves() const
 Board::Board(const Board& b)
 {
   this->size_ = b.size_;
+  this->tiles_ = new int[size_];
   for(int i = 0;i<size_;i++)
   {
     this->tiles_[i] = b.tiles_[i];
@@ -241,26 +158,27 @@ bool Board::operator<(const Board& rhs) const
   }
   return true;
 }
-ostream& Board::operator<<(ostream &os, const Board &b)
+ostream& operator<<(std::ostream &os, const Board &b)
 {
   int dimen = b.dim();
   int count = 0;
   while(count < b.size_)
   {
-    for(int j = 0;j<dimen;j++)
-    {
-      os << "+--";
-    }
-    os << "+";
-    os << endl;
+    // for(int j = 0;j<dimen;j++)
+    // {
+    //   os << "+--";
+    // }
+    // os << "+";
+    // os << endl;
+    b.printRowBanner(os);
     for(int k = 0;k<dimen;k++)
     {
-      if(count == 0)
+      if(b.tiles_[count] == 0)
       {
         cout << "|  ";
         count++;
       }
-      else if(count < 10)
+      else if(b.tiles_[count] < 10 && b.tiles_[count] != 0)
       {
         os << "| " << b.tiles_[count];
         count++;

@@ -23,7 +23,8 @@ void PuzzleSolver::run()
 {
 	PuzzleMoveScoreComp comp;
 	Heap<PuzzleMove*, PuzzleMoveScoreComp> open_list = Heap<PuzzleMove*, PuzzleMoveScoreComp>(2, comp);
-	PuzzleMoveSet closed_list;
+	PuzzleMoveBoardComp bc;
+	PuzzleMoveSet closed_list(bc);
 
 	PuzzleMove* start = new PuzzleMove(&b_);
 	set<PuzzleMove*> delete_these;
@@ -32,35 +33,45 @@ void PuzzleSolver::run()
 	open_list.push(start);
 	bool solved = false;
 	PuzzleMove* top_list;
-	while(!open_list.empty())
+	while(!open_list.empty() && solved == false)
 	{
 		top_list = open_list.top();
+		closed_list.insert(top_list);
+		open_list.pop();
 		if(top_list->b->solved())
 		{
+			cout << "solved" << endl;
 			solved = true;
 			break;
 		}
+		//cout << "here" << endl;
 		map<int, Board*> temp = (top_list->b)->potentialMoves();
+		//cout << "after potential moves call" << endl;
 		map<int, Board*>::iterator it;
 		for(it = temp.begin(); it != temp.end(); ++it)
 		{
 			PuzzleMove* move = new PuzzleMove(it->first, it->second, top_list);
 			delete_these.insert(move);
-			if(closed_list.find(move) == closed_list.end()) {
+			//cout << (closed_list.find(move) == closed_list.end()) << endl;
+			if(closed_list.find(move) == closed_list.end()) 
+			{
+				//cout << move->tileMove << endl;
+				// if(move->h > ph_->compute(*(move->b)))
+				// {
 				move->h = ph_->compute(*(move->b));
+				//}
+				move->g = (top_list->g) + 1;
 				open_list.push(move);
 				expansions_++;
 			}
 		}
-		closed_list.insert(top_list);
-		open_list.pop();
 	}
 	if(solved == true)
 	{
-		solution_.push_back(top_list->tileMove);
 		while(top_list->prev != nullptr)
 		{
-			solution_.push_back(top_list->prev->tileMove);
+			solution_.push_front(top_list->tileMove);
+			top_list = top_list->prev;
 		}
 	}
 	set<PuzzleMove*>::iterator it2;
@@ -73,11 +84,11 @@ void PuzzleSolver::run()
 // Return the solution deque
 deque<int> PuzzleSolver::getSolution()
 {
-
+	return solution_;
 }
 
 // Return how many expansions were performed in the search
 int PuzzleSolver::getNumExpansions()
 {
-
+	return expansions_;
 }

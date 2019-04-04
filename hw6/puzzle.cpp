@@ -41,11 +41,21 @@ int main(int argc, char *argv[])
   	cout << "Invalid Hueristic" << endl;
   }
   Board* b = new Board(n, initMoves, seed);
-  int mytile;
-  while(mytile != 0 || !b->solved())
+  int mytile = -1;
+  bool solved = false;
+  while(solved == false)
   {
+  	if(mytile == 0)
+  	{
+  		break;
+  	}
 	//display board
 	cout << *b;
+	if(b->solved() == true)
+	{
+		solved = true;
+		break;
+	}
 	cout << "Enter tile number to move or -1 for a cheat: ";
 	cin >> mytile;
 	if(mytile == -1)
@@ -54,12 +64,17 @@ int main(int argc, char *argv[])
 		PuzzleSolver ps = PuzzleSolver(*b, h);
 		ps.run();
 		deque<int> cheats = ps.getSolution();
+		cout << "Try this sequence: ";
 		for(unsigned int i = 0;i<cheats.size();i++)
 		{
-			cout << "Try this sequence: " << cheats[i] << " ";
+			cout << cheats[i] << " ";
 		}
 		cout << endl;
 		cout << "(Expansions = " << ps.getNumExpansions() << ")" << endl;
+	}
+	else if(mytile < -1 || mytile > (b->size()) ) 
+	{
+		continue;
 	}
 	else
 	{
