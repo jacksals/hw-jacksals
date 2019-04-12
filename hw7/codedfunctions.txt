@@ -1,0 +1,37 @@
+bool find(value, root)
+{
+	if(root == NULL)
+	{
+		return false;
+	}	
+	if(root->value == value)
+	{
+		return true;
+	}
+	if(value > root->value)
+	{
+		return find(value, root->right);
+	}
+	else
+	{
+		return find(value, root->left);
+	}
+}
+
+rightRotate(z)
+{
+	//z takes c's place
+	//c becomes child of z
+	Node* curr = z->getLeft(); //curr = y
+	Node* temp = curr->getRight(); //temp = c
+	curr->setRight(z);
+	z->setParent(y);
+	z->setLeft(temp);
+	temp->setParent(z);
+	curr->setRight(z);
+}
+
+leftRotate(x)
+{
+	//x becomes left child of y
+}
