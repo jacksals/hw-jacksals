@@ -73,7 +73,98 @@ void flip(int x1, int y1, const Rectangle& r, vector<vector<bool> >& grid)
 
 
 // TODO: Write your backtracking search function here
-
+bool isValid(int xcor, int ycor, int l, int h, vector<vector<bool> > grid)
+{
+    if(xcor + l > n || ycor + h > m)
+    {
+        return false;
+    }
+    for(int i = xcor; i<xcor + l; i++)
+    {
+        for(int j = ycor; j<ycor + h; j++)
+        {
+            if(grid[i][j] == true)
+            {
+                return false;
+            }
+        }
+    }
+    return true;
+}
+bool backtrack(InputMapType::iterator input, int x, int y, vector<vector<bool> >& grid, InputMapType::iterator end, OutputMapType &output)
+{
+    int l = (input->second).length;
+    int h = (input->second).height;
+    for(int j = y; j<m; j++)
+    {
+        for(int i = x; i<n; i++)
+        {
+            if(isValid(i, j, l, h, grid))
+            {
+                //place rectangle in grid
+                int p, k;
+                for(p = x; p<x + l; p++)
+                {
+                    for(k = y; k<y + h; k++)
+                    {
+                        grid[p][k] = true;
+                    }
+                }
+                int nextx = x + 1;
+                int nexty = y;
+                if(nextx > n)
+                {
+                    nextx = 0;
+                    nexty += 1;
+                }
+                if(k > m && input != end)
+                {
+                    return false;
+                }
+                //if at end of input map
+                if(input == end)
+                {
+                    return true;
+                }
+                output.insert(make_pair(input->first, make_pair( x, y )) );
+                input++;
+                backtrack(input, nextx, nexty, grid, end, output);
+            }
+            //check flipped version
+            else if(isValid(i, j, h, l, grid))
+            {
+                int p, k;
+                for(p = x; p<x + h; p++)
+                {
+                    for(k = y; k<y + l; k++)
+                    {
+                        grid[p][k] = true;
+                    }
+                }
+                int nextx = x + 1;
+                int nexty = y;
+                if(nextx > n)
+                {
+                    nextx = 0;
+                    nexty += 1;
+                }
+                if(k > m && input != end)
+                {
+                    return false;
+                }
+                //if at end of input map
+                if(input == end)
+                {
+                    return true;
+                }
+                output.insert(make_pair(input->first, make_pair( x, (y) ) ) );
+                input++;
+                backtrack(input, nextx, nexty, grid, end, output);
+            }
+        }
+    }
+    return false;
+}
 
 
 
@@ -116,9 +207,12 @@ int main(int argc, char *argv[])
     bool solution_exists = false;
 
     // TODO:  Call your backtracking search function here
-
-
-
+    InputMapType::iterator end = input.end();
+    if(backtrack(it, 0, 0, grid, end, output))
+    {
+        solution_exists = true;
+        cout << "found a solution" << endl;
+    }
 
     if (!solution_exists) {
         ofile << "No solution found.";

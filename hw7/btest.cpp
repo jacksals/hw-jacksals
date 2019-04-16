@@ -1,12 +1,29 @@
 #include <iostream>
-#include "bst.h"
+#include "avlbst.h"
 #include "print_bst.h"
 
 using namespace std;
 
 int main(int argc, char const *argv[])
 {
-	BinarySearchTree<int, string>* tree = new BinarySearchTree<int, string>();
+	 // BinarySearchTree<int, string>* tree = new BinarySearchTree<int, string>();
+	 // tree->insert(make_pair(1, "test"));
+	 // tree->print();
+	 // tree->remove(1);
+	 // tree->print();
+
+	 // tree->insert(make_pair(10, "test"));
+	 // tree->insert(make_pair(15, "test"));
+	 // tree->insert(make_pair(7, "test"));
+	 // tree->print();
+	 // tree->clear();
+	 // tree->print();
+
+	 // if(tree->isBalanced() == true)
+	 // {
+	 // 	cout << "balanced" << endl;
+	 // }
+	 
 	// tree->insert(make_pair(25, "root"));
 	// tree->insert(make_pair(30, "bill"));
 	// tree->insert(make_pair(29, "jeff"));
@@ -84,19 +101,19 @@ int main(int argc, char const *argv[])
 	// {
 	// 	cout << "unbalanced" << endl;
 	// }
-	tree->insert(make_pair(25, "root"));
-	tree->insert(make_pair(30, "bill"));
-	tree->insert(make_pair(29, "jeff"));
-	tree->insert(make_pair(31, "jay"));
-	tree->insert(make_pair(21, "poop"));
-	tree->insert(make_pair(23, "gas"));
-	tree->insert(make_pair(19, "oil"));
-	tree->print();
-	cout << "removing 25" << endl;
-	tree->remove(25); //deletes root on tree with both sides. WORKS
-	tree->print();
-	tree->insert(make_pair(30, "bobby"));
-	tree->print();
+	// tree->insert(make_pair(25, "root"));
+	// tree->insert(make_pair(30, "bill"));
+	// tree->insert(make_pair(29, "jeff"));
+	// tree->insert(make_pair(31, "jay"));
+	// tree->insert(make_pair(21, "poop"));
+	// tree->insert(make_pair(23, "gas"));
+	// tree->insert(make_pair(19, "oil"));
+	// tree->print();
+	// cout << "removing 25" << endl;
+	// tree->remove(25); //deletes root on tree with both sides. WORKS
+	// tree->print();
+	// tree->insert(make_pair(30, "bobby"));
+	// tree->print();
 
 	// tree->insert(make_pair(5, "jess"));
 	// tree->insert(make_pair(7, "diane"));
@@ -160,5 +177,10 @@ int main(int argc, char const *argv[])
 	// {
 	// 	cout << "unbalanced" << endl;
 	// }
+
+	
+
+
+
 	return 0;
 }
