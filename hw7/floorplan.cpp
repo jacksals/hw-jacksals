@@ -89,77 +89,87 @@ bool isValid(int xcor, int ycor, int l, int h, vector<vector<bool> > grid)
             }
         }
     }
+    cout << "x coordinate: " << xcor << endl;
+    cout << "y coordinate: " << ycor << endl;
+    cout << "inserting " << l << " by " << h << endl;
     return true;
 }
-bool backtrack(InputMapType::iterator input, int x, int y, vector<vector<bool> >& grid, InputMapType::iterator end, OutputMapType &output)
+bool helper(InputMapType::iterator &input, vector<vector<bool> >& grid, InputMapType::iterator end, OutputMapType &output)
 {
+    if(input == end)
+    {
+        return true;
+    }
     int l = (input->second).length;
     int h = (input->second).height;
-    for(int j = y; j<m; j++)
+    for(int j = 0; j<m; j++)
     {
-        for(int i = x; i<n; i++)
+        for(int i = 0; i<n; i++)
         {
             if(isValid(i, j, l, h, grid))
             {
-                //place rectangle in grid
-                int p, k;
-                for(p = x; p<x + l; p++)
+                flip(i, j, input->second, grid);
+                for(int b = 0; b<m; b++)
                 {
-                    for(k = y; k<y + h; k++)
+                    for(int u = 0; u<n; u++)
                     {
-                        grid[p][k] = true;
+                        if(grid[b][u] == false)
+                        {
+                            cout << "_";
+                        }
+                        else
+                        {
+                            cout << "X";
+                        }
                     }
+                    cout << endl;
                 }
-                int nextx = x + 1;
-                int nexty = y;
-                if(nextx > n)
-                {
-                    nextx = 0;
-                    nexty += 1;
-                }
-                if(k > m && input != end)
-                {
-                    return false;
-                }
+                cout << endl << endl;
                 //if at end of input map
-                if(input == end)
+                output.insert(make_pair(input->first, make_pair(i, j)) );
+                input++;
+                if(helper(input, grid, end, output))
                 {
                     return true;
                 }
-                output.insert(make_pair(input->first, make_pair( x, y )) );
-                input++;
-                backtrack(input, nextx, nexty, grid, end, output);
+
             }
+        }
+    }
+    for(int j = 0; j<m; j++)
+    {
+        for(int i = 0; i<n; i++)
+        {
             //check flipped version
-            else if(isValid(i, j, h, l, grid))
+            if(isValid(i, j, h, l, grid))
             {
-                int p, k;
-                for(p = x; p<x + h; p++)
+                int temp = (input->second).length;
+                (input->second).length = (input->second).height;
+                (input->second).height = temp;
+                flip(i, j, (input->second), grid);
+                for(int b = 0; b<m; b++)
                 {
-                    for(k = y; k<y + l; k++)
+                    for(int u = 0; u<n; u++)
                     {
-                        grid[p][k] = true;
+                        if(grid[b][u] == false)
+                        {
+                            cout << "_";
+                        }
+                        else
+                        {
+                            cout << "X";
+                        }
                     }
+                    cout << endl;
                 }
-                int nextx = x + 1;
-                int nexty = y;
-                if(nextx > n)
-                {
-                    nextx = 0;
-                    nexty += 1;
-                }
-                if(k > m && input != end)
-                {
-                    return false;
-                }
-                //if at end of input map
-                if(input == end)
+                cout << endl << endl;
+
+                output.insert(make_pair(input->first, make_pair(i, j)) );
+                input++;
+                if(helper(input, grid, end, output))
                 {
                     return true;
                 }
-                output.insert(make_pair(input->first, make_pair( x, (y) ) ) );
-                input++;
-                backtrack(input, nextx, nexty, grid, end, output);
             }
         }
     }
@@ -208,7 +218,7 @@ int main(int argc, char *argv[])
 
     // TODO:  Call your backtracking search function here
     InputMapType::iterator end = input.end();
-    if(backtrack(it, 0, 0, grid, end, output))
+    if(helper(it, grid, end, output))
     {
         solution_exists = true;
         cout << "found a solution" << endl;
