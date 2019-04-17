@@ -739,10 +739,6 @@ bool BinarySearchTree<Key, Value>::isBalanced() const
     // TODO
     if(empty())
     {
-        std::cout << "true" << std::endl;
-    }
-    if(empty())
-    {
         return true;
     }
     if(bHelper(root_) == true)

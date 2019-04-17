@@ -89,9 +89,6 @@ bool isValid(int xcor, int ycor, int l, int h, vector<vector<bool> > grid)
             }
         }
     }
-    cout << "x coordinate: " << xcor << endl;
-    cout << "y coordinate: " << ycor << endl;
-    cout << "inserting " << l << " by " << h << endl;
     return true;
 }
 bool helper(InputMapType::iterator &input, vector<vector<bool> >& grid, InputMapType::iterator end, OutputMapType &output)
@@ -109,23 +106,6 @@ bool helper(InputMapType::iterator &input, vector<vector<bool> >& grid, InputMap
             if(isValid(i, j, l, h, grid))
             {
                 flip(i, j, input->second, grid);
-                for(int b = 0; b<m; b++)
-                {
-                    for(int u = 0; u<n; u++)
-                    {
-                        if(grid[b][u] == false)
-                        {
-                            cout << "_";
-                        }
-                        else
-                        {
-                            cout << "X";
-                        }
-                    }
-                    cout << endl;
-                }
-                cout << endl << endl;
-                //if at end of input map
                 output.insert(make_pair(input->first, make_pair(i, j)) );
                 input++;
                 if(helper(input, grid, end, output))
@@ -147,23 +127,6 @@ bool helper(InputMapType::iterator &input, vector<vector<bool> >& grid, InputMap
                 (input->second).length = (input->second).height;
                 (input->second).height = temp;
                 flip(i, j, (input->second), grid);
-                for(int b = 0; b<m; b++)
-                {
-                    for(int u = 0; u<n; u++)
-                    {
-                        if(grid[b][u] == false)
-                        {
-                            cout << "_";
-                        }
-                        else
-                        {
-                            cout << "X";
-                        }
-                    }
-                    cout << endl;
-                }
-                cout << endl << endl;
-
                 output.insert(make_pair(input->first, make_pair(i, j)) );
                 input++;
                 if(helper(input, grid, end, output))
@@ -221,7 +184,6 @@ int main(int argc, char *argv[])
     if(helper(it, grid, end, output))
     {
         solution_exists = true;
-        cout << "found a solution" << endl;
     }
 
     if (!solution_exists) {

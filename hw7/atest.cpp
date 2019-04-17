@@ -7,20 +7,20 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
 	AVLTree<int, string>* tree = new AVLTree<int, string>();
-	// tree->insert(make_pair(10, "top"));
+	tree->insert(make_pair(10, "top"));
 
-	// tree->insert(make_pair(8, "middle"));
-	// tree->insert(make_pair(6, "butt"));
+	tree->insert(make_pair(8, "middle"));
+	tree->insert(make_pair(6, "butt"));
 
 	//right rotate on the tree from slides
-	// tree->insert(make_pair(10, "z--root"));
-	// tree->insert(make_pair(11, "d--root right"));
-	// tree->insert(make_pair(5, "y--root left"));
-	// tree->insert(make_pair(6, "c--y right"));
-	// tree->insert(make_pair(2, "x--y left"));
-	// tree->insert(make_pair(1, "a--x left"));
-	// tree->insert(make_pair(3, "b--x right"));
-	// tree->print();
+	tree->insert(make_pair(10, "z--root"));
+	tree->insert(make_pair(11, "d--root right"));
+	tree->insert(make_pair(5, "y--root left"));
+	tree->insert(make_pair(6, "c--y right"));
+	tree->insert(make_pair(2, "x--y left"));
+	tree->insert(make_pair(1, "a--x left"));
+	tree->insert(make_pair(3, "b--x right"));
+	tree->print();
 
 	// tree->remove(5);
 	// tree->print();
@@ -88,18 +88,18 @@ int main(int argc, char const *argv[])
 	// tree->remove(5);
 	// tree->print();
 
-	AVLTree<int, int> bst;
-	//remove right child
-	for(int i = 0; i<30;i++)
-	{
-		bst.insert(make_pair(i, i + 1));
-		bst.print();
-	}
-	for(int j = 5; j<15;j++)
-	{
-		bst.remove(j);
-		bst.print();
-	}
+	// AVLTree<int, int> bst;
+	// //remove right child
+	// for(int i = 0; i<30;i++)
+	// {
+	// 	bst.insert(make_pair(i, i + 1));
+	// 	bst.print();
+	// }
+	// for(int j = 5; j<15;j++)
+	// {
+	// 	bst.remove(j);
+	// 	bst.print();
+	// }
 	// bst.print();
 	// bst.insert(make_pair(11, 12));
 	// bst.print();
@@ -119,12 +119,12 @@ int main(int argc, char const *argv[])
 
 	//TwoChildrenRemove_3Node
 	// AVLTree<int, double> bst;
-	// // bst.insert(std::make_pair(2, 1.0));
-	// // bst.insert(std::make_pair(1, 1.0));
-	// // bst.insert(std::make_pair(3, 1.0));
-	// // bst.print();
-	// // bst.remove(2);
-	// // bst.print();
+	// bst.insert(std::make_pair(2, 1.0));
+	// bst.insert(std::make_pair(1, 1.0));
+	// bst.insert(std::make_pair(3, 1.0));
+	// bst.print();
+	// bst.remove(2);
+	// bst.print();
 
 	// bst.insert(std::make_pair(5, 1.0));
 	// bst.insert(std::make_pair(2, 1.0));

@@ -161,20 +161,15 @@ void AVLTree<Key, Value>::changebalances(AVLNode<Key,Value>* item)
         int b;
         while(curr->getParent() != NULL)
         {
-        std::cout << "curr parent is " << curr->getParent()->getValue() << std::endl;
-        std::cout << "balance of " << curr->getParent()->getValue() << " :"<< (int)curr->getParent()->getBalance() << std::endl;
             if(curr->getParent()->getRight() == curr)
             {
                 b = 1;
-                std::cout << "adding 1 to " << curr->getParent()->getValue() << std::endl;
             }
             else
             {
                 b = -1;
-                std::cout << "subtracting 1 to " << curr->getParent()->getValue() << std::endl;
             }
             curr->getParent()->updateBalance(b);
-            std::cout << "new balance of " << curr->getParent()->getValue() << " is "<< (int)curr->getParent()->getBalance() << std::endl;
             curr = curr->getParent();
         }
         insertFix(item->getParent(), item);
@@ -198,7 +193,6 @@ void AVLTree<Key, Value>::insert(const std::pair<const Key, Value> &new_item)
         {
             AVLNode<Key, Value>* replace = static_cast<AVLNode<Key, Value>* >(BinarySearchTree<Key, Value>::internalFind(new_item.first));
             replace->setValue(new_item.second);
-            std::cout << "inserting " << new_item.second << std::endl;
             done = true;
         }
         Node<Key, Value>* curr = this->root_;
@@ -210,7 +204,6 @@ void AVLTree<Key, Value>::insert(const std::pair<const Key, Value> &new_item)
                 {
                     AVLNode<Key, Value>* k = new AVLNode<Key, Value>(new_item.first, new_item.second, static_cast<AVLNode<Key, Value>* >(curr));
                     curr->setRight(k);
-                    std::cout << "inserting " << new_item.second << std::endl;
                     changebalances(k);
                     done = true;
                 }
@@ -225,7 +218,6 @@ void AVLTree<Key, Value>::insert(const std::pair<const Key, Value> &new_item)
                 {
                     AVLNode<Key, Value>* k = new AVLNode<Key, Value>(new_item.first, new_item.second, static_cast<AVLNode<Key, Value>* >(curr));
                     curr->setLeft(k);
-                    std::cout << "inserting " << new_item.second << std::endl;
                     changebalances(k);
                     done = true;
                 }
@@ -252,7 +244,6 @@ void AVLTree<Key, Value>:: insertFix(AVLNode<Key, Value>* p, AVLNode<Key, Value>
     //p is left child
     if(g->getLeft() == p)
     {
-        //g->updateBalance(-1);
         if(g->getBalance() == 0)
         {
             return;
@@ -263,7 +254,6 @@ void AVLTree<Key, Value>:: insertFix(AVLNode<Key, Value>* p, AVLNode<Key, Value>
         }
         else if(g->getBalance() == -2)
         {
-            std::cout << "left ROTATION SHOULD BE HAPPENING" << std::endl;
             AVLNode<Key, Value>* curr = g;
             while(curr->getParent() != NULL)
                 {
@@ -273,13 +263,6 @@ void AVLTree<Key, Value>:: insertFix(AVLNode<Key, Value>* p, AVLNode<Key, Value>
             //Zig-zig
             if(p->getBalance() == -1 || p->getBalance() == 0)
             {
-                std::cout << "in here" << std::endl;
-                std::cout << "rotating on " << g->getValue() << std::endl;
-                //std::cout << "x parent is " << g->getParent()->getValue() << std::endl;
-                // if(g->getParent() != NULL)
-                // {
-                //     g->getParent()->updateBalance(1);
-                // }
                 rightRotate(g->getKey());
                 p->setBalance(0);
                 g->setBalance(0);
@@ -287,12 +270,6 @@ void AVLTree<Key, Value>:: insertFix(AVLNode<Key, Value>* p, AVLNode<Key, Value>
             //Zig-zag
             else if(p->getBalance() == 1)
             {
-                /////////////////////////////////////////
-                // if(g->getParent() != NULL)
-                // {
-                //     g->getParent()->updateBalance(1);
-                // }
-                ///////////////////////////////////
                 leftRotate(p->getKey());
                 rightRotate(g->getKey());
                 if(n->getBalance() == -1)
@@ -319,8 +296,6 @@ void AVLTree<Key, Value>:: insertFix(AVLNode<Key, Value>* p, AVLNode<Key, Value>
     //p is right child
     else
     {
-        std::cout << "HERERERERERE" << std::endl;
-        std::cout << "balance of " << g->getValue() << " is " << (int)g->getBalance() << std::endl;
         if(g->getBalance() == 0)
         {
             return;
@@ -331,34 +306,22 @@ void AVLTree<Key, Value>:: insertFix(AVLNode<Key, Value>* p, AVLNode<Key, Value>
         }
         else if(g->getBalance() == 2)
         {
-            std::cout << "right ROTATION SHOULD BE HAPPENING" << std::endl;
             AVLNode<Key, Value>* curr = g;
             while(curr->getParent() != NULL)
-                {
-                    curr->getParent()->updateBalance(-1);
-                    curr = curr->getParent();
-                }
+            {
+                curr->getParent()->updateBalance(-1);
+                curr = curr->getParent();
+            }
             //Zig-zig
             if(p->getBalance() == 1 || p->getBalance() == 0)
             {
-                // if(g->getParent() != NULL)
-                // {
-                //     g->getParent()->updateBalance(-1);
-                // }
                 leftRotate(g->getKey());
                 p->setBalance(0);
-                std::cout << "gPa is " << g->getValue() << std::endl;
                 g->setBalance(0);
             }
             //Zig-zag
             else if(p->getBalance() == -1)
             {
-                /////////////////////////////////////////
-                // if(g->getParent() != NULL)
-                // {
-                //     g->getParent()->updateBalance(-1);
-                // }
-                ///////////////////////////////////
                 rightRotate(p->getKey());
                 leftRotate(g->getKey());
                 if(n->getBalance() == 1)
@@ -398,36 +361,20 @@ void AVLTree<Key, Value>:: remove(const Key& key)
         return;
     }
     AVLNode<Key, Value>* pcurr = curr->getParent();
-    std::cout << "here" << std::endl;
-    // std::cout << "removing " << curr->getValue() << std::endl;
-    // std::cout << "with balance of " << (int)curr->getBalance() << std::endl;
-    // std::cout << "pcurr is " << pcurr->getValue() << std::endl;
-    // std::cout << "with balance of " << (int)pcurr->getBalance() << std::endl;
-    //std::cout << curr->getRight()->getValue() << std::endl;
-    //std::cout << curr->getLeft()->getValue() << std::endl;
     int diff = 0;
-    // std::cout << "curr is " << curr->getValue() << std::endl;
-    // std::cout << "pcurr right " << pcurr->getRight()->getValue() << std::endl;
-    // std::cout << "pcurr left " << pcurr->getLeft()->getValue() << std::endl;
 
     if(pcurr != NULL)
     {
         //curr is a left child
         if(pcurr->getLeft() == curr)
         {
-            std::cout << "curr is left child" << std::endl;
             diff = 1;
         }
         //curr is a right child
         else
         {
-            std::cout << "why is curr right?" << std::endl;
             diff = -1;
         }
-        //update balance of parent
-        //std::cout << "before update" << std::endl;
-        //pcurr->updateBalance(diff);
-        //std::cout << "after update" << std::endl;
     }
     if(curr == this->root_)
     {
@@ -452,13 +399,11 @@ void AVLTree<Key, Value>:: remove(const Key& key)
         }
         else if(curr->getLeft() == NULL && curr->getRight() == NULL)
         {
-            std::cout << "no way" << std::endl;
             this->root_ = NULL;
             delete curr;
             return;
         }
     }
-    std::cout << "here2" << std::endl;
     //NOT ROOT
     //has 2 children
     if(curr->getRight() != NULL && curr->getLeft() != NULL)
@@ -469,7 +414,6 @@ void AVLTree<Key, Value>:: remove(const Key& key)
             nodeSwap(curr, pred);   
         }
     }
-    std::cout << "here3" << std::endl;
     //has 1 child
     if(curr->getRight() != NULL)
     {
@@ -478,20 +422,16 @@ void AVLTree<Key, Value>:: remove(const Key& key)
     }
     else if(curr->getLeft() != NULL)
     {
-        std::cout << "made it" << std::endl;
         curr->getParent()->setLeft(curr->getLeft());
         curr->getLeft()->setParent(curr->getParent());
     }
     //has no children
     else
     {
-        std::cout << "in correct spot" << std::endl;
         AVLNode<Key, Value>* p = curr->getParent();
         if(p->getLeft() == curr)
         {
-            std::cout << "huh?" << std::endl;
             p->setLeft(NULL);
-            std::cout << "here" << std::endl;
         }
         if(p->getRight() == curr)
         {
@@ -499,13 +439,7 @@ void AVLTree<Key, Value>:: remove(const Key& key)
         }
     }
     delete curr;
-    // std::cout << "pcurr is " << pcurr->getValue() << std::endl;
-    // std::cout << "pcurr balance is " << (int)pcurr->getBalance() << std::endl;
-    std::cout << "diff is " << diff << std::endl;
-    //std::cout << "pcurr r is " << pcurr->getRight()->getValue() << std::endl;
     removeFix(pcurr, diff);
-    std::cout << "after fix" << std::endl;
-    //curr is the root
 }
 template<class Key, class Value>
 int AVLTree<Key, Value>::fndiff(AVLNode<Key, Value>* n)
@@ -531,24 +465,16 @@ void AVLTree<Key, Value>::removeFix(AVLNode<Key, Value>* n, int diff)
     {
         return;
     }
-    std::cout << "n balance is " << (int)n->getBalance() << std::endl;
-    std::cout << "diff is " << diff << std::endl;
     AVLNode<Key, Value>* p = n->getParent();
     int ndiff;
     if(fndiff(n) != 0)
     {
         ndiff = fndiff(n);
     }
-    std::cout << ndiff << std::endl;
-    std::cout << (int)n->getBalance() << std::endl;
     //Case 1
     if(n->getBalance() + diff == -2)
     {
         AVLNode<Key, Value>* c = n->getLeft();
-        if(c == NULL)
-        {
-            std::cout << "c is NULL" << std::endl;
-        }
         //Zig-Zig case
         if(c->getBalance() == -1 || c->getBalance() == 0)
         {
@@ -627,7 +553,6 @@ void AVLTree<Key, Value>::removeFix(AVLNode<Key, Value>* n, int diff)
             {
                 n->setBalance(0);
                 c->setBalance(0);
-                //g balance already 0?
             }
             else if(g->getBalance() == 1)
             {
