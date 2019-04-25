@@ -1,0 +1,1 @@
+add_executable_problem(NAME comparators USER_SOURCE ${HW_DIR}/sortcomp.cpp TEST_SOURCE comparators_tests.cpp)

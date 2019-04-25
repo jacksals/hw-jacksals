@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -g3 -O0   CMakeFiles/hw5_comparators.dir/home/cs104/cs104hw/hw-jesalisb/hw5/sortcomp.cpp.o  -o hw5_comparators 

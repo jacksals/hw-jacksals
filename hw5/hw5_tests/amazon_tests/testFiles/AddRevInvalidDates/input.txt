@@ -1,0 +1,6 @@
+LOGIN jdoe
+OR n Data FRC
+ADDREV 1 1 0000-00-00 I think this book crashed my brain and all my memory was zeroed
+ADDREV 1 3 2017-58-21 This year has just been going on for aaaaaaages
+ADDREV 1 5 2017-02-31 Is it some kind of double leap year?
+QUIT database.out

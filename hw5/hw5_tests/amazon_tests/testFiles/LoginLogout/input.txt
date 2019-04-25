@@ -1,0 +1,3 @@
+LOGIN jdoe
+LOGOUT
+QUIT database.out

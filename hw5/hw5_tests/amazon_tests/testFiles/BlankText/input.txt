@@ -1,0 +1,3 @@
+OR r Secret
+VIEWREV 1
+QUIT database.out

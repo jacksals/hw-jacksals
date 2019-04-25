@@ -1,0 +1,2 @@
+LOGIN janedoe
+QUIT database.out

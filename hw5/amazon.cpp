@@ -116,12 +116,12 @@ int main(int argc, char* argv[])
                     terms.push_back(term);
                 }
                 hits = ds.search(terms, 0);
-                if(term_r == true)
+                if(term_r == true && (hits.size() != 0))
                 {
                     RatingSorter rate;
                     mergeSort(hits, rate);
                 }
-                if(term_n == true)
+                if(term_n == true && (hits.size() != 0))
                 {
                     ProdNameSorter namesort;
                     mergeSort(hits, namesort);

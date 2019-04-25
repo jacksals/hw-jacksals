@@ -1,0 +1,58 @@
+ComparatorsTest.StandardLexicographic 2 0.453203
+ComparatorsTest.DescendingLexicographic 2 0.483027
+ComparatorsTest.CaseInsensitiveLexicographic 0 0
+ComparatorsTest.IgnoreLeadingWhitespace 2 0.52007
+MSortTest.SortEmpty 1 1.11676
+MSortTest.SortSingleElement 2 0.649696
+MSortTest.SortTwoElements_InOrder 2 0.533104
+MSortTest.SortTwoElements_OutOfOrder 2 0.446553
+MSortTest.SortThreeElements_10_20_30 2 0.429973
+MSortTest.SortThreeElements_10_30_20 2 0.438603
+MSortTest.SortThreeElements_20_10_30 2 0.456486
+MSortTest.SortThreeElements_20_30_10 2 0.418618
+MSortTest.SortThreeElements_30_10_20 2 0.419449
+MSortTest.SortThreeElements_30_20_10 2 0.416437
+MSortTest.SortThreeElements_Greater 2 0.421008
+MSortTest.SortStrings 2 0.446072
+MSortTest.SortPairs 2 0.488583
+MSortTest.Stress10RandomElements_Less 2 0.437665
+MSortTest.Stress100RandomElements_Less 2 0.433966
+MSortTest.Stress1000RandomElements_Less 2 0.509692
+MSortTest.Stress10000RandomElements_Less 2 0.841355
+MergeSortRuntime.Runtime 2 13.3601
+AmazonReviews.EmptyDatabase 2 0.402486
+AmazonReviews.DatabaseReadback 2 0.487189
+AmazonReviews.AverageRating_OneReview 2 0.515248
+AmazonReviews.AverageRating_ThreeReviews 2 0.533469
+AmazonReviews.FloatingPointAverage 2 0.515154
+AmazonReviews.NoReviews 2 0.508432
+AmazonReviews.ProductNameCaseInsensitive 2 0.772569
+AmazonReviews.AvgRating_MultipleProducts 2 0.643286
+AmazonReviews.BlankText 0 0
+AmazonReviews.ViewOneReview 2 0.561119
+AmazonReviews.ViewRev_SortedByYear 0 0
+AmazonReviews.ViewRev_SortedByMonth 0 0
+AmazonReviews.ViewRev_SortedByDay 0 0
+AmazonReviews.AddReview 2 0.544243
+AmazonReviews.AddBlankReview 2 0.539044
+AmazonReviews.AddRevValidDates 2 0.530964
+AmazonReviews.AddRevInvalidDates 2 0.533382
+AmazonLogin.LoginOnly 2 0.49431
+AmazonLogin.LoginLogout 2 0.492167
+AmazonLogin.InvalidUsername 2 0.504632
+AmazonLogin.BuyWithoutLogin 2 0.523992
+AmazonLogin.BuyItem 2 1.09078
+AmazonLogin.SwitchAccountBuyItem 2 1.0734
+AmazonLogin.SwitchAccountWithoutLogout 2 1.06677
+AmazonSorting.ByRating 2 0.540651
+AmazonSorting.ByRating_NoReviews 2 0.543821
+AmazonSorting.ByName 2 0.561154
+AmazonReviewStress.Leave10000Reviews 2 0.168864
+AmazonReviewStress.View10000Reviews 0 0
+---
+ComparatorsTest.CaseInsensitiveLexicographic
+AmazonReviews.BlankText
+AmazonReviews.ViewRev_SortedByYear
+AmazonReviews.ViewRev_SortedByMonth
+AmazonReviews.ViewRev_SortedByDay
+AmazonReviewStress.View10000Reviews

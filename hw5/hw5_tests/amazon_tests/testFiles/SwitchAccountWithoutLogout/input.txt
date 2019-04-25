@@ -1,0 +1,6 @@
+OR r Abstraction
+LOGIN jdoe
+LOGIN fhqwhgads
+ADD 1
+BUYCART
+QUIT database.out

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cs104/cs104hw/hw-jesalisb/hw5/sortcomp.cpp
+iostream
+-
+fstream
+-
+string
+-
+algorithm
+-
+cctype
+-
+vector
+-
+

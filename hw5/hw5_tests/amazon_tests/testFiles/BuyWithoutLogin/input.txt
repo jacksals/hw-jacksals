@@ -1,0 +1,6 @@
+OR r Abstraction
+ADD 1
+LOGIN jdoe
+ADD 1
+VIEWCART
+QUIT database.out
