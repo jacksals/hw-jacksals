@@ -1,3 +1,4 @@
+
 # The following 3 lines are ignoring all the executables :D
 # Ignore all
 *
@@ -17,6 +18,10 @@
 
 # Don't use gedit anyway 
 *~
+
+# Prerequisites
+*.d
+
 
 # Compiled Object files
 *.slo
@@ -46,4 +51,6 @@
 # Executables
 *.exe
 *.out
+
 *.app
+
